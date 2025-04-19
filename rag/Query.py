@@ -1,90 +1,126 @@
+from openai import OpenAI
 import requests
 import json
 import os
-from configparser import ConfigParser
+from dotenv import load_dotenv
+from ragflow_sdk import RAGFlow
 
-# =================================配置信息=========================================
-API_URL = 'http://127.0.0.1'  # RAGFlow API 地址
-AUTHORIZATION = 'ragflow-gxZDExNjZjMWQ0ZDExZjBiN2RiNWFlZT'  # 替换为实际 API Key
-KB_NAME = 'NYU CAS Policy'  # 目标知识库名称
+load_dotenv()
+API_KEY = os.getenv("API_KEY")
+API_URL = "http://127.0.0.1"
+CHAT_ID = os.getenv("CHAT_ID")
 
 
-# ==================================处理逻辑========================================
 def get_dataset_id_by_name(name):
-    """根据名称查找知识库ID"""
-    headers = {"Authorization": f"Bearer {AUTHORIZATION}"}
+    """find dataset ID"""
+    headers = {"Authorization": f"Bearer {API_KEY}"}
     url = f"{API_URL}/api/v1/datasets"
     params = {'name': name}
-
+    
     response = requests.get(url, headers=headers, params=params)
-
+    
     if response.status_code != 200:
-        print(f"请求失败: {response.status_code} - {response.text}")
+        print(f"Request Failed: {response.status_code} - {response.text}")
         return None
-
+    
     data = response.json()
     if data.get('code') != 0:
-        print(f"API错误: {data.get('message')}")
+        print(f"API ERROR: {data.get('message')}")
         return None
-
+    
     datasets = data.get('data', [])
     if not datasets:
-        print(f"未找到知识库: {name}")
+        print(f"DATASET NOT FOUND: {name}")
         return None
-
+    
     return datasets[0]['id']
 
 
-def ask_question(question, chat_id):
-    """
-    向RAGflow的聊天助手发送问题并获取回答
-    """
-    url = f"{API_URL}/api/v1/chats/{chat_id}/completions"
-    headers = {
-        "Content-Type": "application/json",
-        "Authorization": f"Bearer {AUTHORIZATION}"
-    }
-    data = {
-        "question": question,
-        "stream": True  # 使用流式响应
-    }
+def ask_one_question(question, prompt, stream=False):
+    model = "model"
+    client = OpenAI(api_key=API_KEY, base_url=f"{API_URL}/api/v1/chats_openai/{CHAT_ID}")
+    # print(prompt)
+    # print(CHAT_ID)
 
-    try:
-        response = requests.post(url, headers=headers, json=data, stream=True)
-        response.raise_for_status()  # 检查HTTP错误
+    completion = client.chat.completions.create(
+        model=model,
+        messages=[
+            {"role": "system", "content": prompt},
+            {"role": "user", "content": question},
+        ],
+        stream=stream
+    )
 
-        # 处理流式响应
-        for line in response.iter_lines():
-            if line:
-                line_json = json.loads(line)
-                if line_json.get("code") == 0 and line_json.get("data"):
-                    answer_data = line_json["data"]
-                    if isinstance(answer_data, dict) and "answer" in answer_data:
-                        print(answer_data["answer"], end="", flush=True)
-                    elif answer_data is True:
-                        # 流式响应结束标志
-                        break
-        print()  # 流式响应结束后换行
+    if stream:
+        for chunk in completion:
+            return chunk
+    else:
+        if completion.choices:
+            return completion.choices[0].message.content
+        else:
+            print(f"NO RESULT: {question}")
+            return None
+    
 
-    except requests.exceptions.RequestException as e:
-        print(f"请求发生错误: {e}")
+def ask_questions(questions):
+    result = []
+    prompt = ""
+    # chat_id = get_dataset_id_by_name(dataset_name)
+
+    with open("prompt.txt", 'r', encoding='utf-8') as file:
+        prompt = file.read()
+        file.close()
+
+    for question in questions:
+        answer = ask_one_question(question, prompt)
+        result.append(answer)
+
+    return result
+
+
+def update_dataset(dataset_names):
+    dataset_ids = []
+
+    for dataset_name in dataset_names:
+        dataset_id = get_dataset_id_by_name(dataset_name)
+        if not dataset_id:
+            return None
+        dataset_ids.append(dataset_id)
+    
+    # print(dataset_ids)
+    rag_object = RAGFlow(api_key=API_KEY, base_url=API_URL)
+    chat_list = rag_object.list_chats(id = CHAT_ID)
+    if not chat_list:
+        print("CAN NOT FIND CURRENT CHAT")
+        return None
+    
+    chat = chat_list[0]
+    chat.update({"dataset_ids": dataset_ids})
+    print(f"Updated successfully: {chat.dataset_ids}")
+
+
+def parse_input():
+    questions = []
+    answers = []
+    input = []
+
+    with open("input.json", 'r', encoding='utf-8') as f:
+        input = json.load(f)
+    
+    questions = [item["question"] for item in input]
+    answers = [item["answer"] for item in input]
+
+    return (questions, answers)
 
 
 def main():
-    # 获取知识库ID
-    dataset_id = get_dataset_id_by_name(KB_NAME)
-    if not dataset_id:
-        return
+    # dataset_names = ["NYU CAS Policy", "NYU CAS Admission"]
+    # update_dataset(["NYU CAS Policy"])
 
-    # 创建聊天会话
-    chat_id = dataset_id  # 假设使用知识库ID作为聊天助手ID
-
-    # 用户输入问题
-    user_question = input("请输入您的问题（输入'exit'退出）：")
-    while user_question.lower() != 'exit':
-        ask_question(user_question, chat_id)
-        user_question = input("\n请输入您的问题（输入'exit'退出）：")
+    questions, answers = parse_input()
+    res = ask_questions(questions)
+    print(res)
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()

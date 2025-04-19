@@ -1,7 +1,15 @@
 from openai import OpenAI
+import os
+from dotenv import load_dotenv
+
+
+load_dotenv()
+API_KEY = os.getenv("API_KEY")
+CHAT_ID = os.getenv("CHAT_ID")
+API_URL = "http://127.0.0.1"
 
 model = "model"
-client = OpenAI(api_key="ragflow-gxZDExNjZjMWQ0ZDExZjBiN2RiNWFlZT", base_url=f"http://127.0.0.1//api/v1/chats_openai/5050af121d3e11f0a2935aee9372892d")
+client = OpenAI(api_key=API_KEY, base_url=f"{API_URL}/api/v1/chats_openai/{CHAT_ID}")
 prompt = ""
 
 with open("prompt.txt", 'r', encoding='utf-8') as file:
