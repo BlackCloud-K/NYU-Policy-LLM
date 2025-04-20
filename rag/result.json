@@ -1,0 +1,122 @@
+[
+  {
+    "question": "What is the maximum number of credits a student can register for in one term without special approval in the College of Arts and Science? You must answer with only one letter: A, B, C, or D. A. 12 B. 16 C. 18 D. 20",
+    "correct_answer": "C",
+    "model_answer": "C. 18 ##3$$ ##4$$\n",
+    "is_correct": false
+  },
+  {
+    "question": "By which week must a student drop a course to avoid receiving a grade of W? You must answer with only one letter: A, B, C, or D. A. Second week B. Third week C. Fifth week D. Fourteenth week",
+    "correct_answer": "A",
+    "model_answer": "A. Second week ##1$$\n",
+    "is_correct": false
+  },
+  {
+    "question": "Which grade indicates an official withdrawal from a course in good academic standing? You must answer with only one letter: A, B, C, or D. A. I B. F C. W D. NR",
+    "correct_answer": "C",
+    "model_answer": "C ##4$$\n",
+    "is_correct": false
+  },
+  {
+    "question": "What is the GPA value assigned to a grade of B+ in the College of Arts and Science? You must answer with only one letter: A, B, C, or D. A. 3.667 B. 3.333 C. 3.000 D. 3.250",
+    "correct_answer": "B",
+    "model_answer": "**ERROR**: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations { ##3$$\n}\n, links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, retry_delay {\n  seconds: 35\n}\n]",
+    "is_correct": false
+  },
+  {
+    "question": "What is the maximum number of independent study credits a student can take in a single department? You must answer with only one letter: A, B, C, or D. A. 4 B. 6 C. 8 D. 12",
+    "correct_answer": "C",
+    "model_answer": "C. 8 ##1$$\n",
+    "is_correct": false
+  },
+  {
+    "question": "What is the maximum number of courses a student can repeat for credit during their undergraduate career? You must answer with only one letter: A, B, C, or D. A. 1 B. 2 C. 3 D. Unlimited",
+    "correct_answer": "B",
+    "model_answer": "B ##1$$\n",
+    "is_correct": false
+  },
+  {
+    "question": "How many total credits from online courses can be counted toward the CAS degree? You must answer with only one letter: A, B, C, or D. A. 4 B. 8 C. 12 D. 16",
+    "correct_answer": "D",
+    "model_answer": "D ##0$$\n",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following grades is NOT included in GPA calculation? You must answer with only one letter: A, B, C, or D. A. B B. D C. P D. F",
+    "correct_answer": "C",
+    "model_answer": "C. P ##3$$\n",
+    "is_correct": false
+  },
+  {
+    "question": "When does a temporary grade of Incomplete (I) automatically convert to an F? You must answer with only one letter: A, B, C, or D. A. After one month B. After one semester C. After one academic year D. Never",
+    "correct_answer": "B",
+    "model_answer": "**ERROR**: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations { ##4$$\n}\n, links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, retry_delay {\n  seconds: 45\n}\n]",
+    "is_correct": false
+  },
+  {
+    "question": "How many points of credit may a student earn from courses taken in other divisions of NYU (e.g., business, applied art)? You must answer with only one letter: A, B, C, or D. A. 8 B. 12 C. 16 D. Unlimited",
+    "correct_answer": "C",
+    "model_answer": "**ERROR**: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits ##0$$ ##4$$. [violations {\n}\n, links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, retry_delay {\n  seconds: 36\n}\n]",
+    "is_correct": false
+  },
+  {
+    "question": "Which grade is assigned to students auditing a course? You must answer with only one letter: A, B, C, or D. A. I B. R C. P D. NR",
+    "correct_answer": "B",
+    "model_answer": "The grade assigned to students auditing a course is R ##4$$ ##5$$. The answer is B ##6$$.\n",
+    "is_correct": false
+  },
+  {
+    "question": "Which office must approve a student’s complete withdrawal from all courses in a term? You must answer with only one letter: A, B, C, or D. A. Registrar B. Financial Aid Office C. Advising Center D. Dean's Office",
+    "correct_answer": "C",
+    "model_answer": "C ##2$$\n",
+    "is_correct": false
+  },
+  {
+    "question": "What is the maximum number of advanced standing credits (AP + prior college credit) a first-year student can receive? You must answer with only one letter: A, B, C, or D. A. 16 B. 24 C. 32 D. 64",
+    "correct_answer": "C",
+    "model_answer": "C ##0$$\n",
+    "is_correct": false
+  },
+  {
+    "question": "How many weeks into a semester can a student add a course without special approval? You must answer with only one letter: A, B, C, or D. A. 1 B. 2 C. 3 D. 4",
+    "correct_answer": "B",
+    "model_answer": "B ##0$$\n",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following is **not** a valid reason for a student to repeat a course? You must answer with only one letter: A, B, C, or D. A. Received a grade of C B. Received a W C. Want a better GPA D. Completed a more advanced course in the sequence",
+    "correct_answer": "D",
+    "model_answer": "**ERROR**: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {\n}\n, links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, retry_delay {\n  seconds: 2 ##3$$\n}\n]",
+    "is_correct": false
+  },
+  {
+    "question": "What is the minimum GPA required for satisfactory academic standing in CAS? You must answer with only one letter: A, B, C, or D. A. 1.5 B. 2.0 C. 2.25 D. 2.5",
+    "correct_answer": "B",
+    "model_answer": "**ERROR**: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {\n}\n, links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, retry_delay {\n  seconds: 53\n}\n]",
+    "is_correct": false
+  },
+  {
+    "question": "What happens if a student does not remove an Incomplete (I) within the allowed time frame? You must answer with only one letter: A, B, C, or D. A. It remains on the transcript indefinitely B. It becomes NR C. It becomes W D. It becomes F",
+    "correct_answer": "D",
+    "model_answer": "**ERROR**: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations { ##5$$\n}\n, links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, retry_delay {\n  seconds: 41\n}\n]",
+    "is_correct": false
+  },
+  {
+    "question": "What is the grade of NR used for? You must answer with only one letter: A, B, C, or D. A. Unofficial withdrawal B. No Record submitted by instructor C. Audit D. Incomplete course",
+    "correct_answer": "B",
+    "model_answer": "**ERROR**: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {\n}\n, links { ##6$$\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, retry_delay {\n  seconds: 32 ##3$$\n}\n]",
+    "is_correct": false
+  },
+  {
+    "question": "Which grade reflects that a student has passed a class under the Pass/Fail option? You must answer with only one letter: A, B, C, or D. A. D B. P C. I D. W",
+    "correct_answer": "B",
+    "model_answer": "The grade of P (Pass) indicates a passing grade (A, B, C, or D) in a course taken under the Pass/Fail option ##4$$. Therefore, the answer is B ##4$$.\n",
+    "is_correct": false
+  },
+  {
+    "question": "What must a student do to audit a course in CAS? You must answer with only one letter: A, B, C, or D. A. Register online directly B. Submit a signed add/drop form with 'register as auditor' noted C. Get permission from a classmate D. Email the Registrar",
+    "correct_answer": "B",
+    "model_answer": "B ##4$$\n",
+    "is_correct": false
+  }
+]
