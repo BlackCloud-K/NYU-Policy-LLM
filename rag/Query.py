@@ -4,6 +4,8 @@ import json
 import os
 from dotenv import load_dotenv
 from ragflow_sdk import RAGFlow
+from tqdm import tqdm
+from time import sleep
 
 load_dotenv()
 API_KEY = os.getenv("API_KEY")
@@ -71,9 +73,10 @@ def ask_questions(questions):
         prompt = file.read()
         file.close()
 
-    for question in questions:
+    for question in tqdm(questions):
         answer = ask_one_question(question, prompt)
         result.append(answer)
+        sleep(5)
 
     return result
 
@@ -113,13 +116,33 @@ def parse_input():
     return (questions, answers)
 
 
+def save_result(res):
+    with open('input.json', 'r', encoding='utf-8') as f:
+        questions = json.load(f)
+
+    merged = []
+    for q, model_ans in zip(questions, res):
+        merged.append({
+            "question": q["question"],
+            "correct_answer": q["answer"],
+            "model_answer": model_ans,
+            "is_correct": model_ans.strip().upper() == q["answer"].strip().upper()
+        })
+
+    with open('result.json', 'w', encoding='utf-8') as f:
+        json.dump(merged, f, indent=2, ensure_ascii=False)
+    
+    print("Result saved")
+
+
 def main():
     # dataset_names = ["NYU CAS Policy", "NYU CAS Admission"]
     # update_dataset(["NYU CAS Policy"])
 
     questions, answers = parse_input()
     res = ask_questions(questions)
-    print(res)
+    # print(res)
+    save_result(res)
 
 
 if __name__ == '__main__':
