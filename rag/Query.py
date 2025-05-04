@@ -11,6 +11,8 @@ load_dotenv()
 API_KEY = os.getenv("API_KEY")
 API_URL = "http://127.0.0.1"
 CHAT_ID = os.getenv("CHAT_ID")
+SLEEP_TIME = 10
+test_set_name = "standing_committee_questions"
 
 
 def get_dataset_id_by_name(name):
@@ -74,9 +76,9 @@ def ask_questions(questions):
         file.close()
 
     for question in tqdm(questions):
-        answer = ask_one_question(question, prompt)
+        answer = ask_one_question(question + " \n Only provide the answer!", prompt)
         result.append(answer)
-        sleep(5)
+        sleep(SLEEP_TIME)
 
     return result
 
@@ -107,7 +109,7 @@ def parse_input():
     answers = []
     input = []
 
-    with open("input.json", 'r', encoding='utf-8') as f:
+    with open(f"test_set/{test_set_name}.json", 'r', encoding='utf-8') as f:
         input = json.load(f)
     
     questions = [item["question"] for item in input]
@@ -117,22 +119,36 @@ def parse_input():
 
 
 def save_result(res):
-    with open('input.json', 'r', encoding='utf-8') as f:
+    with open(f"test_set/{test_set_name}.json", 'r', encoding='utf-8') as f:
         questions = json.load(f)
 
     merged = []
+    n_answered, n_correct = 0, 0
+
     for q, model_ans in zip(questions, res):
+        if model_ans.strip()[0].upper() == q["answer"].strip()[0].upper():
+            correction = 1
+            n_answered += 1
+            n_correct += 1
+        elif model_ans.startswith("**ERROR**"):
+            correction = -1
+        else:
+            correction = 0
+            n_answered += 1
+
         merged.append({
             "question": q["question"],
             "correct_answer": q["answer"],
             "model_answer": model_ans,
-            "is_correct": model_ans.strip().upper() == q["answer"].strip().upper()
+            "is_correct": correction
         })
 
-    with open('result.json', 'w', encoding='utf-8') as f:
+    with open(f"answers/{test_set_name}_result.json", 'w', encoding='utf-8') as f:
         json.dump(merged, f, indent=2, ensure_ascii=False)
     
+    acc = n_correct * 100 / n_answered
     print("Result saved")
+    print(f"{test_set_name} Acc: {acc: .2f}")
 
 
 def main():

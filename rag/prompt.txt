@@ -3,4 +3,4 @@ You are a NYU policy chatbot who answer questions from students and professors. 
       {knowledge}
       The above is the knowledge base.
 
-      You can only answer one letter, no explanation.
+      You only need to provide your answers, no explanation.

@@ -1,122 +1,182 @@
 [
   {
-    "question": "What is the maximum number of credits a student can register for in one term without special approval in the College of Arts and Science? You must answer with only one letter: A, B, C, or D. A. 12 B. 16 C. 18 D. 20",
-    "correct_answer": "C",
-    "model_answer": "C. 18 ##3$$ ##4$$\n",
-    "is_correct": false
-  },
-  {
-    "question": "By which week must a student drop a course to avoid receiving a grade of W? You must answer with only one letter: A, B, C, or D. A. Second week B. Third week C. Fifth week D. Fourteenth week",
-    "correct_answer": "A",
-    "model_answer": "A. Second week ##1$$\n",
-    "is_correct": false
-  },
-  {
-    "question": "Which grade indicates an official withdrawal from a course in good academic standing? You must answer with only one letter: A, B, C, or D. A. I B. F C. W D. NR",
-    "correct_answer": "C",
-    "model_answer": "C ##4$$\n",
-    "is_correct": false
-  },
-  {
-    "question": "What is the GPA value assigned to a grade of B+ in the College of Arts and Science? You must answer with only one letter: A, B, C, or D. A. 3.667 B. 3.333 C. 3.000 D. 3.250",
-    "correct_answer": "B",
-    "model_answer": "**ERROR**: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations { ##3$$\n}\n, links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, retry_delay {\n  seconds: 35\n}\n]",
-    "is_correct": false
-  },
-  {
-    "question": "What is the maximum number of independent study credits a student can take in a single department? You must answer with only one letter: A, B, C, or D. A. 4 B. 6 C. 8 D. 12",
-    "correct_answer": "C",
-    "model_answer": "C. 8 ##1$$\n",
-    "is_correct": false
-  },
-  {
-    "question": "What is the maximum number of courses a student can repeat for credit during their undergraduate career? You must answer with only one letter: A, B, C, or D. A. 1 B. 2 C. 3 D. Unlimited",
-    "correct_answer": "B",
-    "model_answer": "B ##1$$\n",
-    "is_correct": false
-  },
-  {
-    "question": "How many total credits from online courses can be counted toward the CAS degree? You must answer with only one letter: A, B, C, or D. A. 4 B. 8 C. 12 D. 16",
-    "correct_answer": "D",
-    "model_answer": "D ##0$$\n",
-    "is_correct": false
-  },
-  {
-    "question": "Which of the following grades is NOT included in GPA calculation? You must answer with only one letter: A, B, C, or D. A. B B. D C. P D. F",
-    "correct_answer": "C",
-    "model_answer": "C. P ##3$$\n",
-    "is_correct": false
-  },
-  {
-    "question": "When does a temporary grade of Incomplete (I) automatically convert to an F? You must answer with only one letter: A, B, C, or D. A. After one month B. After one semester C. After one academic year D. Never",
-    "correct_answer": "B",
-    "model_answer": "**ERROR**: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations { ##4$$\n}\n, links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, retry_delay {\n  seconds: 45\n}\n]",
-    "is_correct": false
-  },
-  {
-    "question": "How many points of credit may a student earn from courses taken in other divisions of NYU (e.g., business, applied art)? You must answer with only one letter: A, B, C, or D. A. 8 B. 12 C. 16 D. Unlimited",
-    "correct_answer": "C",
-    "model_answer": "**ERROR**: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits ##0$$ ##4$$. [violations {\n}\n, links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, retry_delay {\n  seconds: 36\n}\n]",
-    "is_correct": false
-  },
-  {
-    "question": "Which grade is assigned to students auditing a course? You must answer with only one letter: A, B, C, or D. A. I B. R C. P D. NR",
-    "correct_answer": "B",
-    "model_answer": "The grade assigned to students auditing a course is R ##4$$ ##5$$. The answer is B ##6$$.\n",
-    "is_correct": false
-  },
-  {
-    "question": "Which office must approve a student’s complete withdrawal from all courses in a term? You must answer with only one letter: A, B, C, or D. A. Registrar B. Financial Aid Office C. Advising Center D. Dean's Office",
-    "correct_answer": "C",
-    "model_answer": "C ##2$$\n",
-    "is_correct": false
-  },
-  {
-    "question": "What is the maximum number of advanced standing credits (AP + prior college credit) a first-year student can receive? You must answer with only one letter: A, B, C, or D. A. 16 B. 24 C. 32 D. 64",
-    "correct_answer": "C",
-    "model_answer": "C ##0$$\n",
-    "is_correct": false
-  },
-  {
-    "question": "How many weeks into a semester can a student add a course without special approval? You must answer with only one letter: A, B, C, or D. A. 1 B. 2 C. 3 D. 4",
+    "question": "What is the maximum number of credits a CAS student can transfer to NYU?\nA. 128\nB. 64\nC. 32\nD. 16",
     "correct_answer": "B",
     "model_answer": "B ##0$$\n",
     "is_correct": false
   },
   {
-    "question": "Which of the following is **not** a valid reason for a student to repeat a course? You must answer with only one letter: A, B, C, or D. A. Received a grade of C B. Received a W C. Want a better GPA D. Completed a more advanced course in the sequence",
+    "question": "Which score is required on AP Biology to satisfy both Physical and Life Science Core requirements?\nA. 3\nB. 4\nC. 5\nD. 2",
+    "correct_answer": "B",
+    "model_answer": "B ##1$$\n",
+    "is_correct": false
+  },
+  {
+    "question": "What minimum grade is required for transfer credits to be accepted at CAS?\nA. D\nB. Pass\nC. C\nD. B",
+    "correct_answer": "C",
+    "model_answer": "C ##2$$ ##3$$\n",
+    "is_correct": false
+  },
+  {
+    "question": "To satisfy CAS residency, how many credits must be taken in courses prefixed with 'UA'?\nA. 32\nB. 48\nC. 64\nD. 80",
+    "correct_answer": "C",
+    "model_answer": "C ##0$$ ##1$$ ##2$$ ##3$$.\n",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following is NOT a requirement for graduation at CAS?\nA. Minimum GPA of 2.00\nB. Completion of a minor\nC. Completion of a major\nD. 128 total credits",
+    "correct_answer": "B",
+    "model_answer": "B ##10$$.\n",
+    "is_correct": false
+  },
+  {
+    "question": "What is the maximum number of advanced standing credits a first-year CAS student can receive?\nA. 64\nB. 128\nC. 32\nD. 16",
+    "correct_answer": "C",
+    "model_answer": "C ##4$$\n",
+    "is_correct": false
+  },
+  {
+    "question": "Who must approve reevaluation of transfer credits after the first semester?\nA. CAS Registrar\nB. CAS Office of the Dean\nC. Student Advisor\nD. Department Chair",
+    "correct_answer": "B",
+    "model_answer": "B. CAS Office of the Dean ##0$$\n",
+    "is_correct": false
+  },
+  {
+    "question": "Which AP exam has a direct equivalency to Calculus I (MATH-UA 121)?\nA. Statistics\nB. Precalculus\nC. Calculus AB\nD. Computer Science A",
+    "correct_answer": "C",
+    "model_answer": "**ERROR**: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {\n}\n, links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, retry_delay {\n  seconds: 11 ##5$$\n}\n]",
+    "is_correct": false
+  },
+  {
+    "question": "Which committee advises the Dean on tenure and promotion?\nA. Committee on Student Discipline\nB. Committee on Undergraduate Curriculum\nC. Advisory Committee on Promotion and Tenure\nD. Committee on Nominations and Elections",
+    "correct_answer": "C",
+    "model_answer": "**ERROR**: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {\n}\n, links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, retry_delay {\n  seconds: 3 ##2$$ ##4$$\n}\n]",
+    "is_correct": false
+  },
+  {
+    "question": "How many full-time faculty are elected to the Committee on Student Discipline?\nA. 3\nB. 6\nC. 9\nD. 12",
+    "correct_answer": "C",
+    "model_answer": "**ERROR**: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {\n}\n, links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, retry_delay {\n  seconds: 54\n}\n]",
+    "is_correct": false
+  },
+  {
+    "question": "Which students are required to attend the LS-to-CAS Transition Orientation?\nA. External transfers only\nB. First-year students\nC. LS students transitioning to CAS\nD. Only honors students",
+    "correct_answer": "C",
+    "model_answer": "C",
+    "is_correct": true
+  },
+  {
+    "question": "Which of the following fulfills the 'Texts and Ideas' Core requirement?\nA. Quantitative Reasoning\nB. Arts and Cultures across Antiquity\nC. Writing as Inquiry\nD. Foreign Language",
+    "correct_answer": "B",
+    "model_answer": "Arts and Cultures across Antiquity ##6$$ ##7$$.\n",
+    "is_correct": false
+  },
+  {
+    "question": "Students on probation during LS-to-CAS transition must:\nA. Reapply to CAS\nB. Meet with current LS advisor\nC. Speak with NYU admissions\nD. Delay declaration of major until senior year",
+    "correct_answer": "B",
+    "model_answer": "B. Meet with current LS advisor ##1$$\n",
+    "is_correct": false
+  },
+  {
+    "question": "Which committee includes both faculty and three undergraduate student representatives?\nA. Graduate Curriculum\nB. Undergraduate Curriculum\nC. Promotions\nD. Student Discipline",
+    "correct_answer": "B",
+    "model_answer": "**ERROR**: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations { ##4$$\n}\n, links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, retry_delay {\n  seconds: 14\n}\n]",
+    "is_correct": false
+  },
+  {
+    "question": "How are Senators elected to the T-FSC?\nA. By CAS Administration\nB. By popular vote of all NYU students\nC. By tenured/tenure-track faculty vote\nD. By appointment of department chairs",
+    "correct_answer": "C",
+    "model_answer": "**ERROR**: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {\n}\n, links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, retry_delay {\n  seconds: 6 ##1$$\n}\n]",
+    "is_correct": false
+  },
+  {
+    "question": "What must an internal transfer student do before transitioning to CAS?\nA. Register with their department\nB. Meet the Dean of CAS\nC. Submit internal transfer application via Albert\nD. Take NYU placement exams",
+    "correct_answer": "C",
+    "model_answer": "**ERROR**: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {\n}\n, links { ##4$$\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, retry_delay {\n  seconds: 56\n}\n]",
+    "is_correct": false
+  },
+  {
+    "question": "Which exam is NOT accepted for advanced standing credit?\nA. AP\nB. IB HL\nC. SAT Subject Exams\nD. A Levels",
+    "correct_answer": "C",
+    "model_answer": "C ##2$$\n",
+    "is_correct": false
+  },
+  {
+    "question": "The Committee on Grievance may not include which members?\nA. Tenured full professors\nB. Department chairs\nC. Continuing contract faculty\nD. Faculty from all divisions",
+    "correct_answer": "B",
+    "model_answer": "B. Department chairs ##0$$\n",
+    "is_correct": false
+  },
+  {
+    "question": "Which placement exam is required before taking Spanish if IB credit is older than 18 months?\nA. SAT\nB. AP\nC. CAS placement exam\nD. Departmental interview",
+    "correct_answer": "C",
+    "model_answer": "C. CAS placement exam ##1$$\n",
+    "is_correct": false
+  },
+  {
+    "question": "How long is the term for most standing committee members?\nA. 1 year\nB. 2 years\nC. 3 years\nD. 5 years",
+    "correct_answer": "C",
+    "model_answer": "C. 3 years ##1$$ ##2$$\n",
+    "is_correct": false
+  },
+  {
+    "question": "What must students do to register as an auditor in CAS?\nA. Register online directly\nB. Submit signed add/drop form with 'auditor' noted\nC. Email their professor\nD. Complete a Canvas module",
+    "correct_answer": "B",
+    "model_answer": "**ERROR**: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {\n}\n, links { ##7$$\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, retry_delay {\n  seconds: 9\n}\n]",
+    "is_correct": false
+  },
+  {
+    "question": "A joint major must be declared by contacting:\nA. Only the registrar\nB. One of the major departments\nC. Both departments' advisors\nD. Admissions office",
+    "correct_answer": "B",
+    "model_answer": "**ERROR**: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {\n}\n, links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, retry_delay {\n  seconds: 1 ##6$$\n}\n]",
+    "is_correct": false
+  },
+  {
+    "question": "Which exam may NOT be used for credit toward the music major?\nA. AP Music Theory\nB. IB Music\nC. A-Level Music\nD. None of the above",
     "correct_answer": "D",
-    "model_answer": "**ERROR**: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {\n}\n, links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, retry_delay {\n  seconds: 2 ##3$$\n}\n]",
+    "model_answer": "A ##5$$\n",
     "is_correct": false
   },
   {
-    "question": "What is the minimum GPA required for satisfactory academic standing in CAS? You must answer with only one letter: A, B, C, or D. A. 1.5 B. 2.0 C. 2.25 D. 2.5",
+    "question": "How often does the Committee on Policy and Planning meet?\nA. Weekly\nB. Once a semester\nC. Monthly during academic year\nD. Only in summer",
+    "correct_answer": "C",
+    "model_answer": "C ##4$$\n",
+    "is_correct": false
+  },
+  {
+    "question": "If a student is taking summer courses before formally joining CAS, who clears registration?\nA. CAS advisor\nB. LS advisor\nC. NYU Registrar\nD. Department Chair",
     "correct_answer": "B",
-    "model_answer": "**ERROR**: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {\n}\n, links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, retry_delay {\n  seconds: 53\n}\n]",
+    "model_answer": "B ##6$$\n",
     "is_correct": false
   },
   {
-    "question": "What happens if a student does not remove an Incomplete (I) within the allowed time frame? You must answer with only one letter: A, B, C, or D. A. It remains on the transcript indefinitely B. It becomes NR C. It becomes W D. It becomes F",
-    "correct_answer": "D",
-    "model_answer": "**ERROR**: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations { ##5$$\n}\n, links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, retry_delay {\n  seconds: 41\n}\n]",
+    "question": "Which course prefix indicates a course that counts toward CAS residency?\nA. MA\nB. GA\nC. UA\nD. EC",
+    "correct_answer": "C",
+    "model_answer": "**ERROR**: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits ##4$$. [violations {\n}\n, links {\n  description: \"Learn more about Gemini API quotas\" ##6$$\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, retry_delay {\n  seconds: 21\n}\n]",
     "is_correct": false
   },
   {
-    "question": "What is the grade of NR used for? You must answer with only one letter: A, B, C, or D. A. Unofficial withdrawal B. No Record submitted by instructor C. Audit D. Incomplete course",
-    "correct_answer": "B",
-    "model_answer": "**ERROR**: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {\n}\n, links { ##6$$\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, retry_delay {\n  seconds: 32 ##3$$\n}\n]",
+    "question": "How are Alternate Senators selected in the FAS T-FSC elections?\nA. Appointed by Dean\nB. Selected by random draw\nC. Based on next highest vote counts\nD. Rotated each year",
+    "correct_answer": "C",
+    "model_answer": "**ERROR**: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {\n}\n, links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, retry_delay {\n  seconds: 12 ##2$$\n}\n]",
     "is_correct": false
   },
   {
-    "question": "Which grade reflects that a student has passed a class under the Pass/Fail option? You must answer with only one letter: A, B, C, or D. A. D B. P C. I D. W",
-    "correct_answer": "B",
-    "model_answer": "The grade of P (Pass) indicates a passing grade (A, B, C, or D) in a course taken under the Pass/Fail option ##4$$. Therefore, the answer is B ##4$$.\n",
+    "question": "What happens if a student doesn’t attend the LS-to-CAS orientation?\nA. They lose transfer eligibility\nB. They must retake the LS Core\nC. They won’t be cleared for registration\nD. They must file a grievance",
+    "correct_answer": "C",
+    "model_answer": "**ERROR**: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations { ##4$$\n}\n, links { ##3$$\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, retry_delay {\n  seconds: 3\n}\n]",
     "is_correct": false
   },
   {
-    "question": "What must a student do to audit a course in CAS? You must answer with only one letter: A, B, C, or D. A. Register online directly B. Submit a signed add/drop form with 'register as auditor' noted C. Get permission from a classmate D. Email the Registrar",
-    "correct_answer": "B",
-    "model_answer": "B ##4$$\n",
+    "question": "CAS students can earn how many total elective credits through AP/IB/A-Level exams?\nA. 16\nB. 24\nC. 32\nD. 40",
+    "correct_answer": "C",
+    "model_answer": "**ERROR**: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {\n}\n, links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, retry_delay {\n  seconds: 54 ##3$$\n}\n]",
     "is_correct": false
+  },
+  {
+    "question": "To whom does the Committee on Student Discipline report?\nA. Directly to the University President\nB. Only to CAS Deans\nC. To the CAS Faculty as needed\nD. Always to student government",
+    "correct_answer": "C",
+    "model_answer": "C\n",
+    "is_correct": true
   }
 ]
