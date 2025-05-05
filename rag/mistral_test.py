@@ -16,21 +16,7 @@ def run_mcq_inference_batch(
     base_url: str = "https://router.huggingface.co/together/v1",
     max_tokens: int = 1024,
 ) -> Tuple[Dict[str, Dict[str, str]], float]:
-    """
-    Uses a Hugging Face model via Together API to answer all MCQs in a single batch prompt,
-    compares them to ground truth answers, saves results to a JSON file, and returns accuracy.
 
-    Parameters:
-        data_folder (str): Path to folder containing JSON files.
-        mcq_path (str): Path to JSON file containing multiple choice questions and answers.
-        output_path (str): Path to save output answers and evaluation as a JSON file.
-        model (str): Model identifier.
-        base_url (str): Together API base URL.
-        max_tokens (int): Maximum number of tokens in model output.
-
-    Returns:
-        Tuple[Dict[str, Dict[str, str]], float]: Evaluation dictionary and accuracy.
-    """
     api_key = os.getenv("HF_TOKEN")
     if not api_key:
         raise ValueError("Please set the HF_TOKEN environment variable.")
