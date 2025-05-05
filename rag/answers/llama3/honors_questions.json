@@ -1,0 +1,122 @@
+[
+  {
+    "question": "What minimum GPA is required to qualify for the Dean’s Honors List?\nA. 3.50\nB. 3.60\nC. 3.65\nD. 3.70",
+    "correct_answer": "C",
+    "model_answer": "C. 3.65",
+    "is_correct": 1
+  },
+  {
+    "question": "How many graded points must a student complete to be eligible for the Dean’s Honors List?\nA. 24\nB. 28\nC. 30\nD. 32",
+    "correct_answer": "B",
+    "model_answer": "B. 28 ##0$$",
+    "is_correct": 1
+  },
+  {
+    "question": "Which of the following disqualifies a student from the Dean’s Honors List?\nA. A grade of P\nB. A GPA of 3.60\nC. A grade of Incomplete\nD. Enrollment in less than 32 credits",
+    "correct_answer": "C",
+    "model_answer": "C. A grade of Incomplete ##3$$ ##7$$",
+    "is_correct": 1
+  },
+  {
+    "question": "What GPA is required for membership in a departmental honorary society?\nA. 3.25\nB. 3.35\nC. 3.50\nD. 3.65",
+    "correct_answer": "C",
+    "model_answer": "C. 3.50 ##0$$",
+    "is_correct": 1
+  },
+  {
+    "question": "When are Phi Beta Kappa candidates reviewed at NYU?\nA. September\nB. December\nC. April\nD. May",
+    "correct_answer": "C",
+    "model_answer": "C. April ##2$$ ##0$$",
+    "is_correct": 1
+  },
+  {
+    "question": "What is the minimum CAS residency requirement to be considered for Latin honors?\nA. 48 points\nB. 64 points\nC. 80 points\nD. 96 points",
+    "correct_answer": "B",
+    "model_answer": "B.",
+    "is_correct": 1
+  },
+  {
+    "question": "Grades of Pass (P) are:\nA. Counted in GPA for honors\nB. Not counted in GPA for honors\nC. Required for honors\nD. Equal to C grades",
+    "correct_answer": "B",
+    "model_answer": "B.",
+    "is_correct": 1
+  },
+  {
+    "question": "How is the cutoff GPA for summa cum laude determined?\nA. GPA above 3.90\nB. Fixed by department\nC. Top 5% of previous class\nD. Dean's discretion",
+    "correct_answer": "C",
+    "model_answer": "A. GPA above 3.90 ##3$$",
+    "is_correct": 0
+  },
+  {
+    "question": "What level of Latin honors is awarded to the next 10% after summa cum laude?\nA. Cum laude\nB. Magna cum laude\nC. Distinction\nD. Dean’s List",
+    "correct_answer": "B",
+    "model_answer": "B. Magna cum laude ##0$$",
+    "is_correct": 1
+  },
+  {
+    "question": "To be eligible for departmental honors, students must:\nA. Complete 32 points\nB. Have 3.50 GPA\nC. Be recommended by faculty\nD. Complete at least 64 graded points",
+    "correct_answer": "D",
+    "model_answer": "D. Complete at least 64 graded points ##0$$",
+    "is_correct": 1
+  },
+  {
+    "question": "What GPA is expected for graduation with departmental honors?\nA. 3.50\nB. 3.55\nC. 3.60\nD. 3.65",
+    "correct_answer": "D",
+    "model_answer": "A. 3.50 ##2$$ ##0$$",
+    "is_correct": 0
+  },
+  {
+    "question": "Which of the following is true about departmental high honors?\nA. Automatically awarded\nB. Based on faculty-defined criteria\nC. Requires GPA above 3.90\nD. Awarded only in sciences",
+    "correct_answer": "B",
+    "model_answer": "B. Based on faculty-defined criteria ##1$$",
+    "is_correct": 1
+  },
+  {
+    "question": "Departmental honors programs must include at least:\nA. One capstone seminar\nB. Two semesters of coursework\nC. Eight points including research project\nD. Twelve credits of honors classes",
+    "correct_answer": "C",
+    "model_answer": "C. Eight points including research project ##0$$",
+    "is_correct": 1
+  },
+  {
+    "question": "A typical departmental honors thesis is:\nA. 10–20 pages\nB. 20–30 pages\nC. 30–50 pages\nD. 40–60 pages",
+    "correct_answer": "D",
+    "model_answer": "D. 40–60 pages ##0$$",
+    "is_correct": 1
+  },
+  {
+    "question": "All departmental honors students must:\nA. Present publicly\nB. Publish in a journal\nC. Defend thesis to entire department\nD. Present at MLK Conference",
+    "correct_answer": "A",
+    "model_answer": "A. Present publicly ##2$$ ##1$$ ##0$$",
+    "is_correct": 1
+  },
+  {
+    "question": "Double majors in unrelated fields must:\nA. Do one honors thesis\nB. Complete one research seminar\nC. Fulfill honors in each major\nD. Drop one major",
+    "correct_answer": "C",
+    "model_answer": "C. Fulfill honors in each major ##0$$",
+    "is_correct": 1
+  },
+  {
+    "question": "Presidential Honors Scholars must maintain a GPA of at least:\nA. 3.50\nB. 3.60\nC. 3.65\nD. 3.70",
+    "correct_answer": "C",
+    "model_answer": "C. 3.65",
+    "is_correct": 1
+  },
+  {
+    "question": "MLK Scholars are selected for:\nA. Financial need only\nB. Leadership, academics, and service\nC. Political activism\nD. Athletics",
+    "correct_answer": "B",
+    "model_answer": "B. Leadership, academics, and service ##0$$",
+    "is_correct": 1
+  },
+  {
+    "question": "What distinguishes Rudin Scholars?\nA. They are from NYU Shanghai\nB. They are public/parochial school grads from NYC\nC. They study only business\nD. They all study abroad",
+    "correct_answer": "B",
+    "model_answer": "B. They are public/parochial school grads from NYC ##0$$",
+    "is_correct": 1
+  },
+  {
+    "question": "Which honors students may travel to NYU Florence in their first year?\nA. Dean’s List recipients\nB. MLK Scholars\nC. Rudin Scholars\nD. Presidential Honors Scholars",
+    "correct_answer": "D",
+    "model_answer": "D. Presidential Honors Scholars ##0$$",
+    "is_correct": 1
+  }
+]

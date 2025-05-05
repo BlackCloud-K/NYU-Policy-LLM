@@ -11,8 +11,9 @@ load_dotenv()
 API_KEY = os.getenv("API_KEY")
 API_URL = "http://127.0.0.1"
 CHAT_ID = os.getenv("CHAT_ID")
-SLEEP_TIME = 10
-test_set_name = "honors_questions"
+SLEEP_TIME = 6
+file_names = ["admission_questions", "degree_questions", "honors_questions", "policy_data_questions", "standing_committee_questions", "transfer_questions"]
+model_name = "llama3"
 
 
 def get_dataset_id_by_name(name):
@@ -104,7 +105,7 @@ def update_dataset(dataset_names):
     print(f"Updated successfully: {chat.dataset_ids}")
 
 
-def parse_input():
+def parse_input(test_set_name):
     questions = []
     answers = []
     input = []
@@ -118,7 +119,7 @@ def parse_input():
     return (questions, answers)
 
 
-def save_result(res):
+def save_result(res, test_set_name):
     with open(f"test_set/{test_set_name}.json", 'r', encoding='utf-8') as f:
         questions = json.load(f)
 
@@ -143,7 +144,7 @@ def save_result(res):
             "is_correct": correction
         })
 
-    with open(f"answers/{test_set_name}_result.json", 'w', encoding='utf-8') as f:
+    with open(f"answers/{model_name}/{test_set_name}.json", 'w', encoding='utf-8') as f:
         json.dump(merged, f, indent=2, ensure_ascii=False)
     
     acc = n_correct * 100 / n_answered
@@ -154,11 +155,11 @@ def save_result(res):
 def main():
     # dataset_names = ["NYU CAS Policy", "NYU CAS Admission"]
     # update_dataset(["NYU CAS Policy"])
-
-    questions, answers = parse_input()
-    res = ask_questions(questions)
-    # print(res)
-    save_result(res)
+    for test_set_name in file_names:
+        questions, answers = parse_input(test_set_name)
+        res = ask_questions(questions)
+        # print(res)
+        save_result(res, test_set_name)
 
 
 if __name__ == '__main__':
