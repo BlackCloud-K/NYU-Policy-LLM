@@ -12,7 +12,7 @@ API_KEY = os.getenv("API_KEY")
 API_URL = "http://127.0.0.1"
 CHAT_ID = os.getenv("CHAT_ID")
 SLEEP_TIME = 10
-test_set_name = "standing_committee_questions"
+test_set_name = "honors_questions"
 
 
 def get_dataset_id_by_name(name):

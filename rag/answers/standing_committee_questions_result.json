@@ -2,37 +2,37 @@
   {
     "question": "Which committee is responsible for reviewing promotion and tenure cases?\nA. Advisory Committee on Promotion and Tenure\nB. Committee on Student Discipline\nC. Committee on Undergraduate Curriculum\nD. Committee on Nominations and Elections",
     "correct_answer": "A",
-    "model_answer": "A. Advisory Committee on Promotion and Tenure ##0$$\n",
+    "model_answer": "A. ##6$$\n",
     "is_correct": 1
   },
   {
     "question": "How many tenured faculty members are elected to the Committee on Student Discipline?\nA. 3\nB. 6\nC. 9\nD. 12",
     "correct_answer": "C",
-    "model_answer": "C ##1$$\n",
+    "model_answer": "C. 9 ##2$$ ##3$$\n",
     "is_correct": 1
   },
   {
     "question": "Which committee includes three undergraduate student representatives?\nA. Graduate Curriculum Committee\nB. Committee on Undergraduate Curriculum\nC. Committee on Policy and Planning\nD. Committee on Student Discipline",
     "correct_answer": "B",
-    "model_answer": "Answer: B ##4$$ ##5$$\n",
-    "is_correct": 0
+    "model_answer": "B ##4$$\n",
+    "is_correct": 1
   },
   {
     "question": "Who elects the faculty members of the CAS standing committees?\nA. CAS Dean\nB. Department chairs\nC. CAS faculty\nD. CAS Senate",
     "correct_answer": "C",
-    "model_answer": "**ERROR**: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {\n}\n, links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, retry_delay {\n  seconds: 11\n}\n]",
-    "is_correct": -1
+    "model_answer": "C ##1$$ ##2$$ ##3$$ ##4$$ ##5$$ ##6$$ ##7$$ ##8$$.\n",
+    "is_correct": 1
   },
   {
     "question": "What is the typical term length for CAS standing committee members?\nA. 1 year\nB. 2 years\nC. 3 years\nD. 5 years",
     "correct_answer": "C",
-    "model_answer": "C. 3 years ##0$$\n",
-    "is_correct": 1
+    "model_answer": "**ERROR**: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations { ##5$$\n}\n, links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, retry_delay {\n  seconds: 52\n}\n]",
+    "is_correct": -1
   },
   {
     "question": "Which committee provides advice on curriculum and graduation requirements?\nA. Committee on Student Discipline\nB. Committee on Undergraduate Curriculum\nC. Advisory Committee on Promotion and Tenure\nD. Committee on Grievance",
     "correct_answer": "B",
-    "model_answer": "B ##6$$\n",
+    "model_answer": "B. Committee on Undergraduate Curriculum ##6$$\n",
     "is_correct": 1
   },
   {
@@ -44,20 +44,20 @@
   {
     "question": "Who appoints members to the Committee on Grievance?\nA. Faculty vote\nB. Dean\nC. Nominations Committee\nD. Department Chairs",
     "correct_answer": "C",
-    "model_answer": "A. Faculty vote ##0$$ ##1$$\n",
+    "model_answer": "A ##0$$ ##1$$\n",
     "is_correct": 0
   },
   {
     "question": "The Committee on Nominations and Elections is responsible for:\nA. Choosing commencement speakers\nB. Administering faculty election processes\nC. Selecting student orientation leaders\nD. Assigning teaching loads",
     "correct_answer": "B",
-    "model_answer": "**ERROR**: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {\n}\n, links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, retry_delay {\n  seconds: 4 ##2$$\n}\n]",
-    "is_correct": -1
+    "model_answer": "B. Administering faculty election processes ##0$$ ##1$$ ##2$$ ##3$$\n",
+    "is_correct": 1
   },
   {
     "question": "Which committee advises the Dean on long-term planning and budgeting?\nA. Committee on Grievance\nB. Committee on Policy and Planning\nC. Committee on Student Discipline\nD. Undergraduate Curriculum Committee",
     "correct_answer": "B",
-    "model_answer": "B ##1$$\n",
-    "is_correct": 1
+    "model_answer": "A. Committee on Grievance ##3$$\n",
+    "is_correct": 0
   },
   {
     "question": "Which committee does not permit department chairs as members?\nA. Committee on Nominations and Elections\nB. Committee on Policy and Planning\nC. Committee on Grievance\nD. Committee on Student Discipline",
@@ -72,51 +72,51 @@
     "is_correct": 1
   },
   {
-    "question": "How many committees explicitly include student members?\nA. None\nB. One\nC. Two\nD. All of them",
-    "correct_answer": "B",
-    "model_answer": "**ERROR**: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations { ##3$$ ##4$$\n}\n, links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, retry_delay {\n  seconds: 9\n}\n]",
+    "question": "How many standing committees explicitly include student members?\nA. One\nB. Two\nC. Three\nD. Four",
+    "correct_answer": "D",
+    "model_answer": "**ERROR**: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations { ##6$$\n}\n, links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, retry_delay {\n  seconds: 1\n}\n]",
     "is_correct": -1
   },
   {
     "question": "What level of faculty rank is required to serve on the Promotion and Tenure Committee?\nA. Any faculty\nB. Non-tenure-track faculty\nC. Tenured full professors only\nD. Visiting faculty",
     "correct_answer": "C",
-    "model_answer": "C. Tenured full professors only ##0$$\n",
+    "model_answer": "C. Tenured full professors only ##0$$ ##1$$ ##2$$\n",
     "is_correct": 1
   },
   {
     "question": "How are committee chairpersons chosen?\nA. Appointed by the Dean\nB. Elected by the committee members\nC. Rotated by department seniority\nD. Selected by Faculty Senate",
     "correct_answer": "B",
-    "model_answer": "B. Elected by the committee members ##2$$ ##5$$ ##4$$ ##1$$\n",
+    "model_answer": "B. Elected by the committee members ##1$$ ##2$$ ##3$$ ##4$$ ##5$$\n",
     "is_correct": 1
   },
   {
     "question": "Which committee may handle issues regarding dismissal of students for misconduct?\nA. Committee on Grievance\nB. Committee on Undergraduate Curriculum\nC. Committee on Student Discipline\nD. Committee on Promotion and Tenure",
     "correct_answer": "C",
-    "model_answer": "C ##4$$\n",
+    "model_answer": "C. Committee on Student Discipline ##1$$ ##2$$ ##3$$ ##4$$\n",
     "is_correct": 1
   },
   {
     "question": "Which committee ensures representation across departments and ranks?\nA. Nominations and Elections\nB. Policy and Planning\nC. Grievance\nD. Undergraduate Curriculum",
     "correct_answer": "A",
-    "model_answer": "A ##0$$\n",
-    "is_correct": 1
+    "model_answer": "**ERROR**: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {\n}\n, links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, retry_delay {\n  seconds: 7\n}\n]",
+    "is_correct": -1
   },
   {
     "question": "Student representatives in the Undergraduate Curriculum Committee are:\nA. Selected by lottery\nB. Elected by student government\nC. Appointed by the Dean\nD. Nominated by faculty",
     "correct_answer": "B",
-    "model_answer": "**ERROR**: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {\n}\n, links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, retry_delay {\n  seconds: 3 ##1$$ ##4$$\n}\n]",
+    "model_answer": "**ERROR**: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {\n}\n, links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, retry_delay {\n  seconds: 54\n}\n]",
     "is_correct": -1
   },
   {
     "question": "Faculty elections for committee membership are held:\nA. Every semester\nB. Annually in spring\nC. Only in fall semesters\nD. On a rolling basis",
     "correct_answer": "B",
-    "model_answer": "B. Annually in spring ##0$$ ##1$$ ##3$$ ##5$$\n",
+    "model_answer": "B ##1$$ ##2$$ ##3$$.\n",
     "is_correct": 1
   },
   {
-    "question": "How many standing committees are explicitly listed in the document?\nA. 4\nB. 5\nC. 6\nD. 7",
-    "correct_answer": "C",
-    "model_answer": "B. 5 ##2$$\n",
+    "question": "How many standing committees are listed in the standing committees document?\nA. 7\nB. 9\nC. 11\nD. 13",
+    "correct_answer": "D",
+    "model_answer": "A ##2$$\n",
     "is_correct": 0
   }
 ]
