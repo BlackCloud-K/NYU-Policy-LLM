@@ -10,10 +10,10 @@ from time import sleep
 load_dotenv()
 API_KEY = os.getenv("API_KEY")
 API_URL = "http://127.0.0.1"
-CHAT_ID = os.getenv("CHAT_ID")
-SLEEP_TIME = 10
+CHAT_ID = os.getenv("CHAT_ID_GM3")
+SLEEP_TIME = 5
 file_names = ["admission_questions", "degree_questions", "honors_questions", "policy_data_questions", "standing_committee_questions", "transfer_questions"]
-model_name = "mistral"
+model_name = "gemma"
 
 
 def get_dataset_id_by_name(name):
@@ -50,8 +50,7 @@ def ask_one_question(question, prompt, stream=False):
     completion = client.chat.completions.create(
         model=model,
         messages=[
-            {"role": "system", "content": prompt},
-            {"role": "user", "content": question},
+            {"role": "user", "content": prompt + question},
         ],
         stream=stream
     )
@@ -77,8 +76,9 @@ def ask_questions(questions):
         file.close()
 
     for question in tqdm(questions):
-        answer = ask_one_question(question + " \n Only provide the answer!", prompt)
+        answer = ask_one_question(question, prompt)
         result.append(answer)
+        # print(answer)
         sleep(SLEEP_TIME)
 
     return result
@@ -127,7 +127,10 @@ def save_result(res, test_set_name):
     n_answered, n_correct = 0, 0
 
     for q, model_ans in zip(questions, res):
-        if model_ans.strip()[0].upper() == q["answer"].strip()[0].upper():
+        if model_ans is None:
+            print(f"Warning: model_ans is None for question {q}")
+            correction = -1
+        elif model_ans.strip()[0].upper() == q["answer"].strip()[0].upper():
             correction = 1
             n_answered += 1
             n_correct += 1
@@ -144,12 +147,12 @@ def save_result(res, test_set_name):
             "is_correct": correction
         })
 
-    with open(f"answers/{model_name}/{test_set_name}.json", 'w', encoding='utf-8') as f:
-        json.dump(merged, f, indent=2, ensure_ascii=False)
-    
     acc = n_correct * 100 / n_answered
     print("Result saved")
     print(f"{test_set_name} Acc: {acc: .2f}")
+
+    with open(f"answers/{model_name}/{test_set_name}.json", 'w', encoding='utf-8') as f:
+        json.dump(merged, f, indent=2, ensure_ascii=False)
 
 
 def main():
