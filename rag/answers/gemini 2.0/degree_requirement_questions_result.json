@@ -1,0 +1,122 @@
+[
+  {
+    "question": "What is the minimum number of points required for graduation from CAS?\nA. 120\nB. 124\nC. 128\nD. 130",
+    "correct_answer": "C",
+    "model_answer": "C. 128 ##0$$ ##C$$\n",
+    "is_correct": 1
+  },
+  {
+    "question": "How many points must be completed in the College of Arts and Science for a degree?\nA. 32\nB. 64\nC. 96\nD. 128",
+    "correct_answer": "B",
+    "model_answer": "D. 128 ##1$$\n",
+    "is_correct": 0
+  },
+  {
+    "question": "What is the minimum GPA required to graduate from CAS?\nA. 1.5\nB. 2.0\nC. 2.5\nD. 3.0",
+    "correct_answer": "B",
+    "model_answer": "B. 2.0 ##1$$\n",
+    "is_correct": 1
+  },
+  {
+    "question": "How many major courses must be completed in residence at CAS?\nA. All\nB. At least half\nC. At least 4\nD. None",
+    "correct_answer": "B",
+    "model_answer": "B. At least half ##0$$ ##1$$ ##2$$ ##3$$\n",
+    "is_correct": 1
+  },
+  {
+    "question": "What is the maximum number of points that can be taken in one department?\nA. 32\nB. 36\nC. 40\nD. 44",
+    "correct_answer": "B",
+    "model_answer": "A ##0$$\n",
+    "is_correct": 0
+  },
+  {
+    "question": "How many writing-intensive courses (WID) must a student complete?\nA. 1\nB. 2\nC. 3\nD. 4",
+    "correct_answer": "B",
+    "model_answer": "The answer you are looking for is not found in the knowledge base ##5$$!\n",
+    "is_correct": 0
+  },
+  {
+    "question": "To graduate, a student must complete how many semesters in residence at CAS?\nA. 2\nB. 4\nC. 6\nD. 8",
+    "correct_answer": "B",
+    "model_answer": "A\n",
+    "is_correct": 0
+  },
+  {
+    "question": "How many credits are required in liberal arts courses for graduation?\nA. 64\nB. 96\nC. 128\nD. 100",
+    "correct_answer": "B",
+    "model_answer": "**ERROR**: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits ##2$$ ##5$$. [violations {\n}\n, links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, retry_delay {\n  seconds: 2\n}\n]",
+    "is_correct": -1
+  },
+  {
+    "question": "What must a student complete in addition to a major to earn a CAS degree?\nA. Minor\nB. Core Curriculum\nC. Senior thesis\nD. Internship",
+    "correct_answer": "B",
+    "model_answer": "**ERROR**: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {\n}\n, links {\n  description: \"Learn more about Gemini API quotas\" ##7$$\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, retry_delay {\n  seconds: 49\n}\n]",
+    "is_correct": -1
+  },
+  {
+    "question": "What minimum grade must be earned in major courses to count toward the major?\nA. A\nB. B\nC. C\nD. D",
+    "correct_answer": "C",
+    "model_answer": "C ##4$$\n",
+    "is_correct": 1
+  },
+  {
+    "question": "What is the maximum number of courses that may be taken pass/fail?\nA. 2\nB. 4\nC. 6\nD. Unlimited",
+    "correct_answer": "B",
+    "model_answer": "D. Unlimited ##1$$\n",
+    "is_correct": 0
+  },
+  {
+    "question": "Courses taken pass/fail may not be used to fulfill:\nA. Major requirements\nB. Elective requirements\nC. Language requirements\nD. Minimum GPA requirements",
+    "correct_answer": "A",
+    "model_answer": "A. Major requirements ##6$$\n",
+    "is_correct": 1
+  },
+  {
+    "question": "What is the required foreign language level to fulfill the CAS Core Curriculum?\nA. Beginner\nB. Intermediate I\nC. Intermediate II\nD. Advanced",
+    "correct_answer": "C",
+    "model_answer": "**ERROR**: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {\n}\n, links { ##0$$\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, retry_delay {\n  seconds: 50 ##3$$\n}\n]",
+    "is_correct": -1
+  },
+  {
+    "question": "How many expository writing courses are required for graduation?\nA. 1\nB. 2\nC. 3\nD. 4",
+    "correct_answer": "B",
+    "model_answer": "A ##2$$ ##3$$\n",
+    "is_correct": 0
+  },
+  {
+    "question": "What is the minimum number of courses required for a major?\nA. 6\nB. 8\nC. 10\nD. 12",
+    "correct_answer": "B",
+    "model_answer": "The answer you are looking for is not found in the knowledge base ##1$$!\n",
+    "is_correct": 0
+  },
+  {
+    "question": "To graduate with honors, students must earn a GPA of:\nA. 3.3 or above\nB. 3.5 or above\nC. 3.7 or above\nD. 3.9 or above",
+    "correct_answer": "B",
+    "model_answer": "The answer you are looking for is not found in the knowledge base ##6$$!\n",
+    "is_correct": 0
+  },
+  {
+    "question": "How many distinct areas must be covered in the Core Curriculum?\nA. 4\nB. 5\nC. 6\nD. 7",
+    "correct_answer": "D",
+    "model_answer": "**ERROR**: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {\n}\n, links { ##4$$\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, retry_delay {\n  seconds: 50 ##5$$\n}\n]",
+    "is_correct": -1
+  },
+  {
+    "question": "Which of the following is NOT part of the CAS Core Curriculum?\nA. Quantitative Reasoning\nB. Scientific Inquiry\nC. Leadership Training\nD. Texts and Ideas",
+    "correct_answer": "C",
+    "model_answer": "C. Leadership Training ##0$$\n",
+    "is_correct": 1
+  },
+  {
+    "question": "What is the minimum grade required for a course to count toward a major or minor?\nA. A\nB. B\nC. C\nD. C-",
+    "correct_answer": "C",
+    "model_answer": "C ##4$$\n",
+    "is_correct": 1
+  },
+  {
+    "question": "How many points must be completed in residence at CAS to be eligible for Latin Honors?\nA. 32\nB. 64\nC. 96\nD. 128",
+    "correct_answer": "B",
+    "model_answer": "B. 64 ##1$$\n",
+    "is_correct": 1
+  }
+]
