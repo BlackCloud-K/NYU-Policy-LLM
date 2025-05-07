@@ -3,7 +3,6 @@ rag/.env
 __pycache__/
 *.pyc
 *.pyo
-*.json
 *.ckpt
 *.pth
 *.pt
