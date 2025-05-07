@@ -1,0 +1,116 @@
+[
+  {
+    "question": "What is the maximum number of advanced standing credits a first-year CAS student can receive?\nA. 64\nB. 128\nC. 32\nD. 16",
+    "expected": "C",
+    "model_output": "D. 16",
+    "model_choice": "D"
+  },
+  {
+    "question": "What minimum grade is required for transfer credits to be accepted at CAS?\nA. D\nB. Pass\nC. C\nD. B",
+    "expected": "C",
+    "model_output": "The correct answer is D. B.",
+    "model_choice": "B"
+  },
+  {
+    "question": "Which score is required on AP Biology to satisfy both Physical and Life Science Core requirements?\nA. 3\nB. 4\nC. 5\nD. 2",
+    "expected": "B",
+    "model_output": "My answer is: C. 5",
+    "model_choice": "C"
+  },
+  {
+    "question": "What is the minimum AP score required to receive credit for Calculus AB?\nA. 3\nB. 2\nC. 5\nD. 4",
+    "expected": "D",
+    "model_output": "My answer: D. 4",
+    "model_choice": "D"
+  },
+  {
+    "question": "What is the minimum IB HL score accepted for CAS credit?\nA. 5\nB. 6\nC. 4\nD. 7",
+    "expected": "B",
+    "model_output": "B. 6",
+    "model_choice": "B"
+  },
+  {
+    "question": "Which of the following is NOT accepted for advanced standing credit at CAS?\nA. A-Level\nB. AP\nC. IB SL\nD. IB HL",
+    "expected": "C",
+    "model_output": "The correct answer is D. IB HL.\n\nCAS (California Association of Scholars) typically accepts Advanced Placement (AP), International Baccalaureate (IB) Standard Level (SL), and A-Level credits for advanced standing, but not Higher Level (HL) IB credits.",
+    "model_choice": "A"
+  },
+  {
+    "question": "How many credits does a student receive for an A-Level course with a grade of B?\nA. 4\nB. 6\nC. 8\nD. 10",
+    "expected": "C",
+    "model_output": "B. 6",
+    "model_choice": "B"
+  },
+  {
+    "question": "What type of courses are not eligible for AP credit at CAS?\nA. English Literature\nB. Studio Art\nC. Psychology\nD. History",
+    "expected": "B",
+    "model_output": "B",
+    "model_choice": "B"
+  },
+  {
+    "question": "Which AP exam can exempt students from the Quantitative Reasoning requirement?\nA. Physics 1\nB. Calculus AB\nC. Environmental Science\nD. Art History",
+    "expected": "B",
+    "model_output": "B",
+    "model_choice": "B"
+  },
+  {
+    "question": "Who reviews non-AP/IB examination credit equivalency for maturity certificates?\nA. Registrar\nB. Dean of Admissions\nC. College Advising Center\nD. Academic Department",
+    "expected": "C",
+    "model_output": "D",
+    "model_choice": "D"
+  },
+  {
+    "question": "Which AP score is needed on AP Physics C\u2014Mechanics to get PHYS-UA 11 equivalency?\nA. 3\nB. 2\nC. 4\nD. None",
+    "expected": "C",
+    "model_output": "The correct answer is A. 3",
+    "model_choice": "A"
+  },
+  {
+    "question": "How many points does an IB HL Psychology score of 7 earn?\nA. 6\nB. 4\nC. 8\nD. None",
+    "expected": "C",
+    "model_output": "A! My answer is:\n\nA. 6",
+    "model_choice": "A"
+  },
+  {
+    "question": "How does NYU CAS treat AP English Language for credit purposes?\nA. Grants elective credit\nB. No credit awarded\nC. Exempts Writing I\nD. Transfers as WREX-UF 101",
+    "expected": "B",
+    "model_output": "Based on the information provided by New York University's College of Arts and Science (NYU CAS), the correct answer is:\n\nA. Grants elective credit",
+    "model_choice": "A"
+  },
+  {
+    "question": "How many AP points can be counted toward the CAS Politics major?\nA. 0\nB. 4\nC. 8\nD. 12",
+    "expected": "C",
+    "model_output": "B. 4",
+    "model_choice": "B"
+  },
+  {
+    "question": "What is the prerequisite SAT Math score for enrolling in MATH-UA 121?\nA. 600\nB. 670\nC. 710\nD. 720",
+    "expected": "B",
+    "model_output": "B. 670",
+    "model_choice": "B"
+  },
+  {
+    "question": "Which of the following does NOT satisfy the Core Foreign Language requirement?\nA. AP French with 4\nB. IB HL Spanish B with 6\nC. A-Level German with B\nD. SAT Subject Test in English",
+    "expected": "D",
+    "model_output": "D",
+    "model_choice": "D"
+  },
+  {
+    "question": "What is the required minimum grade for A-Level exams to earn credit?\nA. A\nB. C\nC. D\nD. B",
+    "expected": "D",
+    "model_output": "The correct answer is B. C",
+    "model_choice": "B"
+  },
+  {
+    "question": "Which AP exam awards 8 credits and satisfies both BIOL-UA 11 and 12?\nA. Chemistry\nB. Physics C\nC. Biology\nD. Statistics",
+    "expected": "C",
+    "model_output": "C. Biology",
+    "model_choice": "B"
+  },
+  {
+    "question": "To transfer to CAS, courses must have been completed within how many years?\nA. 5\nB. 10\nC. 7\nD. 15",
+    "expected": "B",
+    "model_output": "B. 10",
+    "model_choice": "B"
+  }
+]
