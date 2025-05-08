@@ -1,0 +1,122 @@
+[
+  {
+    "question": "What minimum GPA is required to qualify for the Dean\u2019s Honors List?\nA. 3.50\nB. 3.60\nC. 3.65\nD. 3.70",
+    "expected": "C",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWhat minimum GPA is required to qualify for the Dean\u2019s Honors List?\nA. 3.50\nB. 3.60\nC. 3.65\nD. 3.70\n\nYour answer: A. 3.50.\n\nExplanation:A. 3.50.",
+    "model_choice": "A"
+  },
+  {
+    "question": "How many graded points must a student complete to be eligible for the Dean\u2019s Honors List?\nA. 24\nB. 28\nC. 30\nD. 32",
+    "expected": "B",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nHow many graded points must a student complete to be eligible for the Dean\u2019s Honors List?\nA. 24\nB. 28\nC. 30\nD. 32\n\nYour answer: C. 30.\n\nExplanation:\nHow many graded points must a student complete to be eligible for the Dean\u2019s Honors List?\nA. 24\nB. 28\nC. 30\nD. 32\n\nAnswer: C",
+    "model_choice": "C"
+  },
+  {
+    "question": "Which of the following disqualifies a student from the Dean\u2019s Honors List?\nA. A grade of P\nB. A GPA of 3.60\nC. A grade of Incomplete\nD. Enrollment in less than 32 credits",
+    "expected": "C",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWhich of the following disqualifies a student from the Dean\u2019s Honors List?\nA. A grade of P\nB. A GPA of 3.60\nC. A grade of Incomplete\nD. Enrollment in less than 32 credits\n\nYour answer: A. A grade of P\n\nFeedback: A grade of P (Pass) does not count toward your GPA, but it does not disqualify you from the Dean\u2019s Honors List. The Dean\u2019s Honors List requires a minimum GPA of 3.60. A grade",
+    "model_choice": "A"
+  },
+  {
+    "question": "What GPA is required for membership in a departmental honorary society?\nA. 3.25\nB. 3.35\nC. 3.50\nD. 3.65",
+    "expected": "C",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWhat GPA is required for membership in a departmental honorary society?\nA. 3.25\nB. 3.35\nC. 3.50\nD. 3.65\n\nYour answer: C. 3.50.\n\nExplanation:\nC. 3.50.\n\nAnswer:C. 3.50.\n\nExplanation:What GPA is required for membership in a departmental honorary society?\nA. 3.2",
+    "model_choice": "C"
+  },
+  {
+    "question": "When are Phi Beta Kappa candidates reviewed at NYU?\nA. September\nB. December\nC. April\nD. May",
+    "expected": "C",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWhen are Phi Beta Kappa candidates reviewed at NYU?\nA. September\nB. December\nC. April\nD. May\n\nYour answer: C. April.\n\nExplanation: Phi Beta Kappa candidates are reviewed at NYU in April.",
+    "model_choice": "C"
+  },
+  {
+    "question": "What is the minimum CAS residency requirement to be considered for Latin honors?\nA. 48 points\nB. 64 points\nC. 80 points\nD. 96 points",
+    "expected": "B",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWhat is the minimum CAS residency requirement to be considered for Latin honors?\nA. 48 points\nB. 64 points\nC. 80 points\nD. 96 points\n\nYour answer: A. 48 points\n\nExplanation:Minimum CAS residency requirement to be considered for Latin honors is 48 points.",
+    "model_choice": "A"
+  },
+  {
+    "question": "Grades of Pass (P) are:\nA. Counted in GPA for honors\nB. Not counted in GPA for honors\nC. Required for honors\nD. Equal to C grades",
+    "expected": "B",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nGrades of Pass (P) are:\nA. Counted in GPA for honors\nB. Not counted in GPA for honors\nC. Required for honors\nD. Equal to C grades\n\nYour answer: A. Counted in GPA for honors.\n\nExplanation: Grades of Pass (P) are counted in the grade point average (GPA) for students pursuing honors degrees. This means that P grades are factored into the overall GPA calculation, which is used to determine academic",
+    "model_choice": "A"
+  },
+  {
+    "question": "How is the cutoff GPA for summa cum laude determined?\nA. GPA above 3.90\nB. Fixed by department\nC. Top 5% of previous class\nD. Dean's discretion",
+    "expected": "C",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nHow is the cutoff GPA for summa cum laude determined?\nA. GPA above 3.90\nB. Fixed by department\nC. Top 5% of previous class\nD. Dean's discretion\n\nYour answer: B. Fixed by department.\n\nExplanation: The cutoff GPA for summa cum laude is fixed by the department.",
+    "model_choice": "B"
+  },
+  {
+    "question": "What level of Latin honors is awarded to the next 10% after summa cum laude?\nA. Cum laude\nB. Magna cum laude\nC. Distinction\nD. Dean\u2019s List",
+    "expected": "B",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWhat level of Latin honors is awarded to the next 10% after summa cum laude?\nA. Cum laude\nB. Magna cum laude\nC. Distinction\nD. Dean\u2019s List\n\nYour answer: A. Cum laude\n\nExplanation: What level of Latin honors is awarded to the next 10% after summa cum laude? A. Cum laude\n\nAnswer: A. Cum laude\n\nExplanation: What level of Latin honors is",
+    "model_choice": "A"
+  },
+  {
+    "question": "To be eligible for departmental honors, students must:\nA. Complete 32 points\nB. Have 3.50 GPA\nC. Be recommended by faculty\nD. Complete at least 64 graded points",
+    "expected": "D",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nTo be eligible for departmental honors, students must:\nA. Complete 32 points\nB. Have 3.50 GPA\nC. Be recommended by faculty\nD. Complete at least 64 graded points\n\nYour answer: A. Complete 32 points.\n\nExplanation:\nA. Complete 32 points.\n\nAnswer: A. Complete 32 points.\n\nExplanation:\nA. Complete 32 points.\n\nTo be eligible for departmental honors, students must",
+    "model_choice": "A"
+  },
+  {
+    "question": "What GPA is expected for graduation with departmental honors?\nA. 3.50\nB. 3.55\nC. 3.60\nD. 3.65",
+    "expected": "D",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWhat GPA is expected for graduation with departmental honors?\nA. 3.50\nB. 3.55\nC. 3.60\nD. 3.65\n\nYour answer: A. 3.50.\n\nExplanation: A. 3.50.\n\nAnswer:A. 3.50.\n\nExplanation: A. 3.50.\n\nWhat GPA is expected for graduation with departmental honors",
+    "model_choice": "A"
+  },
+  {
+    "question": "Which of the following is true about departmental high honors?\nA. Automatically awarded\nB. Based on faculty-defined criteria\nC. Requires GPA above 3.90\nD. Awarded only in sciences",
+    "expected": "B",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWhich of the following is true about departmental high honors?\nA. Automatically awarded\nB. Based on faculty-defined criteria\nC. Requires GPA above 3.90\nD. Awarded only in sciences\n\nYour answer: B. Based on faculty-defined criteria\n\nExplanation: Departmental high honors is based on faculty-defined criteria. The specific requirements for departmental high honors vary from department to department, and are determined by the department. This means that the award is not automatically granted based on a certain GPA",
+    "model_choice": "B"
+  },
+  {
+    "question": "Departmental honors programs must include at least:\nA. One capstone seminar\nB. Two semesters of coursework\nC. Eight points including research project\nD. Twelve credits of honors classes",
+    "expected": "C",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nDepartmental honors programs must include at least:\nA. One capstone seminar\nB. Two semesters of coursework\nC. Eight points including research project\nD. Twelve credits of honors classes\n\nYour answer: D. Twelve credits of honors classes\n\nExplanation:Departmental honors programs must include at least:\nA. One capstone seminar\nB. Two semesters of coursework\nC. Eight points including research project\nD. Twelve credits of honors classes",
+    "model_choice": "D"
+  },
+  {
+    "question": "A typical departmental honors thesis is:\nA. 10\u201320 pages\nB. 20\u201330 pages\nC. 30\u201350 pages\nD. 40\u201360 pages",
+    "expected": "D",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nA typical departmental honors thesis is:\nA. 10\u201320 pages\nB. 20\u201330 pages\nC. 30\u201350 pages\nD. 40\u201360 pages\n\nYour answer: A. 10\u201320 pages\n\nExplanation: A typical departmental honors thesis is 10-20 pages in length. (Note: page length may vary depending on the discipline.)",
+    "model_choice": "A"
+  },
+  {
+    "question": "All departmental honors students must:\nA. Present publicly\nB. Publish in a journal\nC. Defend thesis to entire department\nD. Present at MLK Conference",
+    "expected": "A",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nAll departmental honors students must:\nA. Present publicly\nB. Publish in a journal\nC. Defend thesis to entire department\nD. Present at MLK Conference\n\nYour answer: A. Present publicly.",
+    "model_choice": "A"
+  },
+  {
+    "question": "Double majors in unrelated fields must:\nA. Do one honors thesis\nB. Complete one research seminar\nC. Fulfill honors in each major\nD. Drop one major",
+    "expected": "C",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nDouble majors in unrelated fields must:\nA. Do one honors thesis\nB. Complete one research seminar\nC. Fulfill honors in each major\nD. Drop one major\n\nYour answer: D. Drop one major.\n\nExplanation: Double majors in unrelated fields must drop one major. (Note: Students who double major in related fields, as determined by the relevant departments, are not required to drop a major.) A. Do one honors thesis, B. Complete one research sem",
+    "model_choice": "D"
+  },
+  {
+    "question": "Presidential Honors Scholars must maintain a GPA of at least:\nA. 3.50\nB. 3.60\nC. 3.65\nD. 3.70",
+    "expected": "C",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nPresidential Honors Scholars must maintain a GPA of at least:\nA. 3.50\nB. 3.60\nC. 3.65\nD. 3.70\n\nYour answer: A. 3.50.\n\nExplanation:Presidential Honors Scholars must maintain a GPA of at least 3.50.",
+    "model_choice": "A"
+  },
+  {
+    "question": "MLK Scholars are selected for:\nA. Financial need only\nB. Leadership, academics, and service\nC. Political activism\nD. Athletics",
+    "expected": "B",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nMLK Scholars are selected for:\nA. Financial need only\nB. Leadership, academics, and service\nC. Political activism\nD. Athletics\n\nYour answer: A. Financial need only\n\nFeedback: MLK Scholars are selected for:\nA. Financial need only\n\nMLK Scholars are selected for:\nA. Financial need only\n\nCorrect Answer: A. Financial need only. MLK Scholars are selected based solely on",
+    "model_choice": "A"
+  },
+  {
+    "question": "What distinguishes Rudin Scholars?\nA. They are from NYU Shanghai\nB. They are public/parochial school grads from NYC\nC. They study only business\nD. They all study abroad",
+    "expected": "B",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWhat distinguishes Rudin Scholars?\nA. They are from NYU Shanghai\nB. They are public/parochial school grads from NYC\nC. They study only business\nD. They all study abroad\n\nYour answer: D. They all study abroad.\n\nExplanation:\nA. They are from NYU Shanghai\nB. They are public/parochial school grads from NYC\nC. They study only business\nD. They all study abroad.\n\nAnswer: D. They all study abroad",
+    "model_choice": "D"
+  },
+  {
+    "question": "Which honors students may travel to NYU Florence in their first year?\nA. Dean\u2019s List recipients\nB. MLK Scholars\nC. Rudin Scholars\nD. Presidential Honors Scholars",
+    "expected": "D",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWhich honors students may travel to NYU Florence in their first year?\nA. Dean\u2019s List recipients\nB. MLK Scholars\nC. Rudin Scholars\nD. Presidential Honors Scholars\n\nYour answer: A. Dean\u2019s List recipients.\n\nExplanation:\nA. Dean\u2019s List recipients.\n\n(Note: While this question is accurate as of now, students should always consult the Office of Global Programs and the Office of the College Dean for the most up-to-date",
+    "model_choice": "A"
+  }
+]

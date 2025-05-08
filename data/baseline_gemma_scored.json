@@ -1,0 +1,146 @@
+[
+  {
+    "input": "What GPA is required to graduate from CAS?",
+    "expected_output": "2.0 cumulative GPA",
+    "model_output": "A GPA of 2.0 is required to graduate from CAS.",
+    "bertscore_f1": 0.7465
+  },
+  {
+    "input": "What GPA is needed to be on the Dean\u2019s Honors List?",
+    "expected_output": "3.65 or higher in at least 28 graded points, with no Incomplete grades",
+    "model_output": "The GPA needed to be on the Dean's Honors List varies depending on the institution, but typically a GPA of 3.5 or higher is required.",
+    "bertscore_f1": 0.6841
+  },
+  {
+    "input": "What GPA is required to graduate with departmental honors?",
+    "expected_output": "3.65 overall and in the major",
+    "model_output": "The GPA required to graduate with departmental honors varies by department, but typically a GPA of 3.5 or higher is necessary.",
+    "bertscore_f1": 0.5722
+  },
+  {
+    "input": "How many total credits are required to graduate from CAS?",
+    "expected_output": "128 credits",
+    "model_output": "The total number of credits required to graduate from CAS is 120 credits.",
+    "bertscore_f1": 0.6281
+  },
+  {
+    "input": "How many CAS credits must be completed in residence?",
+    "expected_output": "At least 64 CAS credits",
+    "model_output": "According to the university regulations, a minimum of 24 CAS credits must be completed in residence.",
+    "bertscore_f1": 0.7609
+  },
+  {
+    "input": "How many of the last credits must be completed at CAS?",
+    "expected_output": "The last 32 points must be completed in the College",
+    "model_output": "At least 60% of the last credits must be completed at CAS.",
+    "bertscore_f1": 0.8175
+  },
+  {
+    "input": "How many credits can be transferred into CAS?",
+    "expected_output": "Up to 64 credits",
+    "model_output": "A maximum of 62 credits can be transferred into California State University, Sacramento.",
+    "bertscore_f1": 0.6666
+  },
+  {
+    "input": "What is the minimum grade required for transfer credit?",
+    "expected_output": "C or better",
+    "model_output": "The minimum grade required for transfer credit is typically a C or a 2.0 on a 4.0 scale.",
+    "bertscore_f1": 0.588
+  },
+  {
+    "input": "Can pass/fail transfer credits count toward the degree?",
+    "expected_output": "No, pass/fail transfer credits are not accepted",
+    "model_output": "Pass/fail transfer credits can count toward the degree, but the specific rules vary by institution. Some institutions allow pass/fail transfer credits to count toward the required credits for graduation, while others do not. It is best to check with the specific institution to determine whether pass/fail transfer credits are allowed and how they",
+    "bertscore_f1": 0.7202
+  },
+  {
+    "input": "How are Latin honors determined at CAS?",
+    "expected_output": "Based on GPA percentiles of the previous year\u2019s graduates",
+    "model_output": "Latin honors are determined at the College of Arts and Sciences (CAS) based on the cumulative grade point average (CGPA) earned in all courses taken at the university, regardless of the student's major or department. To be eligible for Latin honors, a student must have a minimum CGPA of 3.5",
+    "bertscore_f1": 0.6458
+  },
+  {
+    "input": "What is required to complete departmental honors?",
+    "expected_output": "Completion of a two-semester research thesis and 3.65 GPA",
+    "model_output": "To complete departmental honors, a student must maintain a certain grade point average, typically 3.5 or higher, and complete a specific number of credits in the department.",
+    "bertscore_f1": 0.6744
+  },
+  {
+    "input": "What is Phi Beta Kappa?",
+    "expected_output": "An honorary society recognizing excellence in the liberal arts and sciences",
+    "model_output": "Phi Beta Kappa is a national honor society recognizing exceptional scholarship and leadership among undergraduates.",
+    "bertscore_f1": 0.733
+  },
+  {
+    "input": "What is the maximum number of credits allowed per semester without special permission?",
+    "expected_output": "18 points",
+    "model_output": "The maximum number of credits allowed per semester without special permission is 18 credits.",
+    "bertscore_f1": 0.6228
+  },
+  {
+    "input": "When is the last day to add a course?",
+    "expected_output": "By the end of the second week of the semester",
+    "model_output": "The last day to add a course is typically the day before the first day of classes.",
+    "bertscore_f1": 0.7347
+  },
+  {
+    "input": "When can a course be dropped without appearing on the transcript?",
+    "expected_output": "During the first two weeks of the semester",
+    "model_output": "A course can be dropped without appearing on the transcript if the student drops the course before the end of the add/drop period.",
+    "bertscore_f1": 0.6903
+  },
+  {
+    "input": "What grade is assigned when a student withdraws after the second week?",
+    "expected_output": "W (Withdrawn)",
+    "model_output": "F\n\nThe student receives an F grade when they withdraw after the second week.",
+    "bertscore_f1": 0.6433
+  },
+  {
+    "input": "When must CAS students declare a major?",
+    "expected_output": "Before reaching 64 credits",
+    "model_output": "CAS students must declare a major by the end of their sophomore year, typically by the end of the second semester of their sophomore year.",
+    "bertscore_f1": 0.5743
+  },
+  {
+    "input": "Can CAS students double major?",
+    "expected_output": "Yes, but only up to two courses may be double-counted",
+    "model_output": "Yes, CAS students can double major. According to the College of Arts and Sciences regulations, students are allowed to double major as long as they meet the requirements for each major.",
+    "bertscore_f1": 0.6885
+  },
+  {
+    "input": "What is the policy on triple-counting courses?",
+    "expected_output": "Courses may not be triple-counted under any circumstances",
+    "model_output": "Triple-counting courses is not explicitly addressed in any official university policy. Therefore, it is recommended to consult with an academic advisor for guidance on this matter.",
+    "bertscore_f1": 0.7228
+  },
+  {
+    "input": "How can a student request a leave of absence?",
+    "expected_output": "By meeting with a CAS advisor and submitting a leave request",
+    "model_output": "A student can request a leave of absence by submitting a written request to the student's instructor or academic advisor. The request should specify the dates of the leave, the reason for the leave, and any necessary documentation.",
+    "bertscore_f1": 0.7316
+  },
+  {
+    "input": "Can students register at another university while enrolled in CAS?",
+    "expected_output": "No, concurrent enrollment is not allowed",
+    "model_output": "Yes, students enrolled in CAS can register at another university, but they must adhere to the rules and regulations of both universities. Students must obtain written permission from their CAS advisor and submit the necessary forms to the Registrar's Office at the other university. Additionally, students must maintain a minimum GPA and credit load at both universities",
+    "bertscore_f1": 0.6746
+  },
+  {
+    "input": "What happens if an Incomplete grade is not resolved?",
+    "expected_output": "It becomes an F and is calculated into the GPA",
+    "model_output": "If an incomplete grade is not resolved, the student may not be able to receive credit for the course, and may have to retake the course in the future.",
+    "bertscore_f1": 0.6765
+  },
+  {
+    "input": "How many courses can a student repeat during their undergraduate career?",
+    "expected_output": "Up to two courses",
+    "model_output": "A student can repeat a maximum of two courses during their undergraduate career. However, it is important to note that some universities may have specific regulations regarding course repetition, so it is always best to consult with the academic advisor at the specific university to get the most accurate information.",
+    "bertscore_f1": 0.647
+  },
+  {
+    "input": "What grades are not counted in the GPA?",
+    "expected_output": "P (Pass), W (Withdrawn), and R (Registered/Audit)",
+    "model_output": "Grades that are not counted in the GPA are P, F, and I.",
+    "bertscore_f1": 0.6885
+  }
+]

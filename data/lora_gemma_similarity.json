@@ -1,0 +1,170 @@
+[
+  {
+    "instruction": "Answer the following question briefly and factually.",
+    "input": "What GPA is required to graduate from CAS?",
+    "expected_output": "2.0 cumulative GPA",
+    "model_output": "A GPA of 2.0 is required to graduate from the College of Arts and Sciences.",
+    "bertscore_f1": 0.702
+  },
+  {
+    "instruction": "Answer the following question briefly and factually.",
+    "input": "What GPA is needed to be on the Dean\u2019s Honors List?",
+    "expected_output": "3.65 or higher in at least 28 graded points, with no Incomplete grades",
+    "model_output": "The GPA needed to be on the Dean\u2019s Honors List is typically 3.5 or higher.",
+    "bertscore_f1": 0.7034
+  },
+  {
+    "instruction": "Answer the following question briefly and factually.",
+    "input": "What GPA is required to graduate with departmental honors?",
+    "expected_output": "3.65 overall and in the major",
+    "model_output": "The GPA required to graduate with departmental honors varies by department, but generally a GPA of 3.5 to 3.7 is required.",
+    "bertscore_f1": 0.5768
+  },
+  {
+    "instruction": "Answer the following question briefly and factually.",
+    "input": "How many total credits are required to graduate from CAS?",
+    "expected_output": "128 credits",
+    "model_output": "The total number of credits required to graduate from the College of Arts and Sciences is 120.\n\nPlease note that this is a factual statement and not an opinion.",
+    "bertscore_f1": 0.5977
+  },
+  {
+    "instruction": "Answer the following question briefly and factually.",
+    "input": "How many CAS credits must be completed in residence?",
+    "expected_output": "At least 64 CAS credits",
+    "model_output": "At least 64 credits must be completed in residence, including at least 32 credits in upper-division courses.",
+    "bertscore_f1": 0.7316
+  },
+  {
+    "instruction": "Answer the following question briefly and factually.",
+    "input": "How many of the last credits must be completed at CAS?",
+    "expected_output": "The last 32 points must be completed in the College",
+    "model_output": "At least 32 of the final 64 credits must be completed at CAS.",
+    "bertscore_f1": 0.8414
+  },
+  {
+    "instruction": "Answer the following question briefly and factually.",
+    "input": "How many credits can be transferred into CAS?",
+    "expected_output": "Up to 64 credits",
+    "model_output": "A maximum of 64 credits can be transferred into the College of Arts and Sciences.\n\nPlease note that this information is subject to change.",
+    "bertscore_f1": 0.6798
+  },
+  {
+    "instruction": "Answer the following question briefly and factually.",
+    "input": "What is the minimum grade required for transfer credit?",
+    "expected_output": "C or better",
+    "model_output": "The minimum grade required for transfer credit is generally a C (2.0) or higher.",
+    "bertscore_f1": 0.6104
+  },
+  {
+    "instruction": "Answer the following question briefly and factually.",
+    "input": "Can pass/fail transfer credits count toward the degree?",
+    "expected_output": "No, pass/fail transfer credits are not accepted",
+    "model_output": "No, pass/fail transfer credits do not count toward the degree. They are recorded as \"P\" (pass) or \"F\" (fail) and do not factor into the GPA.",
+    "bertscore_f1": 0.8056
+  },
+  {
+    "instruction": "Answer the following question briefly and factually.",
+    "input": "How are Latin honors determined at CAS?",
+    "expected_output": "Based on GPA percentiles of the previous year\u2019s graduates",
+    "model_output": "Latin honors are determined at the end of the student's final term of residence by calculating the cumulative grade point average (GPA) based on all course work completed at the College of Arts and Sciences. To be eligible for Latin honors, a student must have completed a minimum of 64 units in residence at CAS,",
+    "bertscore_f1": 0.6584
+  },
+  {
+    "instruction": "Answer the following question briefly and factually.",
+    "input": "What is required to complete departmental honors?",
+    "expected_output": "Completion of a two-semester research thesis and 3.65 GPA",
+    "model_output": "To complete departmental honors, a student must complete a minimum of 36 credits of coursework in the major, maintain a minimum GPA of 3.5, and complete a capstone project or equivalent.",
+    "bertscore_f1": 0.6872
+  },
+  {
+    "instruction": "Answer the following question briefly and factually.",
+    "input": "What is Phi Beta Kappa?",
+    "expected_output": "An honorary society recognizing excellence in the liberal arts and sciences",
+    "model_output": "Phi Beta Kappa is the national honor society for academic excellence in the liberal arts and sciences.\n\nPlease note that this is a factual and brief answer to the question.",
+    "bertscore_f1": 0.7817
+  },
+  {
+    "instruction": "Answer the following question briefly and factually.",
+    "input": "What is the maximum number of credits allowed per semester without special permission?",
+    "expected_output": "18 points",
+    "model_output": "The maximum number of credits allowed per semester without special permission is 16.",
+    "bertscore_f1": 0.6277
+  },
+  {
+    "instruction": "Answer the following question briefly and factually.",
+    "input": "When is the last day to add a course?",
+    "expected_output": "By the end of the second week of the semester",
+    "model_output": "The last day to add a course is the day before the first day of final exams.",
+    "bertscore_f1": 0.7352
+  },
+  {
+    "instruction": "Answer the following question briefly and factually.",
+    "input": "When can a course be dropped without appearing on the transcript?",
+    "expected_output": "During the first two weeks of the semester",
+    "model_output": "Before the end of the third week of instruction.\n\nA course can be dropped without appearing on the transcript before the end of the third week of instruction.",
+    "bertscore_f1": 0.7176
+  },
+  {
+    "instruction": "Answer the following question briefly and factually.",
+    "input": "What grade is assigned when a student withdraws after the second week?",
+    "expected_output": "W (Withdrawn)",
+    "model_output": "F\n\nThe grade of F is assigned when a student withdraws after the second week.",
+    "bertscore_f1": 0.6402
+  },
+  {
+    "instruction": "Answer the following question briefly and factually.",
+    "input": "When must CAS students declare a major?",
+    "expected_output": "Before reaching 64 credits",
+    "model_output": "Students must declare a major by the end of the Sophomore year, typically in the spring semester.",
+    "bertscore_f1": 0.5851
+  },
+  {
+    "instruction": "Answer the following question briefly and factually.",
+    "input": "Can CAS students double major?",
+    "expected_output": "Yes, but only up to two courses may be double-counted",
+    "model_output": "Yes, CAS students can double major. Students must meet the requirements for both majors, including completing all required courses and meeting any specific requirements, such as GPA requirements or residency requirements.\n\nPlease note that some majors may have specific restrictions on double majors, and students should consult with an advisor in the College of Arts and",
+    "bertscore_f1": 0.6804
+  },
+  {
+    "instruction": "Answer the following question briefly and factually.",
+    "input": "What is the policy on triple-counting courses?",
+    "expected_output": "Courses may not be triple-counted under any circumstances",
+    "model_output": "Triple-counting courses is not permitted. Each course is counted only once, regardless of the number of times it is repeated.",
+    "bertscore_f1": 0.7355
+  },
+  {
+    "instruction": "Answer the following question briefly and factually.",
+    "input": "How can a student request a leave of absence?",
+    "expected_output": "By meeting with a CAS advisor and submitting a leave request",
+    "model_output": "To request a leave of absence, the student must submit a written notice to the Registrar's Office in advance, preferably in person, but also acceptable via email.",
+    "bertscore_f1": 0.7186
+  },
+  {
+    "instruction": "Answer the following question briefly and factually.",
+    "input": "Can students register at another university while enrolled in CAS?",
+    "expected_output": "No, concurrent enrollment is not allowed",
+    "model_output": "Yes, but it is not advisable. Students are permitted to register for a limited number of courses at another university, subject to the approval of the College of Arts and Sciences. Such courses must be relevant to the student's program of study and must be taken in the semester(s) approved by the College. Students",
+    "bertscore_f1": 0.6976
+  },
+  {
+    "instruction": "Answer the following question briefly and factually.",
+    "input": "What happens if an Incomplete grade is not resolved?",
+    "expected_output": "It becomes an F and is calculated into the GPA",
+    "model_output": "If an Incomplete grade is not resolved, the grade will lapse at the end of the following semester.",
+    "bertscore_f1": 0.6878
+  },
+  {
+    "instruction": "Answer the following question briefly and factually.",
+    "input": "How many courses can a student repeat during their undergraduate career?",
+    "expected_output": "Up to two courses",
+    "model_output": "A student can repeat a maximum of two courses during their undergraduate career.\n\nThis information is factually accurate and consistent with the rules of most universities.",
+    "bertscore_f1": 0.6859
+  },
+  {
+    "instruction": "Answer the following question briefly and factually.",
+    "input": "What grades are not counted in the GPA?",
+    "expected_output": "P (Pass), W (Withdrawn), and R (Registered/Audit)",
+    "model_output": "Grades earned in AP, IB, and dual enrollment courses are not counted in the GPA.",
+    "bertscore_f1": 0.6441
+  }
+]

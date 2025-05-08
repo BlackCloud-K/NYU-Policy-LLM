@@ -1,0 +1,122 @@
+[
+  {
+    "question": "Which committee is responsible for reviewing promotion and tenure cases?\nA. Advisory Committee on Promotion and Tenure\nB. Committee on Student Discipline\nC. Committee on Undergraduate Curriculum\nD. Committee on Nominations and Elections",
+    "expected": "A",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWhich committee is responsible for reviewing promotion and tenure cases?\nA. Advisory Committee on Promotion and Tenure\nB. Committee on Student Discipline\nC. Committee on Undergraduate Curriculum\nD. Committee on Nominations and Elections\n\nYour answer: A. Advisory Committee on Promotion and Tenure.\n\nExplanation: A. Advisory Committee on Promotion and Tenure. The Advisory Committee on Promotion and Tenure is responsible for reviewing promotion and tenure cases. The Committee on Student Discipline is responsible for reviewing student",
+    "model_choice": "A"
+  },
+  {
+    "question": "How many tenured faculty members are elected to the Committee on Student Discipline?\nA. 3\nB. 6\nC. 9\nD. 12",
+    "expected": "C",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nHow many tenured faculty members are elected to the Committee on Student Discipline?\nA. 3\nB. 6\nC. 9\nD. 12\n\nYour answer: B. 6.\n\nFeedback: Tenured faculty members elected to the Committee on Student Discipline serve three-year terms and number six in total (one from each academic division). Therefore, the answer is B. 6.",
+    "model_choice": "B"
+  },
+  {
+    "question": "Which committee includes three undergraduate student representatives?\nA. Graduate Curriculum Committee\nB. Committee on Undergraduate Curriculum\nC. Committee on Policy and Planning\nD. Committee on Student Discipline",
+    "expected": "B",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWhich committee includes three undergraduate student representatives?\nA. Graduate Curriculum Committee\nB. Committee on Undergraduate Curriculum\nC. Committee on Policy and Planning\nD. Committee on Student Discipline\n\nYour answer: A. Graduate Curriculum Committee\n\nThe correct answer is: A. Graduate Curriculum Committee\n\nExplanation: The A.S.C. Constitution and Bylaws (Article IV, Section 6) states, \"The number of representatives from each standing committee of the A.S",
+    "model_choice": "A"
+  },
+  {
+    "question": "Who elects the faculty members of the CAS standing committees?\nA. CAS Dean\nB. Department chairs\nC. CAS faculty\nD. CAS Senate",
+    "expected": "C",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWho elects the faculty members of the CAS standing committees?\nA. CAS Dean\nB. Department chairs\nC. CAS faculty\nD. CAS Senate\n\nYour answer: C. CAS faculty\n\nExplanation: The faculty members of the CAS standing committees are elected by the CAS faculty. (CAS Governance, Bylaws, Article VII, Section 4)",
+    "model_choice": "C"
+  },
+  {
+    "question": "What is the typical term length for CAS standing committee members?\nA. 1 year\nB. 2 years\nC. 3 years\nD. 5 years",
+    "expected": "C",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWhat is the typical term length for CAS standing committee members?\nA. 1 year\nB. 2 years\nC. 3 years\nD. 5 years\n\nYour answer: D. 5 years.\n\nExplanation: What is the typical term length for CAS standing committee members?\nA. 1 year\nB. 2 years\nC. 3 years\nD. 5 years.\n\nAnswer: D. 5 years.\n\nEx",
+    "model_choice": "D"
+  },
+  {
+    "question": "Which committee provides advice on curriculum and graduation requirements?\nA. Committee on Student Discipline\nB. Committee on Undergraduate Curriculum\nC. Advisory Committee on Promotion and Tenure\nD. Committee on Grievance",
+    "expected": "B",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWhich committee provides advice on curriculum and graduation requirements?\nA. Committee on Student Discipline\nB. Committee on Undergraduate Curriculum\nC. Advisory Committee on Promotion and Tenure\nD. Committee on Grievance\n\nYour answer: B. Committee on Undergraduate Curriculum.\n\nExplanation: A. Committee on Student Discipline \u2013 advises on student conduct matters; B. Committee on Undergraduate Curriculum \u2013 provides advice on curriculum and graduation requirements; C. Advisory Committee on Promotion and Tenure \u2013 advises on",
+    "model_choice": "B"
+  },
+  {
+    "question": "What is the main function of the Committee on Student Discipline?\nA. Handle financial aid appeals\nB. Review academic misconduct\nC. Propose new majors\nD. Approve study abroad requests",
+    "expected": "B",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWhat is the main function of the Committee on Student Discipline?\nA. Handle financial aid appeals\nB. Review academic misconduct\nC. Propose new majors\nD. Approve study abroad requests\n\nYour answer: B. Review academic misconduct.\n\nExplanation: The main function of the Committee on Student Discipline is to review academic misconduct cases reported by faculty and staff. This committee is responsible for ensuring that all students are held to the same academic integrity standards and for providing a fair and impartial review process",
+    "model_choice": "B"
+  },
+  {
+    "question": "Who appoints members to the Committee on Grievance?\nA. Faculty vote\nB. Dean\nC. Nominations Committee\nD. Department Chairs",
+    "expected": "C",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWho appoints members to the Committee on Grievance?\nA. Faculty vote\nB. Dean\nC. Nominations Committee\nD. Department Chairs\n\nYour answer: D. Department Chairs\n\nFeedback: Members of the Committee on Grievance are appointed by the deans of the schools. However, in the College, the deans have delegated this responsibility to department chairs. (Bylaws 3-10; 6-60, 6",
+    "model_choice": "D"
+  },
+  {
+    "question": "The Committee on Nominations and Elections is responsible for:\nA. Choosing commencement speakers\nB. Administering faculty election processes\nC. Selecting student orientation leaders\nD. Assigning teaching loads",
+    "expected": "B",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nThe Committee on Nominations and Elections is responsible for:\nA. Choosing commencement speakers\nB. Administering faculty election processes\nC. Selecting student orientation leaders\nD. Assigning teaching loads\n\nYour answer: B. Administering faculty election processes\n\nExplanation:\n\nThe purpose of the Committee on Nominations and Elections is to administer faculty election processes, including nomination and election of members to standing and ad hoc committees, as well as the election of the Dean of the Faculty.",
+    "model_choice": "B"
+  },
+  {
+    "question": "Which committee advises the Dean on long-term planning and budgeting?\nA. Committee on Grievance\nB. Committee on Policy and Planning\nC. Committee on Student Discipline\nD. Undergraduate Curriculum Committee",
+    "expected": "B",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWhich committee advises the Dean on long-term planning and budgeting?\nA. Committee on Grievance\nB. Committee on Policy and Planning\nC. Committee on Student Discipline\nD. Undergraduate Curriculum Committee\n\nYour answer: B. Committee on Policy and Planning\n\nExplanation: A. Committee on Grievance - advises the Dean on matters related to faculty grievances; B. Committee on Policy and Planning - advises the Dean on long-term planning and budgeting; C. Committee on Student Discipline -",
+    "model_choice": "B"
+  },
+  {
+    "question": "Which committee does not permit department chairs as members?\nA. Committee on Nominations and Elections\nB. Committee on Policy and Planning\nC. Committee on Grievance\nD. Committee on Student Discipline",
+    "expected": "C",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWhich committee does not permit department chairs as members?\nA. Committee on Nominations and Elections\nB. Committee on Policy and Planning\nC. Committee on Grievance\nD. Committee on Student Discipline\n\nYour answer: D. Committee on Student Discipline\n\nExplanation:\nThe Committee on Student Discipline does not permit department chairs as members. This is because the purpose of the committee is to ensure fair and consistent application of academic regulations and to provide a means of reviewing and resolving cases of student misconduct",
+    "model_choice": "D"
+  },
+  {
+    "question": "What is a primary concern of the Committee on Policy and Planning?\nA. Course scheduling\nB. Long-term strategic issues\nC. Managing classroom disputes\nD. Running faculty elections",
+    "expected": "B",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWhat is a primary concern of the Committee on Policy and Planning?\nA. Course scheduling\nB. Long-term strategic issues\nC. Managing classroom disputes\nD. Running faculty elections\n\nYour answer: B. Long-term strategic issues.\n\nExplanation: A. Course scheduling \u2014 This is a concern of the Committee on Undergraduate Curriculum. B. Long-term strategic issues \u2014 This is a primary concern of the Committee on Policy and Planning. C. Managing classroom disputes \u2014 This is",
+    "model_choice": "B"
+  },
+  {
+    "question": "How many standing committees explicitly include student members?\nA. One\nB. Two\nC. Three\nD. Four",
+    "expected": "D",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nHow many standing committees explicitly include student members?\nA. One\nB. Two\nC. Three\nD. Four\n\nYour answer: C. Three.\n\nExplanation:\nThe three standing committees that explicitly include student members are the Academic Standards and Policies Committee, the Curriculum and Programs Committee, and the Student Life Committee. (Bylaws, Article V, Section 5)",
+    "model_choice": "C"
+  },
+  {
+    "question": "What level of faculty rank is required to serve on the Promotion and Tenure Committee?\nA. Any faculty\nB. Non-tenure-track faculty\nC. Tenured full professors only\nD. Visiting faculty",
+    "expected": "C",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWhat level of faculty rank is required to serve on the Promotion and Tenure Committee?\nA. Any faculty\nB. Non-tenure-track faculty\nC. Tenured full professors only\nD. Visiting faculty\n\nYour answer: A. Any faculty\n\nExplanation: Any faculty can serve on the Promotion and Tenure Committee. However, the chair of the committee must be a tenured full professor. (Note: This question pertains to the policies and procedures of the Promotion and Tenure process at the University of Oregon as",
+    "model_choice": "A"
+  },
+  {
+    "question": "How are committee chairpersons chosen?\nA. Appointed by the Dean\nB. Elected by the committee members\nC. Rotated by department seniority\nD. Selected by Faculty Senate",
+    "expected": "B",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nHow are committee chairpersons chosen?\nA. Appointed by the Dean\nB. Elected by the committee members\nC. Rotated by department seniority\nD. Selected by Faculty Senate\n\nYour answer: A. Appointed by the Dean.\n\nExplanation:\nCommittee chairpersons are appointed by the Dean. The Dean appoints the chairperson based on the chairperson's qualifications, availability, and ability to effectively lead the committee. This appointment is typically made for a one-year",
+    "model_choice": "A"
+  },
+  {
+    "question": "Which committee may handle issues regarding dismissal of students for misconduct?\nA. Committee on Grievance\nB. Committee on Undergraduate Curriculum\nC. Committee on Student Discipline\nD. Committee on Promotion and Tenure",
+    "expected": "C",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWhich committee may handle issues regarding dismissal of students for misconduct?\nA. Committee on Grievance\nB. Committee on Undergraduate Curriculum\nC. Committee on Student Discipline\nD. Committee on Promotion and Tenure\n\nYour answer: C. Committee on Student Discipline.\n\nExplanation: The Committee on Student Discipline is responsible for handling issues regarding dismissal of students for misconduct. This committee may also review appeals of disciplinary decisions made by the Dean of Students.\n\nReferences:\n\nBrown University",
+    "model_choice": "C"
+  },
+  {
+    "question": "Which committee ensures representation across departments and ranks?\nA. Nominations and Elections\nB. Policy and Planning\nC. Grievance\nD. Undergraduate Curriculum",
+    "expected": "A",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWhich committee ensures representation across departments and ranks?\nA. Nominations and Elections\nB. Policy and Planning\nC. Grievance\nD. Undergraduate Curriculum\n\nYour answer: D. Undergraduate Curriculum\n\nExplanation:The Undergraduate Curriculum Committee is charged with ensuring representation across departments and ranks. This committee develops and maintains the undergraduate curriculum, and its membership is designed to ensure a broad representation of faculty from across the College. (Source: University of Chicago College",
+    "model_choice": "D"
+  },
+  {
+    "question": "Student representatives in the Undergraduate Curriculum Committee are:\nA. Selected by lottery\nB. Elected by student government\nC. Appointed by the Dean\nD. Nominated by faculty",
+    "expected": "B",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nStudent representatives in the Undergraduate Curriculum Committee are:\nA. Selected by lottery\nB. Elected by student government\nC. Appointed by the Dean\nD. Nominated by faculty\n\nYour answer: B. Elected by student government.\n\n[Explanation:] Student representatives in the Undergraduate Curriculum Committee are elected by student government.\n\nNote: This question was included in the practice quiz pool for the following courses: GC 1010 - Introduction to the College; GC",
+    "model_choice": "B"
+  },
+  {
+    "question": "Faculty elections for committee membership are held:\nA. Every semester\nB. Annually in spring\nC. Only in fall semesters\nD. On a rolling basis",
+    "expected": "B",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nFaculty elections for committee membership are held:\nA. Every semester\nB. Annually in spring\nC. Only in fall semesters\nD. On a rolling basis\n\nYour answer: B. Annually in spring.\n\nExplanation: Faculty elections for committee membership are held annually in spring.",
+    "model_choice": "B"
+  },
+  {
+    "question": "How many standing committees are listed in the standing committees document?\nA. 7\nB. 9\nC. 11\nD. 13",
+    "expected": "D",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nHow many standing committees are listed in the standing committees document?\nA. 7\nB. 9\nC. 11\nD. 13\n\nYour answer: A. 7\n\nFeedback: The Senate Standing Committees are as follows: 1. Agriculture and Natural Resources; 2. Appropriations; 3. Education; 4. Energy, Environment and Public Works; 5. Finance; 6. Health, Education, Labor",
+    "model_choice": "A"
+  }
+]

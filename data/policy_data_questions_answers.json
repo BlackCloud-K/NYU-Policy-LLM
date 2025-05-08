@@ -1,0 +1,242 @@
+[
+  {
+    "question": "What must a student do to audit a course in CAS?\nA. Register online directly\nB. Submit a signed add/drop form with 'register as auditor' noted\nC. Get permission from a classmate\nD. Email the Registrar",
+    "expected": "B",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWhat must a student do to audit a course in CAS?\nA. Register online directly\nB. Submit a signed add/drop form with 'register as auditor' noted\nC. Get permission from a classmate\nD. Email the Registrar\n\nYour answer: B. Submit a signed add/drop form with 'register as auditor' noted.",
+    "model_choice": "B"
+  },
+  {
+    "question": "What is the maximum number of credits a student can take in one term without needing permission?\nA. 18\nB. 16\nC. 20\nD. 12",
+    "expected": "A",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWhat is the maximum number of credits a student can take in one term without needing permission?\nA. 18\nB. 16\nC. 20\nD. 12\n\nYour answer:B. 16\n\nExplanation:\nB. 16\n\nThe maximum number of credits a student can take in one term without needing permission is 16.",
+    "model_choice": "B"
+  },
+  {
+    "question": "What happens if a student takes more than the maximum allowed credits without approval?\nA. Automatic drop from extra courses\nB. Warning email from Registrar\nC. Financial aid cancellation\nD. Automatic F in the overload course\nE. This information is not explicitly stated in the policy",
+    "expected": "E",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWhat happens if a student takes more than the maximum allowed credits without approval?\nA. Automatic drop from extra courses\nB. Warning email from Registrar\nC. Financial aid cancellation\nD. Automatic F in the overload course\nE. This information is not explicitly stated in the policy\n\nYour answer: E. This information is not explicitly stated in the policy\n\nExplanation:The policy states that students must obtain approval from the Office of the Registrar to register for more than the stated number of credits per term. However, the consequences of registering for more than the approved number of credits without obtaining approval",
+    "model_choice": "D"
+  },
+  {
+    "question": "Which of the following actions requires approval from the department and Dean?\nA. Adding a minor\nB. Dropping below full-time status\nC. Applying for financial aid\nD. Requesting extra credit for APs",
+    "expected": "B",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWhich of the following actions requires approval from the department and Dean?\nA. Adding a minor\nB. Dropping below full-time status\nC. Applying for financial aid\nD. Requesting extra credit for APs\n\nYour answer: A. Adding a minor\n\nExplanation:Approval from the department and Dean is required for adding a minor. Adding a minor is considered a program change, and therefore, requires approval from the department and Dean. Approval from the department and Dean is required to ensure that the student's plan",
+    "model_choice": "A"
+  },
+  {
+    "question": "What is the minimum GPA required to graduate from CAS?\nA. 1.5\nB. 2.0\nC. 2.5\nD. 3.0",
+    "expected": "B",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWhat is the minimum GPA required to graduate from CAS?\nA. 1.5\nB. 2.0\nC. 2.5\nD. 3.0\n\nYour answer: B. 2.0\n\nExplanation: The minimum GPA required to graduate from CAS is 2.0. This requirement applies to all students in the College of Arts and Sciences. Students who do not maintain a 2.0 GPA will be placed on academic probation and may be",
+    "model_choice": "B"
+  },
+  {
+    "question": "What does a student need to do to withdraw from a course after the deadline?\nA. Email the professor only\nB. Complete a Petition for Late Withdrawal\nC. Talk to classmates\nD. Submit a financial form",
+    "expected": "B",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWhat does a student need to do to withdraw from a course after the deadline?\nA. Email the professor only\nB. Complete a Petition for Late Withdrawal\nC. Talk to classmates\nD. Submit a financial form\n\nYour answer: B. Complete a Petition for Late Withdrawal.",
+    "model_choice": "B"
+  },
+  {
+    "question": "How many writing-intensive courses must a CAS student complete?\nA. 1\nB. 2\nC. 3\nD. 4",
+    "expected": "B",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nHow many writing-intensive courses must a CAS student complete?\nA. 1\nB. 2\nC. 3\nD. 4\n\nYour answer: B. 2\n\nExplanation: A CAS student must complete 2 writing-intensive courses. The writing-intensive courses must be taken in different disciplines and must be completed with a grade of C or better. (Note: A student who enters the College of Arts and Sciences as a",
+    "model_choice": "B"
+  },
+  {
+    "question": "Which office handles requests for leaves of absence?\nA. Admissions\nB. Office of the Registrar\nC. CAS Advising Center\nD. Office of Student Affairs",
+    "expected": "C",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWhich office handles requests for leaves of absence?\nA. Admissions\nB. Office of the Registrar\nC. CAS Advising Center\nD. Office of Student Affairs\n\nYour answer: D. Office of Student Affairs.\n\nExplanation:Which office handles requests for leaves of absence?\nA. Admissions\nB. Office of the Registrar\nC. CAS Advising Center\nD. Office of Student Affairs.\n\nAnswer: D. Office of Student Affairs.",
+    "model_choice": "D"
+  },
+  {
+    "question": "Students must declare a major before which year?\nA. First year\nB. Sophomore year\nC. Junior year\nD. Senior year\nE. This information is not explicitly stated in the policy",
+    "expected": "E",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nStudents must declare a major before which year?\nA. First year\nB. Sophomore year\nC. Junior year\nD. Senior year\nE. This information is not explicitly stated in the policy\n\nYour answer: A. First year",
+    "model_choice": "A"
+  },
+  {
+    "question": "What happens to a student who fails to declare a major on time?\nA. Dismissal from the university\nB. Probation\nC. Hold on registration\nD. Warning letter\nE. This information is not explicitly stated in the policy",
+    "expected": "E",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWhat happens to a student who fails to declare a major on time?\nA. Dismissal from the university\nB. Probation\nC. Hold on registration\nD. Warning letter\nE. This information is not explicitly stated in the policy\n\nYour answer: E. This information is not explicitly stated in the policy\n\nExplanation: The policy states that students who fail to declare a major on time will have a registration hold placed on their account. No mention of dismissal, probation, or warning letters. However, the policy does not explicitly state what happens to",
+    "model_choice": "A"
+  },
+  {
+    "question": "Which grade is considered passing for most CAS courses?\nA. A\nB. B\nC. C\nD. D",
+    "expected": "D",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWhich grade is considered passing for most CAS courses?\nA. A\nB. B\nC. C\nD. D\n\nYour answer: D. D\n\nFeedback: For most CAS courses, a passing grade is a D or better. However, students are encouraged to aim for a higher grade to improve their GPA and to better prepare themselves for advanced courses and a potential career in the field. Note that some departments and/or courses may",
+    "model_choice": "D"
+  },
+  {
+    "question": "To graduate with honors, a student must have completed how many credits at CAS?\nA. 64\nB. 96\nC. 128\nD. 32",
+    "expected": "A",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nTo graduate with honors, a student must have completed how many credits at CAS?\nA. 64\nB. 96\nC. 128\nD. 32\n\nYour answer:B. 96\n\nExplanation:To graduate with honors, a student must have completed how many credits at CAS?\nA. 64\nB. 96\nC. 128\nD. 32\n\nAnswer:B. 96",
+    "model_choice": "B"
+  },
+  {
+    "question": "How many disciplinary points will result in a disciplinary hearing?\nA. 3\nB. 2\nC. 4\nD. 5\nE. This information is not explicitly stated in the policy",
+    "expected": "E",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nHow many disciplinary points will result in a disciplinary hearing?\nA. 3\nB. 2\nC. 4\nD. 5\nE. This information is not explicitly stated in the policy\n\nYour answer: E. This information is not explicitly stated in the policy\n\nExplanation:\nThe policy does not explicitly state how many disciplinary points will result in a disciplinary hearing. However, it does state that a disciplinary hearing will be held to address \"serious or repeated violations of the policy.\" (",
+    "model_choice": "A"
+  },
+  {
+    "question": "Where are students directed if they have questions about academic probation?\nA. Bursar\u2019s Office\nB. CAS Advising Center\nC. Career Center\nD. Financial Aid Office",
+    "expected": "B",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWhere are students directed if they have questions about academic probation?\nA. Bursar\u2019s Office\nB. CAS Advising Center\nC. Career Center\nD. Financial Aid Office\n\nYour answer: A. Bursar\u2019s Office.\n\nExplanation: Students who have questions about academic probation should direct their inquiries to the Bursar\u2019s Office. This is where students will be directed to pay any outstanding balances on their student account. Additionally, the Bursar\u2019s",
+    "model_choice": "A"
+  },
+  {
+    "question": "Which of the following would put a student on academic probation?\nA. GPA below 2.0\nB. More than 18 credits\nC. No declared minor\nD. Not attending office hours",
+    "expected": "A",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWhich of the following would put a student on academic probation?\nA. GPA below 2.0\nB. More than 18 credits\nC. No declared minor\nD. Not attending office hours\n\nYour answer: A. GPA below 2.0.\n\nExplanation: A GPA below 2.0 puts a student on academic probation. Probation is a warning that a student's academic performance is below the minimum required to continue in the College. It does not mean that the student will",
+    "model_choice": "A"
+  },
+  {
+    "question": "What is the maximum number of courses a student may pass/fail in CAS?\nA. 2\nB. 4\nC. 6\nD. Unlimited",
+    "expected": "B",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWhat is the maximum number of courses a student may pass/fail in CAS?\nA. 2\nB. 4\nC. 6\nD. Unlimited\n\nYour answer: D. Unlimited.\n\nExplanation:\nStudents may take up to 2 courses pass/fail per semester, and may count a pass/fail grade toward the major or minor requirements, but there is no limit to the number of courses a student may take pass/fail in CAS.",
+    "model_choice": "D"
+  },
+  {
+    "question": "Pass/fail courses may not be used to fulfill which of the following?\nA. Electives\nB. Major requirements\nC. Study abroad\nD. Summer courses\nE. This information is not explicitly stated in the policy",
+    "expected": "E",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nPass/fail courses may not be used to fulfill which of the following?\nA. Electives\nB. Major requirements\nC. Study abroad\nD. Summer courses\nE. This information is not explicitly stated in the policy\n\nYour answer: E. this information is not explicitly stated in the policy.\n\nExplanation: Pass/fail courses may not be used to fulfill which of the following?\nA. Electives\nB. Major requirements\nC. Study abroad\nD. Summer courses\n\nAnswer: B. Major requirements.",
+    "model_choice": "B"
+  },
+  {
+    "question": "Where should a student go for approval to study away?\nA. Registrar\nB. Bursar\nC. CAS Advising\nD. Study Abroad Office",
+    "expected": "C",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWhere should a student go for approval to study away?\nA. Registrar\nB. Bursar\nC. CAS Advising\nD. Study Abroad Office\n\nYour answer: C. CAS Advising.\n\nExplanation: Where should a student go for approval to study away? A. Registrar B. Bursar C. CAS Advising D. Study Abroad Office\n\nAnswer: C. CAS Advising.\n\nExplanation:",
+    "model_choice": "C"
+  },
+  {
+    "question": "When is the deadline to withdraw from a course without a W on the transcript?\nA. End of first week\nB. Two weeks before final exam\nC. Midterm\nD. Before first class\nE. This information is not explicitly stated in the policy",
+    "expected": "E",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWhen is the deadline to withdraw from a course without a W on the transcript?\nA. End of first week\nB. Two weeks before final exam\nC. Midterm\nD. Before first class\nE. This information is not explicitly stated in the policy\n\nYour answer: E. This information is not explicitly stated in the policy\n\nExplanation:The deadline to withdraw from a course without a W on the transcript is not explicitly stated in the policy as A, B, C, or D. Instead, the policy states that students can drop or add courses during the first ten",
+    "model_choice": "D"
+  },
+  {
+    "question": "Who is responsible for maintaining academic integrity?\nA. Professors only\nB. CAS administrators\nC. Students\nD. Academic Senate",
+    "expected": "C",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWho is responsible for maintaining academic integrity?\nA. Professors only\nB. CAS administrators\nC. Students\nD. Academic Senate\n\nYour answer: C. Students\n\nExplanation: Students are responsible for maintaining academic integrity. This includes adhering to academic honesty policies, reporting violations, and educating themselves about acceptable academic practices. While professors and CAS administrators also play a role in upholding academic integrity, ultimate responsibility lies with",
+    "model_choice": "C"
+  },
+  {
+    "question": "To whom must a student report academic dishonesty?\nA. Academic Advisor\nB. Dean of Students\nC. The instructor\nD. Campus Security",
+    "expected": "C",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nTo whom must a student report academic dishonesty?\nA. Academic Advisor\nB. Dean of Students\nC. The instructor\nD. Campus Security\n\nYour answer: C. The instructor.\n\nAnswer: C. The instructor.\n\nExplanation:To whom must a student report academic dishonesty?\nA. Academic Advisor\nB. Dean of Students\nC. The instructor\nD. Campus Security\n\nYour answer: C. The",
+    "model_choice": "C"
+  },
+  {
+    "question": "What is the minimum number of credits needed for full-time enrollment?\nA. 9\nB. 12\nC. 15\nD. 18",
+    "expected": "B",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWhat is the minimum number of credits needed for full-time enrollment?\nA. 9\nB. 12\nC. 15\nD. 18\n\nYour answer: C. 15.\n\nExplanation:The minimum number of credits needed for full-time enrollment is 15.",
+    "model_choice": "C"
+  },
+  {
+    "question": "What type of grade appears on the transcript for a late withdrawal?\nA. A\nB. W\nC. F\nD. INC",
+    "expected": "B",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWhat type of grade appears on the transcript for a late withdrawal?\nA. A\nB. W\nC. F\nD. INC\n\nYour answer: D. INC.\n\nExplanation:What type of grade appears on the transcript for a late withdrawal?\nA. A\nB. W\nC. F\nD. INC.\n\nAnswer: D. INC.\n\nExplanation:What type of grade appears on the trans",
+    "model_choice": "D"
+  },
+  {
+    "question": "What form is required for academic overload approval?\nA. Leave of Absence Form\nB. Petition for Academic Overload\nC. Add/Drop Form\nD. Study Away Form",
+    "expected": "B",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWhat form is required for academic overload approval?\nA. Leave of Absence Form\nB. Petition for Academic Overload\nC. Add/Drop Form\nD. Study Away Form\n\nYour answer: A. Leave of Absence Form.\n\nExplanation: What form is required for academic overload approval? A. Leave of Absence Form.\n\nAnswer: A. Leave of Absence Form.\n\nExplanation: What form is required for academic overload approval? A. Leave",
+    "model_choice": "A"
+  },
+  {
+    "question": "How many credits are required for graduation from CAS?\nA. 64\nB. 96\nC. 128\nD. 144",
+    "expected": "C",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nHow many credits are required for graduation from CAS?\nA. 64\nB. 96\nC. 128\nD. 144\n\nYour answer: B. 96.\n\nExplanation:\nThe minimum number of credits required for graduation from the College of Arts and Sciences is 96. Credit requirements may vary for students who choose a major in another school or college at the University of Pennsylvania. Please consult the appropriate academic department or college for",
+    "model_choice": "B"
+  },
+  {
+    "question": "Which of these is NOT an approved reason for leave of absence?\nA. Medical\nB. Financial\nC. Academic stress\nD. Disinterest in current classes",
+    "expected": "D",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWhich of these is NOT an approved reason for leave of absence?\nA. Medical\nB. Financial\nC. Academic stress\nD. Disinterest in current classes\n\nYour answer: D. Disinterest in current classes\n\nExplanation: D. Disinterest in current classes is NOT an approved reason for leave of absence. Approved reasons include, but are not limited to, medical, mental health, and family reasons.",
+    "model_choice": "D"
+  },
+  {
+    "question": "What happens if a student earns below a 2.0 GPA for two consecutive semesters?\nA. Nothing\nB. Academic warning\nC. Dismissal review\nD. Loss of ID privileges",
+    "expected": "C",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWhat happens if a student earns below a 2.0 GPA for two consecutive semesters?\nA. Nothing\nB. Academic warning\nC. Dismissal review\nD. Loss of ID privileges\n\nYour answer: A. Nothing\n\nExplanation: Nothing - This means that if a student earns below a 2.0 GPA for two consecutive semesters, nothing happens. This is a common misconception, as many students believe that they will be academically dismissed in such a situation. However, according",
+    "model_choice": "A"
+  },
+  {
+    "question": "Can a student retake a course for a better grade?\nA. No\nB. Yes, once\nC. Yes, up to three times\nD. Only with permission",
+    "expected": "B",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nCan a student retake a course for a better grade?\nA. No\nB. Yes, once\nC. Yes, up to three times\nD. Only with permission\n\nYour answer: C. Yes, up to three times.\n\nExplanation: Yes, a student can retake a course up to three times, as long as the course is offered that many times during their academic career. However, if the course is only offered once per academic year, the student may need to petition the",
+    "model_choice": "C"
+  },
+  {
+    "question": "What is required to change a major at CAS?\nA. Advisor approval only\nB. Department and CAS approval\nC. Department approval\nD. Bursar\u2019s signature",
+    "expected": "C",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWhat is required to change a major at CAS?\nA. Advisor approval only\nB. Department and CAS approval\nC. Department approval\nD. Bursar\u2019s signature\n\nYour answer: B. Department and CAS approval.\n\n[Explanation] The student must obtain approval from the department and the College of Arts and Sciences (CAS) to change majors. Approval from the department and CAS is required to ensure that the student\u2019s academic record accurately reflects the major in which",
+    "model_choice": "B"
+  },
+  {
+    "question": "What must a student do to return from a leave of absence?\nA. Reapply to NYU\nB. Complete reactivation form\nC. Take orientation again\nD. Meet financial aid counselor",
+    "expected": "B",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWhat must a student do to return from a leave of absence?\nA. Reapply to NYU\nB. Complete reactivation form\nC. Take orientation again\nD. Meet financial aid counselor\n\nYour answer: B. Complete reactivation form.\n\nExplanation:\nTo return from a leave of absence, a student must complete a reactivation form.",
+    "model_choice": "B"
+  },
+  {
+    "question": "If a student misses class for religious observance, what must the instructor do?\nA. Penalize participation grade\nB. Report to Dean\nC. Excuse absence and provide makeup work\nD. Ignore it\nE. This information is not explicitly stated in the policy",
+    "expected": "E",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nIf a student misses class for religious observance, what must the instructor do?\nA. Penalize participation grade\nB. Report to Dean\nC. Excuse absence and provide makeup work\nD. Ignore it\nE. This information is not explicitly stated in the policy\n\nYour answer: C. Excuse absence and provide makeup work\n\nExplanation:The University's policy on religious accommodations states that instructors must excuse absences due to religious observances and provide makeup work. (University Policy 6-20, https://policy.umd.edu/policy/",
+    "model_choice": "C"
+  },
+  {
+    "question": "When is the last day to declare pass/fail grading?\nA. End of term\nB. Mid-semester\nC. Before midterm\nD. Posted on academic calendar",
+    "expected": "D",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWhen is the last day to declare pass/fail grading?\nA. End of term\nB. Mid-semester\nC. Before midterm\nD. Posted on academic calendar\n\nYour answer: A. End of term.\n\nExplanation:\nA. End of term.\n\nSource: UM College of Arts and Sciences Bulletin\n\nAnswer:A. End of term.\n\nExplanation:\nA. End of term.\n\nSource: UM College",
+    "model_choice": "A"
+  },
+  {
+    "question": "Who must approve a student request to exceed credit limits?\nA. Registrar\nB. Instructor\nC. Dean\nD. Department head",
+    "expected": "C",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWho must approve a student request to exceed credit limits?\nA. Registrar\nB. Instructor\nC. Dean\nD. Department head\n\nYour answer: D. Department head\n\nFeedback: The department head must approve a student request to exceed credit limits.",
+    "model_choice": "D"
+  },
+  {
+    "question": "Which of the following is NOT recorded on the transcript?\nA. Incomplete (INC)\nB. Withdrawn (W)\nC. Pass (P)\nD. Attendance",
+    "expected": "D",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWhich of the following is NOT recorded on the transcript?\nA. Incomplete (INC)\nB. Withdrawn (W)\nC. Pass (P)\nD. Attendance\n\nYour answer: D. Attendance\n\nExplanation: The transcript records grades (A, B, C, D, F, IN, or NC), withdrawals (W), incompletes (IN), and non-attendance (N). Attendance is not recorded on the official transcript. However, the Office",
+    "model_choice": "D"
+  },
+  {
+    "question": "How does a student fulfill the foreign language requirement?\nA. Study abroad only\nB. Complete CAS language course or prove proficiency\nC. Take an AP class\nD. Talk to professor",
+    "expected": "B",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nHow does a student fulfill the foreign language requirement?\nA. Study abroad only\nB. Complete CAS language course or prove proficiency\nC. Take an AP class\nD. Talk to professor\n\nYour answer: B. Complete CAS language course or prove proficiency.",
+    "model_choice": "B"
+  },
+  {
+    "question": "Who can request a disciplinary hearing against a student?\nA. Any student\nB. Only a professor\nC. Only the Dean\nD. Any NYU community member",
+    "expected": "D",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWho can request a disciplinary hearing against a student?\nA. Any student\nB. Only a professor\nC. Only the Dean\nD. Any NYU community member\n\nYour answer: B. Only a professor\n\nExplanation: Only a professor can request a disciplinary hearing against a student. However, if a professor is uncomfortable addressing the matter directly with the student, they can refer the matter to the Dean or the Office of Student Conduct. The Dean or the Office of Student Conduct",
+    "model_choice": "B"
+  },
+  {
+    "question": "What happens to a student who withdraws from all courses mid-term?\nA. Nothing\nB. Automatic leave of absence\nC. Academic probation\nD. Transcript reviewed",
+    "expected": "B",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWhat happens to a student who withdraws from all courses mid-term?\nA. Nothing\nB. Automatic leave of absence\nC. Academic probation\nD. Transcript reviewed\n\nYour answer: A. Nothing.\n\nExplanation:\nNothing happens to a student who withdraws from all courses mid-term. However, if a student withdraws from all courses in the semester, the withdrawal will be recorded as a W on the student's transcript. It is up to the student to",
+    "model_choice": "A"
+  },
+  {
+    "question": "Can students appeal a final grade?\nA. No\nB. Yes, through academic appeal process\nC. Only to Registrar\nD. Only in writing to Provost",
+    "expected": "B",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nCan students appeal a final grade?\nA. No\nB. Yes, through academic appeal process\nC. Only to Registrar\nD. Only in writing to Provost\n\nYour answer: B. Yes, through academic appeal process.\n\nExplanation: Yes, through academic appeal process. The student must first discuss the matter with the instructor, and if the matter is not resolved, the student may file a written appeal with the academic dean. If the dean is unable to resolve the matter",
+    "model_choice": "B"
+  },
+  {
+    "question": "What grade must students earn in Expository Writing to fulfill the requirement?\nA. A\nB. B\nC. C\nD. D",
+    "expected": "C",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWhat grade must students earn in Expository Writing to fulfill the requirement?\nA. A\nB. B\nC. C\nD. D\n\nYour answer: D. D\n\nExplanation:What grade must students earn in Expository Writing to fulfill the requirement?\nA. A\nB. B\nC. C\nD. D\n\nYour answer: D. D\n\nExplanation:What grade must students earn in Expository Writing to fulfill",
+    "model_choice": "D"
+  },
+  {
+    "question": "How does a student join a cross-school minor?\nA. Apply via Albert\nB. Email professor\nC. Follow minor school\u2019s instructions\nD. Ask Registrar",
+    "expected": "C",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nHow does a student join a cross-school minor?\nA. Apply via Albert\nB. Email professor\nC. Follow minor school\u2019s instructions\nD. Ask Registrar\n\nYour answer: C. Follow minor school\u2019s instructions\n\nExplanation: Follow minor school\u2019s instructions\n\nNote: This question is from the Cross-School Minors section of the site. If you're seeing this message after clicking on a link to this question from another part of the site, please return",
+    "model_choice": "C"
+  }
+]

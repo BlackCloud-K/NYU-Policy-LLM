@@ -1,0 +1,116 @@
+[
+  {
+    "question": "What is the maximum number of advanced standing credits a first-year CAS student can receive?\nA. 64\nB. 128\nC. 32\nD. 16",
+    "expected": "C",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWhat is the maximum number of advanced standing credits a first-year CAS student can receive?\nA. 64\nB. 128\nC. 32\nD. 16\n\nYour answer:B. 128\n\nExplanation:The maximum number of advanced standing credits a first-year CAS student can receive is 128. Note that the limit applies to the total number of transfer and advanced placement credits earned prior to matriculation in the College of Arts and Science at NY",
+    "model_choice": "B"
+  },
+  {
+    "question": "What minimum grade is required for transfer credits to be accepted at CAS?\nA. D\nB. Pass\nC. C\nD. B",
+    "expected": "C",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWhat minimum grade is required for transfer credits to be accepted at CAS?\nA. D\nB. Pass\nC. C\nD. B\n\nYour answer: D. B\n\nFeedback: What minimum grade is required for transfer credits to be accepted at CAS?\nA. D\nB. Pass\nC. C\nD. B\n\nYour answer is correct. The minimum grade for transfer credits to be accepted at CAS is B (or its equivalent",
+    "model_choice": "D"
+  },
+  {
+    "question": "Which score is required on AP Biology to satisfy both Physical and Life Science Core requirements?\nA. 3\nB. 4\nC. 5\nD. 2",
+    "expected": "B",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWhich score is required on AP Biology to satisfy both Physical and Life Science Core requirements?\nA. 3\nB. 4\nC. 5\nD. 2\n\nYour answer: D. 2.\n\nExplanation:AP Biology satisfies one of the two required courses to fulfill the Physical and Life Science Core requirement. However, to satisfy both Core requirements, a student must earn a total of 8 AP exam scores of 3 or higher (4 if the student chooses the",
+    "model_choice": "D"
+  },
+  {
+    "question": "What is the minimum AP score required to receive credit for Calculus AB?\nA. 3\nB. 2\nC. 5\nD. 4",
+    "expected": "D",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWhat is the minimum AP score required to receive credit for Calculus AB?\nA. 3\nB. 2\nC. 5\nD. 4\n\nYour answer:D. 4\n\nExplanation:The minimum AP score required to receive credit for Calculus AB is D. 4. (AP Credit Policy, Registrar's Office, University of Waterloo)",
+    "model_choice": "D"
+  },
+  {
+    "question": "What is the minimum IB HL score accepted for CAS credit?\nA. 5\nB. 6\nC. 4\nD. 7",
+    "expected": "B",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWhat is the minimum IB HL score accepted for CAS credit?\nA. 5\nB. 6\nC. 4\nD. 7\n\nYour answer:B. 6\n\nExplanation:The minimum IB HL score accepted for CAS credit is B (6 points).",
+    "model_choice": "B"
+  },
+  {
+    "question": "Which of the following is NOT accepted for advanced standing credit at CAS?\nA. A-Level\nB. AP\nC. IB SL\nD. IB HL",
+    "expected": "C",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWhich of the following is NOT accepted for advanced standing credit at CAS?\nA. A-Level\nB. AP\nC. IB SL\nD. IB HL\n\nYour answer: A. A-Level\n\nExplanation:A. A-Level\n\nA-Level results from outside the College Board will not be accepted for advanced standing credit at CAS. (Note: A-Level results from within the College Board will be accepted; see AP below.)\n\nSo, A",
+    "model_choice": "A"
+  },
+  {
+    "question": "How many credits does a student receive for an A-Level course with a grade of B?\nA. 4\nB. 6\nC. 8\nD. 10",
+    "expected": "C",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nHow many credits does a student receive for an A-Level course with a grade of B?\nA. 4\nB. 6\nC. 8\nD. 10\n\nYour answer: B. 6\n\nExplanation:The number of credits awarded for an A-Level course with a grade of B is 6.",
+    "model_choice": "B"
+  },
+  {
+    "question": "What type of courses are not eligible for AP credit at CAS?\nA. English Literature\nB. Studio Art\nC. Psychology\nD. History",
+    "expected": "B",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWhat type of courses are not eligible for AP credit at CAS?\nA. English Literature\nB. Studio Art\nC. Psychology\nD. History\n\nYour answer: D. History\n\nExplanation:AP credit for AP History is not granted by CAS. However, A. English Literature, B. Studio Art, and C. Psychology are all eligible for AP credit at CAS.",
+    "model_choice": "D"
+  },
+  {
+    "question": "Which AP exam can exempt students from the Quantitative Reasoning requirement?\nA. Physics 1\nB. Calculus AB\nC. Environmental Science\nD. Art History",
+    "expected": "B",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWhich AP exam can exempt students from the Quantitative Reasoning requirement?\nA. Physics 1\nB. Calculus AB\nC. Environmental Science\nD. Art History\n\nYour answer: A. Physics 1\n\nExplanation:AP Exam Scores and W&M Course Equivalencies: https://www.wm.edu/as/registrar/apexams.php\n\nNote: the AP exams listed in this question are those that have been histor",
+    "model_choice": "A"
+  },
+  {
+    "question": "Who reviews non-AP/IB examination credit equivalency for maturity certificates?\nA. Registrar\nB. Dean of Admissions\nC. College Advising Center\nD. Academic Department",
+    "expected": "C",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWho reviews non-AP/IB examination credit equivalency for maturity certificates?\nA. Registrar\nB. Dean of Admissions\nC. College Advising Center\nD. Academic Department\n\nYour answer: A. Registrar.\n\nExplanation:Who reviews non-AP/IB examination credit equivalency for maturity certificates? A. Registrar.\n\nSource: University of Georgia, Academic Calendar 2021-2022, Credit by Examination, p",
+    "model_choice": "A"
+  },
+  {
+    "question": "Which AP score is needed on AP Physics C\u2014Mechanics to get PHYS-UA 11 equivalency?\nA. 3\nB. 2\nC. 4\nD. None",
+    "expected": "C",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWhich AP score is needed on AP Physics C\u2014Mechanics to get PHYS-UA 11 equivalency?\nA. 3\nB. 2\nC. 4\nD. None\n\nYour answer: D. None.\n\nExplanation:\nNone.\n\nReference(s):\nPHYS-UA 11 Equivalency Requirements\nAP Exam Scores (Minimum)\nPhysics C: Mechanics, Physics C: Electricity and Magnetism, and",
+    "model_choice": "D"
+  },
+  {
+    "question": "How many points does an IB HL Psychology score of 7 earn?\nA. 6\nB. 4\nC. 8\nD. None",
+    "expected": "C",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nHow many points does an IB HL Psychology score of 7 earn?\nA. 6\nB. 4\nC. 8\nD. None\n\nYour answer: C. 8\n\nExplanation:An IB HL Psychology score of 7 earns 8 points.",
+    "model_choice": "C"
+  },
+  {
+    "question": "How does NYU CAS treat AP English Language for credit purposes?\nA. Grants elective credit\nB. No credit awarded\nC. Exempts Writing I\nD. Transfers as WREX-UF 101",
+    "expected": "B",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nHow does NYU CAS treat AP English Language for credit purposes?\nA. Grants elective credit\nB. No credit awarded\nC. Exempts Writing I\nD. Transfers as WREX-UF 101\n\nYour answer: A. Grants elective credit.\n\nExplanation:\nAP English Language is treated as an elective credit in CAS. Note that this credit does not count toward the College Core Curriculum requirements, but it can be used to satisfy the 128-credit degree requirement. Also,",
+    "model_choice": "A"
+  },
+  {
+    "question": "How many AP points can be counted toward the CAS Politics major?\nA. 0\nB. 4\nC. 8\nD. 12",
+    "expected": "C",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nHow many AP points can be counted toward the CAS Politics major?\nA. 0\nB. 4\nC. 8\nD. 12\n\nYour answer: C. 8.\n\nExplanation:AP points can count for 2 Politics elective courses (4 points each) towards the CAS Politics major.",
+    "model_choice": "C"
+  },
+  {
+    "question": "What is the prerequisite SAT Math score for enrolling in MATH-UA 121?\nA. 600\nB. 670\nC. 710\nD. 720",
+    "expected": "B",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWhat is the prerequisite SAT Math score for enrolling in MATH-UA 121?\nA. 600\nB. 670\nC. 710\nD. 720\n\nYour answer: D. 720.\n\nExplanation: The prerequisite SAT Math score for enrolling in MATH-UA 121 is 720. Therefore, the answer is D.",
+    "model_choice": "D"
+  },
+  {
+    "question": "Which of the following does NOT satisfy the Core Foreign Language requirement?\nA. AP French with 4\nB. IB HL Spanish B with 6\nC. A-Level German with B\nD. SAT Subject Test in English",
+    "expected": "D",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWhich of the following does NOT satisfy the Core Foreign Language requirement?\nA. AP French with 4\nB. IB HL Spanish B with 6\nC. A-Level German with B\nD. SAT Subject Test in English\n\nYour answer: D. SAT Subject Test in English.\n\nExplanation:\nThe Core Foreign Language requirement can be satisfied in several ways, including AP exams, IB exams, A-Level exams, and other standardized exams approved by the College Board (such as the SAT Subject Test in",
+    "model_choice": "D"
+  },
+  {
+    "question": "What is the required minimum grade for A-Level exams to earn credit?\nA. A\nB. C\nC. D\nD. B",
+    "expected": "D",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWhat is the required minimum grade for A-Level exams to earn credit?\nA. A\nB. C\nC. D\nD. B\n\nYour answer: D. B\n\nExplanation:The required minimum grade for A-Level exams to earn credit is D. However, the minimum grade for some specific courses may be higher than D. Therefore, students should consult with the Registrar's Office to confirm the minimum grade requirement for the specific A-",
+    "model_choice": "D"
+  },
+  {
+    "question": "Which AP exam awards 8 credits and satisfies both BIOL-UA 11 and 12?\nA. Chemistry\nB. Physics C\nC. Biology\nD. Statistics",
+    "expected": "C",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWhich AP exam awards 8 credits and satisfies both BIOL-UA 11 and 12?\nA. Chemistry\nB. Physics C\nC. Biology\nD. Statistics\n\nYour answer:C. Biology\n\nExplanation:A. Chemistry\nAward 4 credits, satisfies BIOL-UA 11 but not 12\nB. Physics C\nAward 4 credits, satisfies BIOL-UA 11 but not 12\nC",
+    "model_choice": "C"
+  },
+  {
+    "question": "To transfer to CAS, courses must have been completed within how many years?\nA. 5\nB. 10\nC. 7\nD. 15",
+    "expected": "B",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nTo transfer to CAS, courses must have been completed within how many years?\nA. 5\nB. 10\nC. 7\nD. 15\n\nYour answer: A. 5\n\nExplanation:A. 5\n\nTo transfer to CAS, courses must have been completed within how many years?\nA. 5\nB. 10\nC. 7\nD. 15\n\nAnswer: A. 5",
+    "model_choice": "A"
+  }
+]

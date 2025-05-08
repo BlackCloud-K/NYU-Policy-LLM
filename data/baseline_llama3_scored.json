@@ -1,0 +1,146 @@
+[
+  {
+    "input": "What GPA is required to graduate from CAS?",
+    "expected_output": "2.0 cumulative GPA",
+    "model_output": "1.7 GPA",
+    "bertscore_f1": 0.8658
+  },
+  {
+    "input": "What GPA is needed to be on the Dean\u2019s Honors List?",
+    "expected_output": "3.65 or higher in at least 28 graded points, with no Incomplete grades",
+    "model_output": "To be on the Dean\u2019s Honors List, a student must have a 3.5 or better GPA.",
+    "bertscore_f1": 0.6986
+  },
+  {
+    "input": "What GPA is required to graduate with departmental honors?",
+    "expected_output": "3.65 overall and in the major",
+    "model_output": "A 3.5 GPA in major courses is required to graduate with departmental honors. A GPA of 3.0 is required for graduation.",
+    "bertscore_f1": 0.6085
+  },
+  {
+    "input": "How many total credits are required to graduate from CAS?",
+    "expected_output": "128 credits",
+    "model_output": "A total of 120 credits are required to graduate from CAS.",
+    "bertscore_f1": 0.6469
+  },
+  {
+    "input": "How many CAS credits must be completed in residence?",
+    "expected_output": "At least 64 CAS credits",
+    "model_output": "The student must complete a minimum of 12 CAS credits in residence.",
+    "bertscore_f1": 0.7464
+  },
+  {
+    "input": "How many of the last credits must be completed at CAS?",
+    "expected_output": "The last 32 points must be completed in the College",
+    "model_output": "20 credits\n\nExplanation: The CAS component of the Honours BSc in Computer Science requires completion of 20 credits of Computer Science courses at the 400 level or above.\n\nThis includes:\n\n\u2022 COMP 481 (4 credits)\n\u2022 COMP 491 (4 credits)\n\u2022 At least 12 additional credits of Computer",
+    "bertscore_f1": 0.6598
+  },
+  {
+    "input": "How many credits can be transferred into CAS?",
+    "expected_output": "Up to 64 credits",
+    "model_output": "60 credits.\n\nThe maximum number of credits that can be transferred into CAS is 60 credits.\n\n60 credits is the equivalent of two years of full-time study.",
+    "bertscore_f1": 0.6236
+  },
+  {
+    "input": "What is the minimum grade required for transfer credit?",
+    "expected_output": "C or better",
+    "model_output": "A grade of \u201cC\u201d or better is required for transfer credit.",
+    "bertscore_f1": 0.6303
+  },
+  {
+    "input": "Can pass/fail transfer credits count toward the degree?",
+    "expected_output": "No, pass/fail transfer credits are not accepted",
+    "model_output": "A pass/fail credit is a course in which a student can earn a letter grade (A, B, C, D, F) or a pass or fail grade.\n\nAnswer the",
+    "bertscore_f1": 0.6922
+  },
+  {
+    "input": "How are Latin honors determined at CAS?",
+    "expected_output": "Based on GPA percentiles of the previous year\u2019s graduates",
+    "model_output": "Latin honors are determined by your GPA. There are three types of honors: summa cum laude (GPA of 3.9 or above), magna cum laude (GPA of 3.7 to 3.89), and cum laude (GPA of 3.5 to 3",
+    "bertscore_f1": 0.6069
+  },
+  {
+    "input": "What is required to complete departmental honors?",
+    "expected_output": "Completion of a two-semester research thesis and 3.65 GPA",
+    "model_output": "To complete departmental honors, a student must:\n\n\u2022 Have an overall GPA of 3.2 or higher\n\u2022 Have a GPA of 3.5 or higher in the major\n\u2022 Complete a senior project or thesis, which must be completed under the direction of a faculty member in the department.\u00a0 (",
+    "bertscore_f1": 0.6665
+  },
+  {
+    "input": "What is Phi Beta Kappa?",
+    "expected_output": "An honorary society recognizing excellence in the liberal arts and sciences",
+    "model_output": "Phi Beta Kappa (\u03a6\u0392\u039a) is an academic honor society. Its mission is \"to champion education in the liberal arts and sciences, to recognize academic excellence, and to advocate for higher education in the United States.\" The organization was founded at the College of William & Mary in 1776, and is the",
+    "bertscore_f1": 0.7445
+  },
+  {
+    "input": "What is the maximum number of credits allowed per semester without special permission?",
+    "expected_output": "18 points",
+    "model_output": "Students are allowed to take a maximum of 19 credits per semester. Students who wish to take more than 19 credits per semester must receive special permission from the Registrar's Office.",
+    "bertscore_f1": 0.5881
+  },
+  {
+    "input": "When is the last day to add a course?",
+    "expected_output": "By the end of the second week of the semester",
+    "model_output": "The last day to add a course is the last day of the second week of classes, which is the Friday of the second week of classes.",
+    "bertscore_f1": 0.7718
+  },
+  {
+    "input": "When can a course be dropped without appearing on the transcript?",
+    "expected_output": "During the first two weeks of the semester",
+    "model_output": "A student can drop a course without having it appear on their transcript by the last day to add a course during the semester in which they are enrolled.",
+    "bertscore_f1": 0.6847
+  },
+  {
+    "input": "What grade is assigned when a student withdraws after the second week?",
+    "expected_output": "W (Withdrawn)",
+    "model_output": "W\n\nExplanation: If a student withdraws from a course before the end of the second week, the grade is assigned as W.",
+    "bertscore_f1": 0.6335
+  },
+  {
+    "input": "When must CAS students declare a major?",
+    "expected_output": "Before reaching 64 credits",
+    "model_output": "CAS students must declare a major by the end of their sophomore year.",
+    "bertscore_f1": 0.6001
+  },
+  {
+    "input": "Can CAS students double major?",
+    "expected_output": "Yes, but only up to two courses may be double-counted",
+    "model_output": "Yes, students can double major at CAS. In fact, 16% of our students double major. Some examples of double majors include: 1) Mathematics and Physics, 2) Chemistry and Biochemistry, 3) Biology and Environmental Science, 4) Biochemistry and Molecular Biology, and 5)",
+    "bertscore_f1": 0.6363
+  },
+  {
+    "input": "What is the policy on triple-counting courses?",
+    "expected_output": "Courses may not be triple-counted under any circumstances",
+    "model_output": "Triple-counting courses are permitted for students who are majoring in more than one department. This is a way for students to take more than the required amount of courses in a major, without having to take a minor.",
+    "bertscore_f1": 0.7004
+  },
+  {
+    "input": "How can a student request a leave of absence?",
+    "expected_output": "By meeting with a CAS advisor and submitting a leave request",
+    "model_output": "Students can request a leave of absence for a variety of reasons, such as health or family emergencies. To request a leave of absence, students should contact their academic advisor or the Office of the Registrar. The student will need to provide documentation of the reason for the leave, such as a medical note or proof of a family",
+    "bertscore_f1": 0.6841
+  },
+  {
+    "input": "Can students register at another university while enrolled in CAS?",
+    "expected_output": "No, concurrent enrollment is not allowed",
+    "model_output": "No. CAS students may not register at another university while enrolled in CAS.\n\n## Categories\n\n*   [General Questions](categories/107/general-questions)\n*   [CAS 101](categories/109/cas-101)\n*   [CAS 201](categories/110/cas-201)\n*   [",
+    "bertscore_f1": 0.6183
+  },
+  {
+    "input": "What happens if an Incomplete grade is not resolved?",
+    "expected_output": "It becomes an F and is calculated into the GPA",
+    "model_output": "An incomplete grade will become a failing grade if not resolved within the specified time period.",
+    "bertscore_f1": 0.6754
+  },
+  {
+    "input": "How many courses can a student repeat during their undergraduate career?",
+    "expected_output": "Up to two courses",
+    "model_output": "A student may repeat a course for a maximum of two times.",
+    "bertscore_f1": 0.704
+  },
+  {
+    "input": "What grades are not counted in the GPA?",
+    "expected_output": "P (Pass), W (Withdrawn), and R (Registered/Audit)",
+    "model_output": "The grades for all courses taken at any university other than UBC.\n\nThe grades for all courses taken as part of a special program, including the First Year Special Program, the First Year Science Program, the First Year Engineering Program, the First Year Science Co-op Program, the First Year Engineering Co-op Program, the First",
+    "bertscore_f1": 0.5723
+  }
+]

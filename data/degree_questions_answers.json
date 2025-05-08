@@ -1,0 +1,122 @@
+[
+  {
+    "question": "How many total credits are required for graduation in CAS?\nA. 64\nB. 96\nC. 128\nD. 144",
+    "expected": "C",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nHow many total credits are required for graduation in CAS?\nA. 64\nB. 96\nC. 128\nD. 144\n\nYour answer: C. 128\n\nFeedback: The College of Arts and Sciences (CAS) at the University of Delaware requires a minimum of 128 credits for graduation. These credits include major requirements, University and College requirements, and electives. The 128-credit minimum",
+    "model_choice": "C"
+  },
+  {
+    "question": "How many points must be completed in residence (CAS coursework) to earn a CAS degree?\nA. 32\nB. 64\nC. 96\nD. 128",
+    "expected": "B",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nHow many points must be completed in residence (CAS coursework) to earn a CAS degree?\nA. 32\nB. 64\nC. 96\nD. 128\n\nYour answer: C. 96.\n\nExplanation:\nTo earn a CAS degree, students must complete 16 courses (or the equivalent points) in residence (CAS coursework). Each course is typically worth 4 points, so students must complete 32 points worth of coursework in total",
+    "model_choice": "C"
+  },
+  {
+    "question": "What is the minimum GPA required to graduate from CAS?\nA. 1.5\nB. 2.0\nC. 2.5\nD. 3.0",
+    "expected": "B",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWhat is the minimum GPA required to graduate from CAS?\nA. 1.5\nB. 2.0\nC. 2.5\nD. 3.0\n\nYour answer: B. 2.0\n\nExplanation:\nThe minimum GPA required to graduate from CAS is 2.0.",
+    "model_choice": "B"
+  },
+  {
+    "question": "At least how much of a student's major must be completed in the College of Arts and Science?\nA. One-fourth\nB. One-third\nC. One-half\nD. All",
+    "expected": "C",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nAt least how much of a student's major must be completed in the College of Arts and Science?\nA. One-fourth\nB. One-third\nC. One-half\nD. All\n\nYour answer: D. All.\n\nExplanation:At least all of a student's major must be completed in the College of Arts and Science.",
+    "model_choice": "D"
+  },
+  {
+    "question": "What is the time limit to complete all requirements for a degree in CAS?\nA. 4 years\nB. 6 years\nC. 8 years\nD. No limit",
+    "expected": "C",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWhat is the time limit to complete all requirements for a degree in CAS?\nA. 4 years\nB. 6 years\nC. 8 years\nD. No limit\n\nYour answer: B. 6 years",
+    "model_choice": "B"
+  },
+  {
+    "question": "Which of the following counts toward the 64-point CAS residency requirement?\nA. NYU Abu Dhabi courses\nB. NYU Shanghai courses\nC. -UA study away courses\nD. Courses from any NYU division",
+    "expected": "C",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWhich of the following counts toward the 64-point CAS residency requirement?\nA. NYU Abu Dhabi courses\nB. NYU Shanghai courses\nC. -UA study away courses\nD. Courses from any NYU division\n\nYour answer: D. Courses from any NYU division\n\nExplanation:The 64-point College of Arts and Science (CAS) residency requirement applies to courses taken at the College of Arts and Science (CAS) of New York University (NYU) in New York. However, as stated",
+    "model_choice": "D"
+  },
+  {
+    "question": "What is the policy on registering as a major?\nA. Must be declared upon admission\nB. Must be declared before graduation\nC. Must be declared upon earning 64 credits\nD. Must be declared after taking 3 major courses",
+    "expected": "C",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWhat is the policy on registering as a major?\nA. Must be declared upon admission\nB. Must be declared before graduation\nC. Must be declared upon earning 64 credits\nD. Must be declared after taking 3 major courses\n\nYour answer: A. Must be declared upon admission.\n\nExplanation: A. Must be declared upon admission.\n\nAnswer: A. Must be declared upon admission.\n\nExplanation: A. Must be declared upon admission.\n\nMajor requirements must be declared at the time of admission to the",
+    "model_choice": "A"
+  },
+  {
+    "question": "To complete a major, what is the minimum GPA required in that major?\nA. 1.5\nB. 2.0\nC. 2.5\nD. 3.0",
+    "expected": "B",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nTo complete a major, what is the minimum GPA required in that major?\nA. 1.5\nB. 2.0\nC. 2.5\nD. 3.0\n\nYour answer:B. 2.0\n\nExplanation:\nTo complete a major, what is the minimum GPA required in that major?\nA. 1.5\nB. 2.0\nC. 2.5\nD. 3.0\n\nAnswer:B.",
+    "model_choice": "B"
+  },
+  {
+    "question": "What is the required minimum GPA for completing a minor?\nA. 1.5\nB. 2.0\nC. 2.5\nD. 3.0",
+    "expected": "B",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWhat is the required minimum GPA for completing a minor?\nA. 1.5\nB. 2.0\nC. 2.5\nD. 3.0\n\nYour answer: B. 2.0.\n\nExplanation:The required minimum GPA for completing a minor is 2.0.",
+    "model_choice": "B"
+  },
+  {
+    "question": "Which of the following statements is true about major courses taken outside NYU?\nA. They are accepted automatically\nB. They must be pre-approved by the Registrar\nC. They are not accepted\nD. They require a waiver",
+    "expected": "C",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWhich of the following statements is true about major courses taken outside NYU?\nA. They are accepted automatically\nB. They must be pre-approved by the Registrar\nC. They are not accepted\nD. They require a waiver\n\nYour answer: B. They must be pre-approved by the Registrar.\n\nExplanation: Major courses taken outside of NYU must be pre-approved by the Registrar. This means that students cannot simply transfer the courses into their NYU transcript without some form of review and approval. The",
+    "model_choice": "B"
+  },
+  {
+    "question": "When are degrees conferred by the university?\nA. Only in May\nB. In May and December\nC. In September, January, and May\nD. Every month",
+    "expected": "C",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWhen are degrees conferred by the university?\nA. Only in May\nB. In May and December\nC. In September, January, and May\nD. Every month\n\nYour answer: B. In May and December.\n\nExplanation: Degrees are conferred in May and December.\n\nNote: Please review the grading deadlines page for specific date deadlines. Also, students who have graduation application approved after the deadline for conferral of degrees may need to wait until the",
+    "model_choice": "B"
+  },
+  {
+    "question": "What grade must be earned to count a course toward a major or minor?\nA. D or better\nB. C or better\nC. C- or better\nD. B or better",
+    "expected": "B",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWhat grade must be earned to count a course toward a major or minor?\nA. D or better\nB. C or better\nC. C- or better\nD. B or better\n\nYour answer: B. C or better.\n\n[Explanation] The grade required to count a course toward a major or minor at most colleges and universities is C or better. This is because a major or minor represents a focused area of study, and a C or better grade indicates that the student has acquired a sufficient understanding",
+    "model_choice": "B"
+  },
+  {
+    "question": "Can Pass/Fail courses be counted toward a major or minor?\nA. Yes, with approval\nB. No\nC. Only for minors\nD. Only for double majors",
+    "expected": "B",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nCan Pass/Fail courses be counted toward a major or minor?\nA. Yes, with approval\nB. No\nC. Only for minors\nD. Only for double majors\n\nYour answer: A. Yes, with approval.\n\nExplanation:\nYes, Pass/Fail courses can be counted toward a major or minor with approval from the department or program. The approval process varies among departments and programs, so students should consult with their academic advisors to determine the specific requirements for their major or minor",
+    "model_choice": "A"
+  },
+  {
+    "question": "How many non-CAS NYU courses may count toward a CAS major for first-year matriculants?\nA. 0\nB. 1\nC. 2\nD. Unlimited",
+    "expected": "C",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nHow many non-CAS NYU courses may count toward a CAS major for first-year matriculants?\nA. 0\nB. 1\nC. 2\nD. Unlimited\n\nYour answer: A. 0\n\nExplanation:How many non-CAS NYU courses may count toward a CAS major for first-year matriculants?\nA. 0\nB. 1\nC. 2\nD. Unlimited\n\nAnswer: A. 0",
+    "model_choice": "A"
+  },
+  {
+    "question": "What must a transfer student complete to meet the CAS degree requirements?\nA. 128 points total, 64 in CAS courses\nB. 64 points total, 32 in CAS courses\nC. 128 points total, 64 in non-CAS courses\nD. 96 points total, all in CAS",
+    "expected": "A",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWhat must a transfer student complete to meet the CAS degree requirements?\nA. 128 points total, 64 in CAS courses\nB. 64 points total, 32 in CAS courses\nC. 128 points total, 64 in non-CAS courses\nD. 96 points total, all in CAS\n\nYour answer: A. 128 points total, 64 in CAS courses.\n\nExplanation: A transfer student must complete a minimum of 128 points to earn a bachelor's degree from the College of Arts and Science. Of these 128 points, 64 points",
+    "model_choice": "A"
+  },
+  {
+    "question": "What GPA must be maintained for a double major?\nA. 1.5\nB. 2.0\nC. 2.5\nD. 3.0",
+    "expected": "B",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWhat GPA must be maintained for a double major?\nA. 1.5\nB. 2.0\nC. 2.5\nD. 3.0\n\nYour answer: D. 3.0.\n\nExplanation: A double major requires a minimum GPA of 3.0.",
+    "model_choice": "D"
+  },
+  {
+    "question": "How many shared courses can be double-counted between two majors?\nA. 0\nB. 1\nC. 2\nD. 3",
+    "expected": "C",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nHow many shared courses can be double-counted between two majors?\nA. 0\nB. 1\nC. 2\nD. 3\n\nYour answer: A. 0\n\nExplanation:\nHow many shared courses can be double-counted between two majors?\nA. 0\n\nAnswer: A. 0\n\nExplanation:\nHow many shared courses can be double-counted between two majors?\nA",
+    "model_choice": "A"
+  },
+  {
+    "question": "What is the minimum number of points students must complete in their final term at CAS?\nA. 16\nB. 32\nC. 48\nD. 64",
+    "expected": "B",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWhat is the minimum number of points students must complete in their final term at CAS?\nA. 16\nB. 32\nC. 48\nD. 64\n\nYour answer: C. 48.\n\nExplanation:The minimum number of points students must complete in their final term at CAS is 48.",
+    "model_choice": "C"
+  },
+  {
+    "question": "When must students be registered in CAS to graduate?\nA. Two semesters before graduation\nB. Any time before graduation\nC. The semester prior to graduation\nD. After completing 128 credits",
+    "expected": "C",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWhen must students be registered in CAS to graduate?\nA. Two semesters before graduation\nB. Any time before graduation\nC. The semester prior to graduation\nD. After completing 128 credits\n\nYour answer: B. Any time before graduation.\n\nExplanation: Any time before graduation. Students should be registered in CAS to graduate. This means that if a student is transferring in for their final year/semester, they should be registered in CAS. If a student is graduating after",
+    "model_choice": "B"
+  },
+  {
+    "question": "Which office handles petitions for exceptions to degree requirements?\nA. Registrar\nB. Dean of Students\nC. Committee on Undergraduate Academic Standards\nD. Department Chair",
+    "expected": "C",
+    "model_output": "Answer the following multiple choice question by selecting A, B, C, or D only.\n\nWhich office handles petitions for exceptions to degree requirements?\nA. Registrar\nB. Dean of Students\nC. Committee on Undergraduate Academic Standards\nD. Department Chair\n\nYour answer: A. Registrar.\n\nExplanation:Petitions for exceptions to degree requirements should be filed with the Registrar's Office. If the Registrar determines that the petition raises complex academic issues, the petition may be referred to the Committee on Undergraduate Academic Standards for review. The",
+    "model_choice": "A"
+  }
+]

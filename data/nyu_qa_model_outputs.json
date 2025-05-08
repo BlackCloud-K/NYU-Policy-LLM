@@ -1,0 +1,146 @@
+[
+  {
+    "instruction": "Answer the following question briefly and factually.",
+    "input": "What GPA is required to graduate from CAS?",
+    "expected_output": "2.0 cumulative GPA",
+    "model_output": "To graduate from the College of Arts and Sciences (CAS), students must have a minimum cumulative grade point average (GPA) of 2.0. However, for graduation with honors, students must have a minimum GPA of 3.5. The GPA is calculated based on all courses"
+  },
+  {
+    "instruction": "Answer the following question briefly and factually.",
+    "input": "What GPA is needed to be on the Dean\u2019s Honors List?",
+    "expected_output": "3.65 or higher in at least 28 graded points, with no Incomplete grades",
+    "model_output": "To be on the Dean\u2019s Honors List, a student must maintain a minimum grade point average of 3.50 for the semester and for the cumulative grade point average for the student's academic career at the University of Miami."
+  },
+  {
+    "instruction": "Answer the following question briefly and factually.",
+    "input": "What GPA is required to graduate with departmental honors?",
+    "expected_output": "3.65 overall and in the major",
+    "model_output": "To graduate with departmental honors, a student must have a minimum cumulative grade point average of 3.50 at the time of graduation. This requirement applies to all students in the College of Liberal Arts who are seeking a bachelor's degree. The College of Liberal Arts requires a minimum cumulative"
+  },
+  {
+    "instruction": "Answer the following question briefly and factually.",
+    "input": "How many total credits are required to graduate from CAS?",
+    "expected_output": "128 credits",
+    "model_output": "To graduate from the College of Arts and Sciences (CAS), a student must complete a minimum of 128 credits (128 credit hours) that meet the following requirements:\n\n1. General Education Requirements: A minimum of 40 credits (40 credit hours) in the"
+  },
+  {
+    "instruction": "Answer the following question briefly and factually.",
+    "input": "How many CAS credits must be completed in residence?",
+    "expected_output": "At least 64 CAS credits",
+    "model_output": "Students must complete a minimum of 32 credits in residence at the College. These 32 credits must include a minimum of 16 points from courses numbered 20 or higher (i.e., the equivalent of four courses), and a minimum of two courses in each of the College'"
+  },
+  {
+    "instruction": "Answer the following question briefly and factually.",
+    "input": "How many of the last credits must be completed at CAS?",
+    "expected_output": "The last 32 points must be completed in the College",
+    "model_output": "Students must complete a minimum of 16 credits in courses offered by the College of Arts and Science (CAS) during their final two semesters of study. These last 16 credits must be completed at CAS. Students may not take these courses in other schools or divisions of the University."
+  },
+  {
+    "instruction": "Answer the following question briefly and factually.",
+    "input": "How many credits can be transferred into CAS?",
+    "expected_output": "Up to 64 credits",
+    "model_output": "A maximum of 64 credits can be transferred into the College of Arts and Sciences (CAS) from another accredited college or university. The 64 credits can be a combination of transfer courses and AP exam scores. However, students must complete at least 32 credits (16 courses)"
+  },
+  {
+    "instruction": "Answer the following question briefly and factually.",
+    "input": "What is the minimum grade required for transfer credit?",
+    "expected_output": "C or better",
+    "model_output": "The minimum grade required for transfer credit is a C or better.\n\nGrades below a C, as well as incompletes and withdrawals, are not acceptable for transfer.\n\nNote: Some programs and courses have higher grade requirements for transfer credit, so it's always a good idea to check"
+  },
+  {
+    "instruction": "Answer the following question briefly and factually.",
+    "input": "Can pass/fail transfer credits count toward the degree?",
+    "expected_output": "No, pass/fail transfer credits are not accepted",
+    "model_output": "Yes, pass/fail transfer credits can count toward the degree requirements, provided that the student's academic program and the Registrar's Office have approved the transfer of those credits. However, some majors and minors have specific course requirements that must be completed with a letter grade. Students should consult with"
+  },
+  {
+    "instruction": "Answer the following question briefly and factually.",
+    "input": "How are Latin honors determined at CAS?",
+    "expected_output": "Based on GPA percentiles of the previous year\u2019s graduates",
+    "model_output": "Latin honors are determined based on a student's cumulative grade point average (GPA) at the time of graduation. The minimum GPAs required for each honor level are:\n\n- Cum Laude: 3.50\n- Magna Cum Laude: 3"
+  },
+  {
+    "instruction": "Answer the following question briefly and factually.",
+    "input": "What is required to complete departmental honors?",
+    "expected_output": "Completion of a two-semester research thesis and 3.65 GPA",
+    "model_output": "To complete departmental honors, a student must complete a senior thesis or project, present the results of the research orally to the department, and write a formal research paper. The student must also maintain a 3.50 cumulative grade point average throughout their academic career. The departmental honors program is"
+  },
+  {
+    "instruction": "Answer the following question briefly and factually.",
+    "input": "What is Phi Beta Kappa?",
+    "expected_output": "An honorary society recognizing excellence in the liberal arts and sciences",
+    "model_output": "Phi Beta Kappa (PBK) is the oldest and most prestigious all-disciplines academic honor society in the United States. It was founded on December 3, 1776, at the College of William & Mary in Williamsburg, Virginia. The Society's motto is"
+  },
+  {
+    "instruction": "Answer the following question briefly and factually.",
+    "input": "What is the maximum number of credits allowed per semester without special permission?",
+    "expected_output": "18 points",
+    "model_output": "The maximum number of credits allowed per semester without special permission is 18. Students who need to register for more than 18 credits per semester must obtain approval from the Office of the University Registrar. Students in the School of Engineering and Applied Science may register for up to 21"
+  },
+  {
+    "instruction": "Answer the following question briefly and factually.",
+    "input": "When is the last day to add a course?",
+    "expected_output": "By the end of the second week of the semester",
+    "model_output": "The last day to add a course varies by semester and is posted on the academic calendar. Students are encouraged to register for courses as early as possible to ensure a seat and to ensure that they are enrolled in the correct number of credits for financial aid purposes. Students who are unable to register for a course during the"
+  },
+  {
+    "instruction": "Answer the following question briefly and factually.",
+    "input": "When can a course be dropped without appearing on the transcript?",
+    "expected_output": "During the first two weeks of the semester",
+    "model_output": "A student may drop a course during the first 10 days of the term without it appearing on the transcript. After the 10th day, a student may drop or withdraw from a course, but the grade will appear on the transcript. The grade of W will not affect the student's grade"
+  },
+  {
+    "instruction": "Answer the following question briefly and factually.",
+    "input": "What grade is assigned when a student withdraws after the second week?",
+    "expected_output": "W (Withdrawn)",
+    "model_output": "A grade of W (withdraw) is assigned when a student officially withdraws from a course after the second week of the semester. The grade of W does not affect the student's grade point average. If a student stops attending a course without officially withdrawing, the grade of F (failing)"
+  },
+  {
+    "instruction": "Answer the following question briefly and factually.",
+    "input": "When must CAS students declare a major?",
+    "expected_output": "Before reaching 64 credits",
+    "model_output": "Students in the College Academic Society (CAS) are required to declare a major by the end of their sophomore year. This requirement is outlined in the CAS Handbook, which is available on the CAS website and provided to all new members during the mandatory orientation session held at the beginning of"
+  },
+  {
+    "instruction": "Answer the following question briefly and factually.",
+    "input": "Can CAS students double major?",
+    "expected_output": "Yes, but only up to two courses may be double-counted",
+    "model_output": "Yes, students in the College of Arts and Sciences (CAS) can double major. The College of Arts and Sciences allows students to pursue a second major in any of the undergraduate degree-granting schools and colleges at the University of Pittsburgh. Students should consult with both departments to ensure that the requirements for"
+  },
+  {
+    "instruction": "Answer the following question briefly and factually.",
+    "input": "What is the policy on triple-counting courses?",
+    "expected_output": "Courses may not be triple-counted under any circumstances",
+    "model_output": "Triple-counting of courses is not allowed in the MBA program. This means that a course cannot be used to satisfy requirements in more than one of the following degree requirements: the functional area requirements, the global business requirement, and the elective requirement. Additionally, courses taken prior to matriculation in the"
+  },
+  {
+    "instruction": "Answer the following question briefly and factually.",
+    "input": "How can a student request a leave of absence?",
+    "expected_output": "By meeting with a CAS advisor and submitting a leave request",
+    "model_output": "A student who wishes to request a leave of absence must submit a written request to the Office of the University Registrar. The request should include the reason for the leave, the proposed duration, and the student's plan for completing any missed coursework. The leave of absence may be granted for up to one academic"
+  },
+  {
+    "instruction": "Answer the following question briefly and factually.",
+    "input": "Can students register at another university while enrolled in CAS?",
+    "expected_output": "No, concurrent enrollment is not allowed",
+    "model_output": "Students cannot register at another university while enrolled in CAS. The College accepts students who wish to pursue a full-time program of study in the College. Students who wish to take courses at another university while enrolled in CAS must apply for and be granted permission from the Office of the Dean of Students."
+  },
+  {
+    "instruction": "Answer the following question briefly and factually.",
+    "input": "What happens if an Incomplete grade is not resolved?",
+    "expected_output": "It becomes an F and is calculated into the GPA",
+    "model_output": "An Incomplete grade may be given to a student who, because of illness or other circumstances beyond his/her control, is unable to complete the course requirements at the end of the semester. The Incomplete grade must be removed within one year or it will automatically convert to an F. The student and the instructor must"
+  },
+  {
+    "instruction": "Answer the following question briefly and factually.",
+    "input": "How many courses can a student repeat during their undergraduate career?",
+    "expected_output": "Up to two courses",
+    "model_output": "A student can repeat a course up to two times in their undergraduate career, with the exception of certain math and science courses that may be repeated up to a total of four times. The repeated course grades will be included in the student's cumulative grade point average (GPA). However, if a student repe"
+  },
+  {
+    "instruction": "Answer the following question briefly and factually.",
+    "input": "What grades are not counted in the GPA?",
+    "expected_output": "P (Pass), W (Withdrawn), and R (Registered/Audit)",
+    "model_output": "Grades that are not included in the calculation of the GPA include those earned in developmental/remedial courses, as well as any grades earned prior to the student's matriculation in a degree-seeking program. Some institutions may also exclude grades earned in pass/fail or satisfactory/uns"
+  }
+]
