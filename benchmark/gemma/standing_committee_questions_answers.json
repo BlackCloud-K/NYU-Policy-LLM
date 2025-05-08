@@ -1,0 +1,122 @@
+[
+  {
+    "question": "Which committee is responsible for reviewing promotion and tenure cases?\nA. Advisory Committee on Promotion and Tenure\nB. Committee on Student Discipline\nC. Committee on Undergraduate Curriculum\nD. Committee on Nominations and Elections",
+    "expected": "A",
+    "model_output": "**A. Advisory Committee on Promotion and Tenure**\n\nThe Advisory Committee on Promotion and Tenure is responsible for reviewing promotion and tenure cases and making recommendations to the appropriate authorities.",
+    "model_choice": "A"
+  },
+  {
+    "question": "How many tenured faculty members are elected to the Committee on Student Discipline?\nA. 3\nB. 6\nC. 9\nD. 12",
+    "expected": "C",
+    "model_output": "**B.**\n\nThe Committee on Student Discipline consists of six tenured faculty members elected by the faculty.",
+    "model_choice": "B"
+  },
+  {
+    "question": "Which committee includes three undergraduate student representatives?\nA. Graduate Curriculum Committee\nB. Committee on Undergraduate Curriculum\nC. Committee on Policy and Planning\nD. Committee on Student Discipline",
+    "expected": "B",
+    "model_output": "**B. Committee on Undergraduate Curriculum**\n\nThe Committee on Undergraduate Curriculum includes three undergraduate student representatives.",
+    "model_choice": "B"
+  },
+  {
+    "question": "Who elects the faculty members of the CAS standing committees?\nA. CAS Dean\nB. Department chairs\nC. CAS faculty\nD. CAS Senate",
+    "expected": "C",
+    "model_output": "**C. CAS faculty**\n\nCAS faculty members elect the faculty members of the CAS standing committees.",
+    "model_choice": "A"
+  },
+  {
+    "question": "What is the typical term length for CAS standing committee members?\nA. 1 year\nB. 2 years\nC. 3 years\nD. 5 years",
+    "expected": "C",
+    "model_output": "**The answer is C.**\n\nCAS standing committee members typically serve a term length of 3 years.",
+    "model_choice": "A"
+  },
+  {
+    "question": "Which committee provides advice on curriculum and graduation requirements?\nA. Committee on Student Discipline\nB. Committee on Undergraduate Curriculum\nC. Advisory Committee on Promotion and Tenure\nD. Committee on Grievance",
+    "expected": "B",
+    "model_output": "**B. Committee on Undergraduate Curriculum**\n\nThe Committee on Undergraduate Curriculum is responsible for providing advice on curriculum and graduation requirements.",
+    "model_choice": "B"
+  },
+  {
+    "question": "What is the main function of the Committee on Student Discipline?\nA. Handle financial aid appeals\nB. Review academic misconduct\nC. Propose new majors\nD. Approve study abroad requests",
+    "expected": "B",
+    "model_output": "**B. Review academic misconduct**\n\nThe Committee on Student Discipline is responsible for reviewing allegations of academic misconduct and determining appropriate sanctions.",
+    "model_choice": "B"
+  },
+  {
+    "question": "Who appoints members to the Committee on Grievance?\nA. Faculty vote\nB. Dean\nC. Nominations Committee\nD. Department Chairs",
+    "expected": "C",
+    "model_output": "**B. Dean**\n\nThe Dean appoints members to the Committee on Grievance.",
+    "model_choice": "B"
+  },
+  {
+    "question": "The Committee on Nominations and Elections is responsible for:\nA. Choosing commencement speakers\nB. Administering faculty election processes\nC. Selecting student orientation leaders\nD. Assigning teaching loads",
+    "expected": "B",
+    "model_output": "**B. Administering faculty election processes**\n\nThe Committee on Nominations and Elections is responsible for overseeing and administering the process of electing faculty members to various positions within the organization.",
+    "model_choice": "A"
+  },
+  {
+    "question": "Which committee advises the Dean on long-term planning and budgeting?\nA. Committee on Grievance\nB. Committee on Policy and Planning\nC. Committee on Student Discipline\nD. Undergraduate Curriculum Committee",
+    "expected": "B",
+    "model_output": "**B. Committee on Policy and Planning**\n\nThe Committee on Policy and Planning advises the Dean on long-term planning and budgeting.",
+    "model_choice": "B"
+  },
+  {
+    "question": "Which committee does not permit department chairs as members?\nA. Committee on Nominations and Elections\nB. Committee on Policy and Planning\nC. Committee on Grievance\nD. Committee on Student Discipline",
+    "expected": "C",
+    "model_output": "**D. Committee on Student Discipline**\n\nDepartment chairs are not permitted as members of the Committee on Student Discipline.",
+    "model_choice": "C"
+  },
+  {
+    "question": "What is a primary concern of the Committee on Policy and Planning?\nA. Course scheduling\nB. Long-term strategic issues\nC. Managing classroom disputes\nD. Running faculty elections",
+    "expected": "B",
+    "model_output": "**B. Long-term strategic issues**\n\nThe Committee on Policy and Planning is primarily responsible for addressing long-term strategic issues and developing policies and plans to guide the overall operations and development of the organization.",
+    "model_choice": "B"
+  },
+  {
+    "question": "How many standing committees explicitly include student members?\nA. One\nB. Two\nC. Three\nD. Four",
+    "expected": "D",
+    "model_output": "**B.**\n\nTwo standing committees explicitly include student members: the Committee on Student Life and the Committee on Academic Affairs.",
+    "model_choice": "A"
+  },
+  {
+    "question": "What level of faculty rank is required to serve on the Promotion and Tenure Committee?\nA. Any faculty\nB. Non-tenure-track faculty\nC. Tenured full professors only\nD. Visiting faculty",
+    "expected": "C",
+    "model_output": "**C. Tenured full professors only**\n\nOnly tenured full professors are eligible to serve on the Promotion and Tenure Committee, which is responsible for evaluating and recommending candidates for promotion and tenure.",
+    "model_choice": "C"
+  },
+  {
+    "question": "How are committee chairpersons chosen?\nA. Appointed by the Dean\nB. Elected by the committee members\nC. Rotated by department seniority\nD. Selected by Faculty Senate",
+    "expected": "B",
+    "model_output": "**B. Elected by the committee members**\n\nCommittee chairpersons are typically elected by the committee members from among their ranks.",
+    "model_choice": "B"
+  },
+  {
+    "question": "Which committee may handle issues regarding dismissal of students for misconduct?\nA. Committee on Grievance\nB. Committee on Undergraduate Curriculum\nC. Committee on Student Discipline\nD. Committee on Promotion and Tenure",
+    "expected": "C",
+    "model_output": "**C. Committee on Student Discipline**\n\nThe Committee on Student Discipline is responsible for handling issues regarding dismissal of students for misconduct.",
+    "model_choice": "C"
+  },
+  {
+    "question": "Which committee ensures representation across departments and ranks?\nA. Nominations and Elections\nB. Policy and Planning\nC. Grievance\nD. Undergraduate Curriculum",
+    "expected": "A",
+    "model_output": "**A. Nominations and Elections**\n\nThe Nominations and Elections committee is responsible for ensuring representation across departments and ranks by facilitating the election of representatives from different units within the organization.",
+    "model_choice": "A"
+  },
+  {
+    "question": "Student representatives in the Undergraduate Curriculum Committee are:\nA. Selected by lottery\nB. Elected by student government\nC. Appointed by the Dean\nD. Nominated by faculty",
+    "expected": "B",
+    "model_output": "**B. Elected by student government**\n\nStudent representatives in the Undergraduate Curriculum Committee are elected by student government.",
+    "model_choice": "B"
+  },
+  {
+    "question": "Faculty elections for committee membership are held:\nA. Every semester\nB. Annually in spring\nC. Only in fall semesters\nD. On a rolling basis",
+    "expected": "B",
+    "model_output": "**B.**\n\nFaculty elections for committee membership are typically held annually in spring.",
+    "model_choice": "B"
+  },
+  {
+    "question": "How many standing committees are listed in the standing committees document?\nA. 7\nB. 9\nC. 11\nD. 13",
+    "expected": "D",
+    "model_output": "**C. 11**\n\nThe standing committees document lists 11 standing committees.",
+    "model_choice": "C"
+  }
+]

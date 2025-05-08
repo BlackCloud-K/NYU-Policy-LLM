@@ -1,0 +1,122 @@
+[
+  {
+    "question": "What is the maximum number of credits that can be transferred to CAS from another institution?\nA. 32\nB. 48\nC. 64\nD. 96",
+    "expected": "C",
+    "model_output": "**B. 48**\n\nCAS allows the transfer of up to 48 credits from another institution towards a degree program.",
+    "model_choice": "A"
+  },
+  {
+    "question": "Who determines if a course fulfills a CAS major or minor requirement for a transfer student?\nA. Registrar\nB. Faculty of the department\nC. Dean's Office\nD. Admissions",
+    "expected": "B",
+    "model_output": "**B. Faculty of the department**\n\nThe faculty of the department determine if a course fulfills a CAS major or minor requirement for a transfer student.",
+    "model_choice": "A"
+  },
+  {
+    "question": "Transfer students must take how many credits in CAS to earn a degree?\nA. 64\nB. 96\nC. 128\nD. 32",
+    "expected": "A",
+    "model_output": "**B.**\n\nTransfer students must take 96 credits in CAS to earn a degree.",
+    "model_choice": "A"
+  },
+  {
+    "question": "Transfer credit is only awarded for courses with a grade of:\nA. C or better\nB. D or better\nC. B or better\nD. Pass",
+    "expected": "A",
+    "model_output": "**A. C or better**\n\nTransfer credit is only awarded for courses with a grade of C or better.",
+    "model_choice": "A"
+  },
+  {
+    "question": "Which office evaluates external transfer credits for students entering CAS?\nA. Registrar\nB. Office of Academic Affairs\nC. College Advising Center\nD. Dean of Faculty",
+    "expected": "C",
+    "model_output": "**B. Office of Academic Affairs**\n\nThe Office of Academic Affairs is responsible for evaluating external transfer credits for students entering CAS.",
+    "model_choice": "A"
+  },
+  {
+    "question": "Students may not receive transfer credit for which of the following types of courses?\nA. Online courses from accredited colleges\nB. Courses taken more than 10 years ago\nC. Summer session courses\nD. Liberal arts electives",
+    "expected": "B",
+    "model_output": "**B. Courses taken more than 10 years ago**\n\nExplanation: Most colleges have a policy of not accepting transfer credit for courses that were taken more than 10 years ago due to changes in curriculum and course content.",
+    "model_choice": "B"
+  },
+  {
+    "question": "How many total credits must a student complete to graduate from CAS?\nA. 120\nB. 128\nC. 130\nD. 124",
+    "expected": "B",
+    "model_output": "**B. 128**\n\nCAS requires students to complete 128 total credits to graduate.",
+    "model_choice": "A"
+  },
+  {
+    "question": "Courses transferred to CAS are recorded with what transcript notation?\nA. The letter grade earned\nB. Only the course title and credit\nC. GPA and credit\nD. Both grade and credit",
+    "expected": "B",
+    "model_output": "**D. Both grade and credit**\n\nCourses transferred to CAS are recorded with both the letter grade earned and the credit earned.",
+    "model_choice": "A"
+  },
+  {
+    "question": "Which of the following is required for transfer credits to apply to the major?\nA. Course syllabus only\nB. Faculty approval\nC. Dean\u2019s signature\nD. Letter of recommendation",
+    "expected": "B",
+    "model_output": "**B. Faculty approval**\n\nTransfer credits can only apply to the major if they are approved by the faculty of the receiving institution.",
+    "model_choice": "B"
+  },
+  {
+    "question": "Advanced standing is limited to how many total credits?\nA. 32\nB. 64\nC. 96\nD. 120",
+    "expected": "B",
+    "model_output": "**Answer:** C. 96\n\nAdvanced standing is limited to a total of 96 credits.",
+    "model_choice": "A"
+  },
+  {
+    "question": "How are external writing credits reviewed for transfer?\nA. By the Office of Global Programs\nB. Through the Expository Writing Program\nC. Via the Department of English\nD. Automatically applied",
+    "expected": "B",
+    "model_output": "**C. Via the Department of English**\n\nExternal writing credits are reviewed by the Department of English for transfer.",
+    "model_choice": "C"
+  },
+  {
+    "question": "Transfer students must fulfill which part of the Core Curriculum at NYU?\nA. None, all waived\nB. All requirements\nC. Only foreign language\nD. Only science",
+    "expected": "B",
+    "model_output": "**B. All requirements**\n\nTransfer students at NYU must fulfill all the requirements of the Core Curriculum in order to graduate.",
+    "model_choice": "A"
+  },
+  {
+    "question": "Which transfer students must submit a transfer credit reevaluation request after their first term?\nA. Students with GPA under 3.0\nB. All transfers\nC. Students dissatisfied with initial evaluations\nD. Those with over 64 credits",
+    "expected": "C",
+    "model_output": "**B. All transfers**\n\nTransfer students are required to submit a transfer credit reevaluation request after their first term to ensure the accuracy of their initial evaluations.",
+    "model_choice": "A"
+  },
+  {
+    "question": "Transfer students must complete how many semesters in residence at CAS to graduate?\nA. 2\nB. 3\nC. 4\nD. 5",
+    "expected": "C",
+    "model_output": "**B.**\n\nTransfer students must complete 3 semesters in residence at CAS to graduate.",
+    "model_choice": "A"
+  },
+  {
+    "question": "Students transferring from other NYU schools must complete how many CAS credits to graduate?\nA. 64\nB. 32\nC. 48\nD. 96",
+    "expected": "A",
+    "model_output": "**B.**\n\nStudents transferring from other NYU schools must complete 32 CAS credits to graduate.",
+    "model_choice": "A"
+  },
+  {
+    "question": "Credit from institutions not accredited by a regional association is:\nA. Fully accepted\nB. Accepted with conditions\nC. Reviewed individually\nD. Not accepted",
+    "expected": "D",
+    "model_output": "**D. Not accepted**\n\nCredit from institutions not accredited by a regional association is not accepted because such institutions may not meet certain standards of quality and accountability.",
+    "model_choice": "C"
+  },
+  {
+    "question": "Can transfer credit be granted for courses taken at institutions not accredited by regional associations?\nA. Yes\nB. Only with a departmental petition\nC. No\nD. Depends on department",
+    "expected": "C",
+    "model_output": "**C. No**\n\nTransfer credit cannot be granted for courses taken at institutions not accredited by regional associations.",
+    "model_choice": "C"
+  },
+  {
+    "question": "How are writing course transfer credits reviewed at NYU CAS?\nA. Through Expository Writing Program evaluation\nB. By CAS Dean\nC. By the Registrar\nD. Automatically applied if 3+ credits",
+    "expected": "A",
+    "model_output": "**D. Automatically applied if 3+ credits**\n\nWriting course transfer credits are automatically applied if 3 or more credits are earned with a grade of C or better.",
+    "model_choice": "A"
+  },
+  {
+    "question": "What is the minimum grade for a course to be accepted for transfer?\nA. D\nB. C\nC. B\nD. P (Pass)",
+    "expected": "B",
+    "model_output": "**B.**\n\nThe minimum grade for a course to be accepted for transfer is usually a C.",
+    "model_choice": "B"
+  },
+  {
+    "question": "Transfer credit is not awarded for which of the following?\nA. Liberal arts courses\nB. Courses completed over 10 years ago\nC. College-level language courses\nD. Online courses from accredited institutions",
+    "expected": "B",
+    "model_output": "**B. Courses completed over 10 years ago**\n\nTransfer credit is not awarded for courses completed more than 10 years ago due to curriculum changes and lack of relevance to current academic programs.",
+    "model_choice": "B"
+  }
+]
