@@ -1,0 +1,242 @@
+{
+  "Q1": {
+    "question": "What must a student do to audit a course in CAS?\nA. Register online directly\nB. Submit a signed add/drop form with 'register as auditor' noted\nC. Get permission from a classmate\nD. Email the Registrar",
+    "predicted": "B",
+    "ground_truth": "B",
+    "is_correct": true
+  },
+  "Q2": {
+    "question": "What is the maximum number of credits a student can take in one term without needing permission?\nA. 18\nB. 16\nC. 20\nD. 12",
+    "predicted": "B",
+    "ground_truth": "A",
+    "is_correct": false
+  },
+  "Q3": {
+    "question": "What happens if a student takes more than the maximum allowed credits without approval?\nA. Automatic drop from extra courses\nB. Warning email from Registrar\nC. Financial aid cancellation\nD. Automatic F in the overload course\nE. This information is not explicitly stated in the policy",
+    "predicted": "N/A",
+    "ground_truth": "E",
+    "is_correct": false
+  },
+  "Q4": {
+    "question": "Which of the following actions requires approval from the department and Dean?\nA. Adding a minor\nB. Dropping below full-time status\nC. Applying for financial aid\nD. Requesting extra credit for APs",
+    "predicted": "B",
+    "ground_truth": "B",
+    "is_correct": true
+  },
+  "Q5": {
+    "question": "What is the minimum GPA required to graduate from CAS?\nA. 1.5\nB. 2.0\nC. 2.5\nD. 3.0",
+    "predicted": "B",
+    "ground_truth": "B",
+    "is_correct": true
+  },
+  "Q6": {
+    "question": "What does a student need to do to withdraw from a course after the deadline?\nA. Email the professor only\nB. Complete a Petition for Late Withdrawal\nC. Talk to classmates\nD. Submit a financial form",
+    "predicted": "B",
+    "ground_truth": "B",
+    "is_correct": true
+  },
+  "Q7": {
+    "question": "How many writing-intensive courses must a CAS student complete?\nA. 1\nB. 2\nC. 3\nD. 4",
+    "predicted": "B",
+    "ground_truth": "B",
+    "is_correct": true
+  },
+  "Q8": {
+    "question": "Which office handles requests for leaves of absence?\nA. Admissions\nB. Office of the Registrar\nC. CAS Advising Center\nD. Office of Student Affairs",
+    "predicted": "B",
+    "ground_truth": "C",
+    "is_correct": false
+  },
+  "Q9": {
+    "question": "Students must declare a major before which year?\nA. First year\nB. Sophomore year\nC. Junior year\nD. Senior year\nE. This information is not explicitly stated in the policy",
+    "predicted": "B",
+    "ground_truth": "E",
+    "is_correct": false
+  },
+  "Q10": {
+    "question": "What happens to a student who fails to declare a major on time?\nA. Dismissal from the university\nB. Probation\nC. Hold on registration\nD. Warning letter\nE. This information is not explicitly stated in the policy",
+    "predicted": "N/A",
+    "ground_truth": "E",
+    "is_correct": false
+  },
+  "Q11": {
+    "question": "Which grade is considered passing for most CAS courses?\nA. A\nB. B\nC. C\nD. D",
+    "predicted": "C",
+    "ground_truth": "D",
+    "is_correct": false
+  },
+  "Q12": {
+    "question": "To graduate with honors, a student must have completed how many credits at CAS?\nA. 64\nB. 96\nC. 128\nD. 32",
+    "predicted": "B",
+    "ground_truth": "A",
+    "is_correct": false
+  },
+  "Q13": {
+    "question": "How many disciplinary points will result in a disciplinary hearing?\nA. 3\nB. 2\nC. 4\nD. 5\nE. This information is not explicitly stated in the policy",
+    "predicted": "N/A",
+    "ground_truth": "E",
+    "is_correct": false
+  },
+  "Q14": {
+    "question": "Where are students directed if they have questions about academic probation?\nA. Bursar’s Office\nB. CAS Advising Center\nC. Career Center\nD. Financial Aid Office",
+    "predicted": "B",
+    "ground_truth": "B",
+    "is_correct": true
+  },
+  "Q15": {
+    "question": "Which of the following would put a student on academic probation?\nA. GPA below 2.0\nB. More than 18 credits\nC. No declared minor\nD. Not attending office hours",
+    "predicted": "A",
+    "ground_truth": "A",
+    "is_correct": true
+  },
+  "Q16": {
+    "question": "What is the maximum number of courses a student may pass/fail in CAS?\nA. 2\nB. 4\nC. 6\nD. Unlimited",
+    "predicted": "C",
+    "ground_truth": "B",
+    "is_correct": false
+  },
+  "Q17": {
+    "question": "Pass/fail courses may not be used to fulfill which of the following?\nA. Electives\nB. Major requirements\nC. Study abroad\nD. Summer courses\nE. This information is not explicitly stated in the policy",
+    "predicted": "B",
+    "ground_truth": "E",
+    "is_correct": false
+  },
+  "Q18": {
+    "question": "Where should a student go for approval to study away?\nA. Registrar\nB. Bursar\nC. CAS Advising\nD. Study Abroad Office",
+    "predicted": "D",
+    "ground_truth": "C",
+    "is_correct": false
+  },
+  "Q19": {
+    "question": "When is the deadline to withdraw from a course without a W on the transcript?\nA. End of first week\nB. Two weeks before final exam\nC. Midterm\nD. Before first class\nE. This information is not explicitly stated in the policy",
+    "predicted": "B",
+    "ground_truth": "E",
+    "is_correct": false
+  },
+  "Q20": {
+    "question": "Who is responsible for maintaining academic integrity?\nA. Professors only\nB. CAS administrators\nC. Students\nD. Academic Senate",
+    "predicted": "C",
+    "ground_truth": "C",
+    "is_correct": true
+  },
+  "Q21": {
+    "question": "To whom must a student report academic dishonesty?\nA. Academic Advisor\nB. Dean of Students\nC. The instructor\nD. Campus Security",
+    "predicted": "C",
+    "ground_truth": "C",
+    "is_correct": true
+  },
+  "Q22": {
+    "question": "What is the minimum number of credits needed for full-time enrollment?\nA. 9\nB. 12\nC. 15\nD. 18",
+    "predicted": "B",
+    "ground_truth": "B",
+    "is_correct": true
+  },
+  "Q23": {
+    "question": "What type of grade appears on the transcript for a late withdrawal?\nA. A\nB. W\nC. F\nD. INC",
+    "predicted": "B",
+    "ground_truth": "B",
+    "is_correct": true
+  },
+  "Q24": {
+    "question": "What form is required for academic overload approval?\nA. Leave of Absence Form\nB. Petition for Academic Overload\nC. Add/Drop Form\nD. Study Away Form",
+    "predicted": "B",
+    "ground_truth": "B",
+    "is_correct": true
+  },
+  "Q25": {
+    "question": "How many credits are required for graduation from CAS?\nA. 64\nB. 96\nC. 128\nD. 144",
+    "predicted": "C",
+    "ground_truth": "C",
+    "is_correct": true
+  },
+  "Q26": {
+    "question": "Which of these is NOT an approved reason for leave of absence?\nA. Medical\nB. Financial\nC. Academic stress\nD. Disinterest in current classes",
+    "predicted": "D",
+    "ground_truth": "D",
+    "is_correct": true
+  },
+  "Q27": {
+    "question": "What happens if a student earns below a 2.0 GPA for two consecutive semesters?\nA. Nothing\nB. Academic warning\nC. Dismissal review\nD. Loss of ID privileges",
+    "predicted": "C",
+    "ground_truth": "C",
+    "is_correct": true
+  },
+  "Q28": {
+    "question": "Can a student retake a course for a better grade?\nA. No\nB. Yes, once\nC. Yes, up to three times\nD. Only with permission",
+    "predicted": "B",
+    "ground_truth": "B",
+    "is_correct": true
+  },
+  "Q29": {
+    "question": "What is required to change a major at CAS?\nA. Advisor approval only\nB. Department and CAS approval\nC. Department approval\nD. Bursar’s signature",
+    "predicted": "B",
+    "ground_truth": "C",
+    "is_correct": false
+  },
+  "Q30": {
+    "question": "What must a student do to return from a leave of absence?\nA. Reapply to NYU\nB. Complete reactivation form\nC. Take orientation again\nD. Meet financial aid counselor",
+    "predicted": "B",
+    "ground_truth": "B",
+    "is_correct": true
+  },
+  "Q31": {
+    "question": "If a student misses class for religious observance, what must the instructor do?\nA. Penalize participation grade\nB. Report to Dean\nC. Excuse absence and provide makeup work\nD. Ignore it\nE. This information is not explicitly stated in the policy",
+    "predicted": "C",
+    "ground_truth": "E",
+    "is_correct": false
+  },
+  "Q32": {
+    "question": "When is the last day to declare pass/fail grading?\nA. End of term\nB. Mid-semester\nC. Before midterm\nD. Posted on academic calendar",
+    "predicted": "D",
+    "ground_truth": "D",
+    "is_correct": true
+  },
+  "Q33": {
+    "question": "Who must approve a student request to exceed credit limits?\nA. Registrar\nB. Instructor\nC. Dean\nD. Department head",
+    "predicted": "D",
+    "ground_truth": "C",
+    "is_correct": false
+  },
+  "Q34": {
+    "question": "Which of the following is NOT recorded on the transcript?\nA. Incomplete (INC)\nB. Withdrawn (W)\nC. Pass (P)\nD. Attendance",
+    "predicted": "D",
+    "ground_truth": "D",
+    "is_correct": true
+  },
+  "Q35": {
+    "question": "How does a student fulfill the foreign language requirement?\nA. Study abroad only\nB. Complete CAS language course or prove proficiency\nC. Take an AP class\nD. Talk to professor",
+    "predicted": "B",
+    "ground_truth": "B",
+    "is_correct": true
+  },
+  "Q36": {
+    "question": "Who can request a disciplinary hearing against a student?\nA. Any student\nB. Only a professor\nC. Only the Dean\nD. Any NYU community member",
+    "predicted": "D",
+    "ground_truth": "D",
+    "is_correct": true
+  },
+  "Q37": {
+    "question": "What happens to a student who withdraws from all courses mid-term?\nA. Nothing\nB. Automatic leave of absence\nC. Academic probation\nD. Transcript reviewed",
+    "predicted": "C",
+    "ground_truth": "B",
+    "is_correct": false
+  },
+  "Q38": {
+    "question": "Can students appeal a final grade?\nA. No\nB. Yes, through academic appeal process\nC. Only to Registrar\nD. Only in writing to Provost",
+    "predicted": "B",
+    "ground_truth": "B",
+    "is_correct": true
+  },
+  "Q39": {
+    "question": "What grade must students earn in Expository Writing to fulfill the requirement?\nA. A\nB. B\nC. C\nD. D",
+    "predicted": "C",
+    "ground_truth": "C",
+    "is_correct": true
+  },
+  "Q40": {
+    "question": "How does a student join a cross-school minor?\nA. Apply via Albert\nB. Email professor\nC. Follow minor school’s instructions\nD. Ask Registrar",
+    "predicted": "C",
+    "ground_truth": "C",
+    "is_correct": true
+  }
+}

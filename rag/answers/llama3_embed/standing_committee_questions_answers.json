@@ -1,0 +1,122 @@
+{
+  "Q1": {
+    "question": "Which committee is responsible for reviewing promotion and tenure cases?\nA. Advisory Committee on Promotion and Tenure\nB. Committee on Student Discipline\nC. Committee on Undergraduate Curriculum\nD. Committee on Nominations and Elections",
+    "predicted": "A",
+    "ground_truth": "A",
+    "is_correct": true
+  },
+  "Q2": {
+    "question": "How many tenured faculty members are elected to the Committee on Student Discipline?\nA. 3\nB. 6\nC. 9\nD. 12",
+    "predicted": "B",
+    "ground_truth": "C",
+    "is_correct": false
+  },
+  "Q3": {
+    "question": "Which committee includes three undergraduate student representatives?\nA. Graduate Curriculum Committee\nB. Committee on Undergraduate Curriculum\nC. Committee on Policy and Planning\nD. Committee on Student Discipline",
+    "predicted": "D",
+    "ground_truth": "B",
+    "is_correct": false
+  },
+  "Q4": {
+    "question": "Who elects the faculty members of the CAS standing committees?\nA. CAS Dean\nB. Department chairs\nC. CAS faculty\nD. CAS Senate",
+    "predicted": "B",
+    "ground_truth": "C",
+    "is_correct": false
+  },
+  "Q5": {
+    "question": "What is the typical term length for CAS standing committee members?\nA. 1 year\nB. 2 years\nC. 3 years\nD. 5 years",
+    "predicted": "C",
+    "ground_truth": "C",
+    "is_correct": true
+  },
+  "Q6": {
+    "question": "Which committee provides advice on curriculum and graduation requirements?\nA. Committee on Student Discipline\nB. Committee on Undergraduate Curriculum\nC. Advisory Committee on Promotion and Tenure\nD. Committee on Grievance",
+    "predicted": "B",
+    "ground_truth": "B",
+    "is_correct": true
+  },
+  "Q7": {
+    "question": "What is the main function of the Committee on Student Discipline?\nA. Handle financial aid appeals\nB. Review academic misconduct\nC. Propose new majors\nD. Approve study abroad requests",
+    "predicted": "B",
+    "ground_truth": "B",
+    "is_correct": true
+  },
+  "Q8": {
+    "question": "Who appoints members to the Committee on Grievance?\nA. Faculty vote\nB. Dean\nC. Nominations Committee\nD. Department Chairs",
+    "predicted": "C",
+    "ground_truth": "C",
+    "is_correct": true
+  },
+  "Q9": {
+    "question": "The Committee on Nominations and Elections is responsible for:\nA. Choosing commencement speakers\nB. Administering faculty election processes\nC. Selecting student orientation leaders\nD. Assigning teaching loads",
+    "predicted": "B",
+    "ground_truth": "B",
+    "is_correct": true
+  },
+  "Q10": {
+    "question": "Which committee advises the Dean on long-term planning and budgeting?\nA. Committee on Grievance\nB. Committee on Policy and Planning\nC. Committee on Student Discipline\nD. Undergraduate Curriculum Committee",
+    "predicted": "B",
+    "ground_truth": "B",
+    "is_correct": true
+  },
+  "Q11": {
+    "question": "Which committee does not permit department chairs as members?\nA. Committee on Nominations and Elections\nB. Committee on Policy and Planning\nC. Committee on Grievance\nD. Committee on Student Discipline",
+    "predicted": "B",
+    "ground_truth": "C",
+    "is_correct": false
+  },
+  "Q12": {
+    "question": "What is a primary concern of the Committee on Policy and Planning?\nA. Course scheduling\nB. Long-term strategic issues\nC. Managing classroom disputes\nD. Running faculty elections",
+    "predicted": "B",
+    "ground_truth": "B",
+    "is_correct": true
+  },
+  "Q13": {
+    "question": "How many standing committees explicitly include student members?\nA. One\nB. Two\nC. Three\nD. Four",
+    "predicted": "C",
+    "ground_truth": "D",
+    "is_correct": false
+  },
+  "Q14": {
+    "question": "What level of faculty rank is required to serve on the Promotion and Tenure Committee?\nA. Any faculty\nB. Non-tenure-track faculty\nC. Tenured full professors only\nD. Visiting faculty",
+    "predicted": "C",
+    "ground_truth": "C",
+    "is_correct": true
+  },
+  "Q15": {
+    "question": "How are committee chairpersons chosen?\nA. Appointed by the Dean\nB. Elected by the committee members\nC. Rotated by department seniority\nD. Selected by Faculty Senate",
+    "predicted": "A",
+    "ground_truth": "B",
+    "is_correct": false
+  },
+  "Q16": {
+    "question": "Which committee may handle issues regarding dismissal of students for misconduct?\nA. Committee on Grievance\nB. Committee on Undergraduate Curriculum\nC. Committee on Student Discipline\nD. Committee on Promotion and Tenure",
+    "predicted": "C",
+    "ground_truth": "C",
+    "is_correct": true
+  },
+  "Q17": {
+    "question": "Which committee ensures representation across departments and ranks?\nA. Nominations and Elections\nB. Policy and Planning\nC. Grievance\nD. Undergraduate Curriculum",
+    "predicted": "B",
+    "ground_truth": "A",
+    "is_correct": false
+  },
+  "Q18": {
+    "question": "Student representatives in the Undergraduate Curriculum Committee are:\nA. Selected by lottery\nB. Elected by student government\nC. Appointed by the Dean\nD. Nominated by faculty",
+    "predicted": "B",
+    "ground_truth": "B",
+    "is_correct": true
+  },
+  "Q19": {
+    "question": "Faculty elections for committee membership are held:\nA. Every semester\nB. Annually in spring\nC. Only in fall semesters\nD. On a rolling basis",
+    "predicted": "B",
+    "ground_truth": "B",
+    "is_correct": true
+  },
+  "Q20": {
+    "question": "How many standing committees are listed in the standing committees document?\nA. 7\nB. 9\nC. 11\nD. 13",
+    "predicted": "B",
+    "ground_truth": "D",
+    "is_correct": false
+  }
+}
