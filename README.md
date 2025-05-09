@@ -15,7 +15,6 @@ Students at NYU CAS often face delays or obstacles accessing timely academic adv
   - LoRA Fine-tuning
   - Prompt Embedding  
   - RAG
-- **Embedding Models**: BGE-Large, with exploration of OpenAI and Jina embeddings
 
 ## Key Findings
 
