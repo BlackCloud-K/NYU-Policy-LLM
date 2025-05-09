@@ -45,13 +45,13 @@ Performance was assessed using:
 
 ## ️ Results
 
-_Overall Performance:_
+### Overall Performance:
 ![Overall](results/03.png)
 
-_Fine-tunded:_
+### Fine-tunded:
 ![Fine tune](results/01.png)
 
-_Rag:_
+### Rag:
 ![Rag](results/02.png)
 
 ##  Limitations
